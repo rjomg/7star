@@ -11,18 +11,9 @@
 |
 */
 
-#   前台界面
-Route::group(['prefix' => '/'], function () {
-    Route::get('/', function () {
-        return view('welcome');
-    });
-});
-
 #   后台界面
-Route::group(['prefix' => 'admin'], function () {
-    Route::get('code', 'admin\LoginController@code');//后台验证码
-    //用户登录验证
-    Route::get('login', 'admin\LoginController@showLoginForm')->name('admin.login');
+Route::group(['prefix' => '/'], function () {
+    Route::get('login', 'admin\LoginController@index'); //显示后台登录界面
     Route::post('login', 'admin\LoginController@login');
     Route::any('logout', 'admin\LoginController@logout');
 });
