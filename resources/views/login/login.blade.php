@@ -129,7 +129,8 @@ obj.src = url+ '?nowtime=' + new Date().getTime();
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr ><td >
     
-      <form name="form1" onSubmit="return CheckForm();" action="" method="post">
+      <form name="form1" onSubmit="return CheckForm();" action="/validate" method="post">
+      {{ csrf_field() }}
       <input name="login" type="hidden" id="login" value="AWBRPQNjBGEAOQ!888!888"><br><table align=center width="840" border="0" cellpadding="0" cellspacing="0" style="background:url('images/2_02.jpg') no-repeat;" background="">
   <tr>
     <td colspan="3" height="62">
