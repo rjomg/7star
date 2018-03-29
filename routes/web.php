@@ -22,13 +22,6 @@ Route::get(
 Auth::routes();
 
 
-
-
-
-
-
 Route::group(['middleware'=>'auth'],function(){
-
     Route::get('/home', 'HomeController@index')->name('home'); //后台首页
-
 });
