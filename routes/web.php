@@ -11,10 +11,24 @@
 |
 */
 
-#   后台界面
-Route::group(['prefix' => '/'], function () {
-    Route::get('login', 'Admin\LoginController@index'); //显示后台登录界面
-    Route::post('validate','Admin\LoginController@loginHandle'); //登录验证
-    Route::post('login', 'Admin\LoginController@login');
-    Route::any('logout', 'Admin\LoginController@logout');
+Route::get(
+    "/",function(){
+        return view("welcome");
+    }
+);
+
+
+
+Auth::routes();
+
+
+
+
+
+
+
+Route::group(['middleware'=>'auth'],function(){
+
+    Route::get('/home', 'HomeController@index')->name('home'); //后台首页
+
 });
