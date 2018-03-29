@@ -13,8 +13,8 @@
 
 #   后台界面
 Route::group(['prefix' => '/'], function () {
-    Route::get('login', 'admin\LoginController@index'); //显示后台登录界面
-    Route::post('validate','admin\LoginController@loginHandle'); //登录验证
-    Route::post('login', 'admin\LoginController@login');
-    Route::any('logout', 'admin\LoginController@logout');
+    Route::get('login', 'Admin\LoginController@index'); //显示后台登录界面
+    Route::post('validate','Admin\LoginController@loginHandle'); //登录验证
+    Route::post('login', 'Admin\LoginController@login');
+    Route::any('logout', 'Admin\LoginController@logout');
 });
