@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Model\Users;
 
-class LoginController extends Controller
-{
+class LoginController extends Controller{
+
     //显示后台登录界面
     public function index() {
         return view("login.login");
