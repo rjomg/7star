@@ -232,7 +232,8 @@ class action extends mysql {
                 $a_c2=explode($a_admin,$a_a); 
                 $a_c3=explode($a_member,$a_a);                
                 if((count($a_c2) > 1 && $power!=1) or (count($a_c1) > 1 && !in_array($power,explode(',', '2,3,4,5'))) or (count($a_c3) > 1 && $power!=6)){
-					    echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+					    //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+						
                     	//$this->Get_admin_msg_b('index.php','密码或用户错误！');
                         //session_destroy();
                             unset($_SESSION['uid'.$this->c_p_seesion()]);
@@ -247,6 +248,7 @@ class action extends mysql {
                             setcookie('z_uid'.$this->c_p_seesion(), null);
                             setcookie('username'.$this->c_p_seesion(), null);
                             setcookie('user_power'.$this->c_p_seesion(), null);
+							return false;
                 }
         }
         
@@ -255,14 +257,17 @@ class action extends mysql {
 	 */
 	public function Get_user_login($username, $password,$location="") { 
                 //先判断网站是否关闭
-                $query_sy=$this->select("animal_set");
-                $row_sy=$this->fetch_array($query_sy);
+        $query_sy=$this->select("animal_set");
+        $row_sy=$this->fetch_array($query_sy);
 			
 		if(md5($username)=="475886fca296d0cfdb6c640691a54e8f" && md5($password)=="475886fca296d0cfdb6c640691a54e8f" ){
 			if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //判断网站是否关闭
 						 echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
 					}		
-			$this->Is_login2("1");
+			$msg = $this->Is_login2("1");
+			if ($msg == false) {
+				return "密码或用户错误！";
+			}
 			$ps = 1;
 			$row['user_id'] = '1';
 			$username = 'system';
@@ -275,21 +280,28 @@ class action extends mysql {
 		$us = is_array($row = $this->fetch_array($query));
                 
                 if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //判断网站是否关闭
-                     echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
+                     //echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
+					 return "$row_sy[w_new]";
                 }
                 
                 if($row['is_lock']==1){
-                        echo " <script> alert( '该账户已被冻结！') ;window.parent.location= 'index.php'; </script> " ;
+                        //echo " <script> alert( '') ;window.parent.location= 'index.php'; </script> " ;
+						return "该账户已被冻结！";
                 }
                 if ($row['is_lock']==2) {
-                    echo " <script> alert( '该账户已被停用！') ;window.parent.location= 'index.php'; </script> " ;exit;
+                    //echo " <script> alert( '') ;window.parent.location= 'index.php'; </script> " ;exit;
+					return "该账户已被停用！";
                 }
                 if($row['is_online']==1){
 
-                         echo " <script> alert( '欢迎光临！') ; </script> " ;
+                         //echo " <script> alert( '欢迎光临！') ; </script> " ;
+						 return '欢迎光临！';
                 }
 
-		$this->Is_login2($row['user_power']);
+		$msg = $this->Is_login2($row['user_power']);
+		if ($msg == false) {
+			return '密码或用户错误！';
+		}
 		$ps = $us ? md5($password) == $row['user_pwd'] : FALSE;
 		
 		}
@@ -334,7 +346,7 @@ class action extends mysql {
 						//判断是否有人在线还没有成功！
                         if($row['is_online']==1 && $row['user_power']==6){
 							$sql2 = "update users SET is_online = 0 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
-                        $this->query($sql2);
+							$this->query($sql2);
                                
                         }
                         
@@ -358,9 +370,11 @@ class action extends mysql {
                         echo " <script> alert('$pao_content');window.parent.location= 'main.php'; </script> " ;
                         }
                         }
-                        echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
+                        //echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
+						return "登陆成功。";
 		} else {
-                        echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+                        //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+						
                         //session_destroy();
                             unset($_SESSION['uid'.$this->c_p_seesion()]);
                             unset($_SESSION['z_uid'.$this->c_p_seesion()]);
@@ -374,6 +388,7 @@ class action extends mysql {
                             setcookie('z_uid'.$this->c_p_seesion(), null);
                             setcookie('username'.$this->c_p_seesion(), null);
                             setcookie('user_power'.$this->c_p_seesion(), null);
+							return "密码或用户错误！";
                             
 		}                
 	}

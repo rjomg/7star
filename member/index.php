@@ -144,7 +144,7 @@ a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertica
 		<div class="bgdivdx">
 			<div class="bgdivdxtit"><div class="bgdivright" id="loginx">X</div><div class="bgdivleft">请回答</div></div><div class="clear"></div>
 		   <ul>
-		       <li><span id="seccodeimage" title="看不清楚，请点击"><img id="seccode" onclick="updateseccode()" width="90" height="45" src="./A-BMW_files/seccode.php" align="absmiddle" alt=""></span></li>
+		       <li><span id="seccodeimage" title="看不清楚，请点击"><img id="seccode" onclick="updateseccode()" width="90" height="45" src="./seccode.php" align="absmiddle" alt=""></span></li>
 		       <li>= <input type="text" onfocus="this.onfocus = null" id="seccodeverify" name="seccodeverify" maxlength="4" style="width: 90px;height: 40px;line-height: 39px;font-size: 29px;vertical-align:middle;border: solid 1px #a0a0a0;" readonly="readonly"></li>
 		       <li><a href="http://8a.1380000138.com/?bmwid=1####" onclick="JavaScript:updateseccode();return false;">换题</a>
 		       	<script type="text/javascript">var seccodedata = [90, 45, 4];</script>
