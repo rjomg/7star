@@ -1,0 +1,5 @@
+错误SQL语句：
+insert into orders select * from accountopen where plate_num=2017034
+客户IP:220.198.245.4
+时间 :2017-03-10 21:49:52
+

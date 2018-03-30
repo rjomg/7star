@@ -1,0 +1,55 @@
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.69
+时间 :2017-02-17 02:36:15
+
+错误SQL语句：
+UPDATE plate SET true_time_lottery='2017-02-17 21:52:26' WHERE plate_num=
+客户IP:61.142.254.118
+时间 :2017-02-17 21:52:26
+
+错误SQL语句：
+UPDATE plate_autoadd SET true_time_lottery='2017-02-17 21:52:26' WHERE plate_num=
+客户IP:61.142.254.118
+时间 :2017-02-17 21:52:26
+
+错误SQL语句：
+update plate set is_special=0,is_normal=0,is_plate_start=1 where plate_num=
+客户IP:61.142.254.118
+时间 :2017-02-17 21:52:26
+
+错误SQL语句：
+update plate_autoadd set is_special=0,is_normal=0,is_plate_start=1 where plate_num=
+客户IP:61.142.254.118
+时间 :2017-02-17 21:52:26
+

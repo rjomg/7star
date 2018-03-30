@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:117.185.27.113
+时间 :2017-03-24 00:26:35
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=0
+客户IP:117.185.27.113
+时间 :2017-03-24 00:26:35
+

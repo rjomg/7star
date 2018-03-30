@@ -1,0 +1,25 @@
+错误SQL语句：
+SELECT id FROM plate_autoadd  Where plate_num= limit 0,1
+客户IP:183.233.186.216
+时间 :2015-06-30 16:49:29
+
+错误SQL语句：
+UPDATE plate SET  WHERE plate_num=
+客户IP:183.233.186.216
+时间 :2015-06-30 16:49:29
+
+错误SQL语句：
+UPDATE plate_autoadd SET  WHERE plate_num=
+客户IP:183.233.186.216
+时间 :2015-06-30 16:49:29
+
+错误SQL语句：
+update plate set is_special=0,is_normal=0,is_plate_start=1 where plate_num=
+客户IP:183.233.186.216
+时间 :2015-06-30 16:49:29
+
+错误SQL语句：
+update plate_autoadd set is_special=0,is_normal=0,is_plate_start=1 where plate_num=
+客户IP:183.233.186.216
+时间 :2015-06-30 16:49:29
+

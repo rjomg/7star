@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  orders.= and orders.plate_num =2017034
+客户IP:101.226.66.172
+时间 :2017-03-08 08:29:52
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  orders.= and orders.is_win=1 and orders.plate_num =2017034
+客户IP:101.226.66.193
+时间 :2017-03-08 08:30:49
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  orders.= and orders.plate_num =2017034
+客户IP:101.226.33.221
+时间 :2017-03-08 08:30:50
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  orders.= and orders.plate_num =2017034
+客户IP:180.153.214.180
+时间 :2017-03-08 08:30:53
+

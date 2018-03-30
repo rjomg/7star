@@ -1,0 +1,50 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.178
+时间 :2017-02-19 09:28:51
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.226.66.178
+时间 :2017-02-19 09:28:51
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.178
+时间 :2017-02-19 09:28:51
+
+错误SQL语句：
+SELECT * FROM orders where user_id= and stattuima=0 group by plate_num order by plate_num DESC
+客户IP:180.153.214.200
+时间 :2017-02-19 09:29:51
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:101.226.51.230
+时间 :2017-02-19 09:29:55
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:180.153.214.198
+时间 :2017-02-19 09:29:55
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:180.153.201.79
+时间 :2017-02-19 09:29:55
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:101.226.33.216
+时间 :2017-02-19 09:30:01
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:112.65.193.13
+时间 :2017-02-19 09:32:25
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017021' 
+客户IP:101.226.51.229
+时间 :2017-02-19 09:33:18
+

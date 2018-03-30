@@ -1,0 +1,240 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:07:24
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:07:24
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:07:24
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:11:20
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:11:20
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:11:20
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:13:04
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:13:04
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:13:04
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:13:04
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:221.176.4.134
+时间 :2015-07-07 00:13:04
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:15:58
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:15:58
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:15:58
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:15:58
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:221.176.4.134
+时间 :2015-07-07 00:15:58
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:16:21
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:16:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:16:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:30:10
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:30:10
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:30:10
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:55:26
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:55:26
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:55:26
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:57:14
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:57:14
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:57:14
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 01:57:14
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:221.176.4.134
+时间 :2015-07-07 01:57:14
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:50
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:50
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:50
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:54
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:54
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.66.174
+时间 :2015-07-07 22:08:54
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.64.235.246
+时间 :2015-07-07 22:08:56
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:112.64.235.246
+时间 :2015-07-07 22:08:56
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.64.235.246
+时间 :2015-07-07 22:08:56
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.64.235.248
+时间 :2015-07-07 22:09:02
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:112.64.235.248
+时间 :2015-07-07 22:09:02
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.64.235.248
+时间 :2015-07-07 22:09:02
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:32:53
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:32:53
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:32:53
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:33:00
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:33:00
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.206.24
+时间 :2015-07-07 22:33:00
+

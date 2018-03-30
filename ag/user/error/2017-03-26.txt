@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(83,) and user_power=5
+客户IP:220.198.236.31
+时间 :2017-03-26 21:21:18
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(83,) and user_power=5
+客户IP:220.198.236.31
+时间 :2017-03-26 21:21:23
+

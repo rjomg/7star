@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.96.28.34
+时间 :2015-09-09 15:20:05
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:112.96.28.34
+时间 :2015-09-09 15:20:05
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:112.96.28.34
+时间 :2015-09-09 15:20:05
+
+错误SQL语句：
+SELECT * FROM member_settlereport  Where user_id= order by plate_num desc
+客户IP:112.96.28.34
+时间 :2015-09-09 15:20:43
+

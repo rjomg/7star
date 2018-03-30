@@ -1,0 +1,220 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:08:36
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:11:07
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:11:14
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:13:24
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:14:07
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:14:12
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:14:15
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:14:38
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:14:40
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:16:15
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:16:25
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:16:33
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:16:37
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:16:46
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 10:17:31
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:17:55
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:17:59
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_branch,percent_partner,user_total,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,percent_company,is_remainder_percent,credit_remainder) VALUES ('111','698d51a19d8a121ce581499d7b701668','111','111111','1','13','30','1','A','0','3','25','888','2','86','0','111111')
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:18
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:18
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:18
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:27
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:42
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(25,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:18:53
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(27,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:48:14
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(27,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:49:42
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(27,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 10:49:50
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(29,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 11:26:33
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(29,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 11:30:11
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_partner,percent_all_proxy,user_total,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,percent_company,percent_branch,is_remainder_percent,credit_remainder) VALUES ('111','698d51a19d8a121ce581499d7b701668','111','0','0','0','20','0','A','0','4','30','333','3','100','0','0','0')
+客户IP:127.0.0.1
+时间 :2015-06-29 11:49:39
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:127.0.0.1
+时间 :2015-06-29 11:49:39
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:127.0.0.1
+时间 :2015-06-29 11:49:39
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:31:16
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:31:26
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:31:40
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=3
+客户IP:127.0.0.1
+时间 :2015-06-29 16:31:43
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:31:59
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:33:22
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:33:26
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:34:19
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:34:31
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:34:38
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(33,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-29 16:34:55
+

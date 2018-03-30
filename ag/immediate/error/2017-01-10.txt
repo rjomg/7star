@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2016014' and user_id=11 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-10 22:50:52
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2016014' and user_id=11 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-10 22:50:52
+

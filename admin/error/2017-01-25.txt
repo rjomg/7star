@@ -1,0 +1,85 @@
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:32
+
+错误SQL语句：
+SELECT user_id FROM users  Where user_id=1
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:33
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '1' 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=1
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:34
+
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:35
+
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:37
+
+错误SQL语句：
+SELECT user_id FROM users  Where user_id=1
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '1' 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=1
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:127.0.0.1
+时间 :2017-01-25 14:24:38
+

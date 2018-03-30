@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(364,) and user_power=5
+客户IP:103.51.146.121
+时间 :2015-09-14 20:29:31
+

@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015113 and o_id= and user_id=1 order by user_id asc
+客户IP:180.178.46.242
+时间 :2015-09-30 02:46:10
+
+错误SQL语句：
+SELECT * FROM oddsset_type  Where o_id=
+客户IP:180.178.46.242
+时间 :2015-09-30 02:46:10
+

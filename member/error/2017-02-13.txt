@@ -1,0 +1,35 @@
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:140.207.185.107
+时间 :2017-02-13 20:46:44
+
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:101.226.66.179
+时间 :2017-02-13 20:58:25
+
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:180.163.2.117
+时间 :2017-02-13 20:58:25
+
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:180.153.214.189
+时间 :2017-02-13 20:58:25
+
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:180.153.205.252
+时间 :2017-02-13 20:58:25
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014' 
+客户IP:101.226.33.227
+时间 :2017-02-13 20:58:32
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017008' 
+客户IP:112.65.193.15
+时间 :2017-02-13 21:19:37
+

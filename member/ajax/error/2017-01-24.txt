@@ -1,0 +1,10 @@
+����SQL��䣺
+INSERT INTO orders (o_type1,time,o_type2,plate_num,o_type3,orders_y,orders_p,) VALUES ('四字定','1485194319','口口口口','2017004','1111','1','0',)
+�ͻ�IP:127.0.0.1
+ʱ�� :2017-01-24 01:58:39
+
+错误SQL语句：
+INSERT INTO orders (o_type1,time,o_type2,plate_num,o_type3,orders_y,orders_p,) VALUES ('四字定','1485194396','口口口口','2017004','1111','1','0',)
+客户IP:127.0.0.1
+时间 :2017-01-24 01:59:56
+

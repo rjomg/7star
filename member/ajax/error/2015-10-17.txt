@@ -1,0 +1,150 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:113.95.255.41
+时间 :2015-10-17 19:10:53
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:183.19.12.93
+时间 :2015-10-17 19:26:26
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.65
+时间 :2015-10-17 19:58:52
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:223.73.76.65
+时间 :2015-10-17 20:01:14
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:118.121.8.74
+时间 :2015-10-17 20:02:57
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:219.131.109.106
+时间 :2015-10-17 20:46:24
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:219.131.109.106
+时间 :2015-10-17 20:47:29
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:118.121.8.74
+时间 :2015-10-17 20:54:54
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.127
+时间 :2015-10-17 20:55:55
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:118.121.8.74
+时间 :2015-10-17 20:57:27
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:113.95.255.41
+时间 :2015-10-17 20:57:28
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:113.95.255.41
+时间 :2015-10-17 20:58:19
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.127
+时间 :2015-10-17 21:01:58
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:14.16.159.185
+时间 :2015-10-17 21:02:39
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.65
+时间 :2015-10-17 21:05:47
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.50.79
+时间 :2015-10-17 21:05:48
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015120 and o_id= and user_id= order by user_id asc
+客户IP:183.50.137.147
+时间 :2015-10-17 21:06:30
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:112.90.239.67
+时间 :2015-10-17 21:06:41
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:223.73.76.74
+时间 :2015-10-17 21:07:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:14.16.159.185
+时间 :2015-10-17 21:07:25
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:223.73.76.74
+时间 :2015-10-17 21:12:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.51.177
+时间 :2015-10-17 21:17:19
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.40.219
+时间 :2015-10-17 21:18:14
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:113.95.255.41
+时间 :2015-10-17 21:22:21
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.45.188
+时间 :2015-10-17 21:23:56
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:14.16.159.185
+时间 :2015-10-17 21:26:21
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.45.188
+时间 :2015-10-17 21:27:01
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.51.177
+时间 :2015-10-17 21:28:40
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.40.219
+时间 :2015-10-17 21:29:25
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015120' and user_id=1 and o_id=
+客户IP:183.19.10.24
+时间 :2015-10-17 21:51:51
+

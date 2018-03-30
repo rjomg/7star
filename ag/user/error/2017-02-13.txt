@@ -1,0 +1,77 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.178
+时间 :2017-02-13 13:09:30
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:140.207.124.105
+时间 :2017-02-13 13:11:22
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=5
+客户IP:140.207.124.105
+时间 :2017-02-13 13:11:22
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_proxy,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,is_remainder_percent,percent_branch,percent_company,percent_partner,percent_all_proxy,credit_remainder) VALUES ('test0201','5954d5a1f10db15368226fa6e3018fcf','test0201','0','0','0','A,B,C,D','0','6','18','test02','5','0','0','100','0','0','0')
+客户IP:223.74.82.132
+时间 :2017-02-13 13:15:06
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:223.74.82.132
+时间 :2017-02-13 13:15:06
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:223.74.82.132
+时间 :2017-02-13 13:15:06
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.206.16
+时间 :2017-02-13 13:15:26
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.181
+时间 :2017-02-13 13:17:32
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.85.67
+时间 :2017-02-13 17:10:26
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=0
+客户IP:101.226.85.67
+时间 :2017-02-13 17:10:26
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:61.151.218.119
+时间 :2017-02-13 19:53:59
+
+错误SQL语句：
+update back_set set 
+        percent_a=0.03,
+            percent_b=0.03,
+                percent_c=0.03,
+                    percent_d=,
+                        bottom_limit=5,
+                            top_limit=500000,
+                                odd_limit=5000000 where user_id=32 and set_name='三中�&#65533;'
+客户IP:220.198.245.109
+时间 :2017-02-13 20:26:34
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:220.198.245.109
+时间 :2017-02-13 21:37:04
+

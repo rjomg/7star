@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT * FROM orders where user_id= and stattuima=0 group by plate_num order by plate_num DESC
+客户IP:112.65.193.15
+时间 :2017-03-08 08:25:42
+

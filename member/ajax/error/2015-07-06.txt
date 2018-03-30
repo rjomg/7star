@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015081' and user_id=1 and o_id=
+客户IP:183.233.186.219
+时间 :2015-07-06 20:44:24
+

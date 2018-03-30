@@ -1,0 +1,93 @@
+body{
+	background-image: url(top_right.jpg);
+	background-repeat: repeat-x;
+	color:#FFFFFF;
+}
+a{
+	text-decoration:none;
+	color:#F8FFFF;
+}
+a:hover{
+	cursor: hand;
+	text-decoration:underline;
+	color:#C3F1F6;
+}
+.but_1, .but_1_m, .but_2, .but_2_m, .but_3, .but_3_m, .but_4, .but_4_m, .but_5, .but_5_m, .but_6, .but_6_m, .but_7, .but_7_m, .but_8, .but_8_m{
+	border: 0px solid #FF9224; 
+	background-color: #B3C5EF; 
+	background-image: url('But_S.jpg');
+	height: 18px;
+}
+
+.but_1 {
+	width: 69px;
+	background-position:0px
+}
+.but_1_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-531px
+}
+.but_2 {
+	width: 69px;
+	background-position:-69px
+}
+.but_2_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-600px
+}
+.but_3 {
+	width: 69px;
+	background-position:-138px
+}
+.but_3_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-669px
+}
+.but_4 {
+	width: 69px;
+	background-position:-207px
+}
+.but_4_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-738px
+}
+.but_5 {
+	width: 69px;
+	background-position:-276px
+}
+.but_5_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-807px
+}
+.but_6 {
+	width: 69px;
+	background-position:-345px
+}
+.but_6_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-876px
+}
+.but_7 {
+	width: 69px;
+	background-position:-414px
+}
+.but_7_m {
+	cursor: hand;
+	width: 69px;
+	background-position:-945px
+}
+.but_8 {
+	width: 48px;
+	background-position:-483px
+}
+.but_8_m {
+	cursor: hand;
+	width: 48px;
+	background-position:-1014px
+}

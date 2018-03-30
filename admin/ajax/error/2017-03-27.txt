@@ -1,0 +1,80 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:09:33
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:34:50
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:35:13
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:35:36
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:35:59
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:36:22
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:36:45
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:37:08
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:37:31
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:37:54
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:38:17
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:116.22.251.179
+时间 :2017-03-27 01:38:17
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-27 01:38:40
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:116.22.251.179
+时间 :2017-03-27 01:45:00
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.89.119
+时间 :2017-03-27 21:04:40
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:61.142.254.118
+时间 :2017-03-27 21:40:10
+

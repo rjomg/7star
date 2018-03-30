@@ -1,0 +1,95 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:09:18
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:16:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:18:30
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:18:33
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:18:59
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:20:45
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:46:23
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:49:15
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:50:45
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 22:55:16
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:23:54
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:23:58
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:23:59
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:44
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:45
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:46
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:47
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:55
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017005' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2017-01-29 23:24:59
+

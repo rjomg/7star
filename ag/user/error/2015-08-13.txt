@@ -1,0 +1,5 @@
+错误SQL语句：
+INSERT INTO users (user_name,is_extend,user_power,top_power,user_pwd,user_nick) VALUES ('ab123','282','5','4','eabd8ce9404507aa8c22714d3f5eada9','b')
+客户IP:14.16.28.56
+时间 :2015-08-13 22:22:20
+

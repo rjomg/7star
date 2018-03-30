@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:115.152.250.84
+时间 :2017-05-17 16:27:45
+

@@ -1,0 +1,80 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:18
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:19
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:20
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:20
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:21
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:23
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:26
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:27
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:28
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:29
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:31
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:31
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:33
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2017007' and user_id=1 and o_id=
+客户IP:27.47.232.224
+时间 :2017-02-02 01:08:34
+

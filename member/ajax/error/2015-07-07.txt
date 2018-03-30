@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015081 and o_id= and user_id= order by user_id asc
+客户IP:221.176.4.134
+时间 :2015-07-07 00:05:14
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:05:53
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:05:53
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015081' and user_id= and o_id=
+客户IP:221.176.4.134
+时间 :2015-07-07 00:05:53
+

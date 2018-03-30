@@ -1,0 +1,10 @@
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:10.109.164.252
+时间 :2015-06-22 16:05:44
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:10.109.164.252
+时间 :2015-06-22 16:05:44
+

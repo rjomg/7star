@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.33.201
+时间 :2017-03-11 22:23:37
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.226.33.201
+时间 :2017-03-11 22:23:37
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.226.33.201
+时间 :2017-03-11 22:23:37
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017036' 
+客户IP:61.151.218.119
+时间 :2017-03-11 22:24:36
+

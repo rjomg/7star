@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT * FROM orders where user_id= and stattuima=0 group by plate_num order by plate_num DESC
+客户IP:61.151.228.22
+时间 :2017-05-01 21:35:21
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017044' 
+客户IP:101.226.68.200
+时间 :2017-05-01 21:35:24
+

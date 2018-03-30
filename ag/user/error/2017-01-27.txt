@@ -1,0 +1,45 @@
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-27 14:43:00
+
+错误SQL语句：
+INSERT INTO users (user_name,is_extend,user_power,top_power,user_pwd,user_nick) VALUES ('tests','','','','e10adc3949ba59abbe56e057f20f883e','新会员s')
+客户IP:127.0.0.1
+时间 :2017-01-27 14:43:36
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-27 14:46:01
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-27 14:48:49
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=14is_extend=14
+客户IP:127.0.0.1
+时间 :2017-01-27 14:50:07
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=14is_extend=14
+客户IP:127.0.0.1
+时间 :2017-01-27 14:52:51
+
+错误SQL语句：
+INSERT INTO users (user_name,is_extend,user_power,top_power,user_pwd,user_nick) VALUES ('tests','14','5','4','e10adc3949ba59abbe56e057f20f883e','新会员s')
+客户IP:127.0.0.1
+时间 :2017-01-27 14:53:59
+
+错误SQL语句：
+INSERT INTO users (user_name,is_extend,user_power,top_power,user_pwd,user_nick) VALUES ('tests','14','5','4','e10adc3949ba59abbe56e057f20f883e','新会员s')
+客户IP:127.0.0.1
+时间 :2017-01-27 14:54:47
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-27 15:11:27
+

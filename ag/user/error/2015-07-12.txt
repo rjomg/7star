@@ -1,0 +1,25 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(69,) and user_power=2
+客户IP:180.178.46.242
+时间 :2015-07-12 16:11:44
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(70,) and user_power=2
+客户IP:180.178.46.242
+时间 :2015-07-12 16:27:03
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(76,) and user_power=4
+客户IP:180.178.46.242
+时间 :2015-07-12 16:43:21
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(84,) and user_power=5
+客户IP:180.178.46.242
+时间 :2015-07-12 16:52:22
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-12 17:01:43
+

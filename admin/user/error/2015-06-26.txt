@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(1,) and user_power=2
+客户IP:127.0.0.1
+时间 :2015-06-26 11:40:59
+

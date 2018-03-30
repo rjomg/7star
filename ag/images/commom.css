@@ -1,0 +1,39 @@
+/* CSS Document */
+.kj_tr{background:url(images/bg2.gif) repeat-x 0 0; height:25px; text-align:center; font-size:12px}
+.w60{ width:60%}
+.w40{ width:40%}
+.rightside{ text-align:right}
+.leftside{ text-align:left}
+.font_size12{ font-size:12px}
+.al{ text-align:center}
+.bt{ background:#e6f1f7; border:#b5d6e6 solid 1px;cursor:pointer;}
+.bg_color{ background-color:#d4e5f4;}
+.shot_input{ width:130px; border:#d4e5f4 solid 1px; height:15px;}
+.long_input{width:230px; border:#d4e5f4 solid 1px; height:15px;}
+.tr_height{ height:30px;}
+.style1{ font-size:12px}
+.font_red{ color:#F00}
+
+
+a{
+	text-decoration:none;
+	color:#2C5A7A;
+}
+a:hover{
+	cursor: hand;
+	text-decoration:underline;
+	color:#47ACA4;
+}
+.Lose {
+	background-image: url(Lose.jpg);
+	background-repeat: repeat-x;
+}.button_a {
+	BORDER-RIGHT: #B5D6E6 1px solid; BORDER-TOP: #B5D6E6 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #B5D6E6 1px solid; CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: #B5D6E6 1px solid; BACKGROUND-COLOR: #E6F1F7;COLOR: #344B50;
+}
+.button_a1 {
+	BORDER-RIGHT: #FF8C8C 1px solid; BORDER-TOP: #FF8C8C 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #FF8C8C 1px solid; CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: #FF8C8C 1px solid; BACKGROUND-COLOR: #FFFFC4;COLOR: #ff0000;font-weight: bold;
+}
+.button_a2 {
+	BORDER-RIGHT: #FF8C8C 1px solid; BORDER-TOP: #FF8C8C 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #FF8C8C 1px solid; CURSOR: hand; PADDING-TOP: 2px; BORDER-BOTTOM: #FF8C8C 1px solid; BACKGROUND-COLOR: #FFFFC4;COLOR: #ff0000;
+}
+

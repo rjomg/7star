@@ -1,0 +1,140 @@
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:220.198.245.248
+时间 :2017-02-02 20:28:14
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:29
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:32:53
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id= and num=
+客户IP:14.119.157.103
+时间 :2017-02-02 21:33:02
+

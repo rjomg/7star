@@ -1,0 +1,220 @@
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:09
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:09
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:09
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:13
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:13
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:13
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:44
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:44
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:37:44
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:42
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:42
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:42
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:43
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:43
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:43
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:45
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:45
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2015-10-28 19:41:45
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:03:56
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:03:56
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:00
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:00
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:04
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:04
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:07
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:07
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:10
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:10
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:11
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:11
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:14
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:14
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:17
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:17
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:20
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:20
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:26
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:26
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:29
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:29
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:30
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:30
+
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:08:43
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:08:43
+

@@ -1,0 +1,115 @@
+SQL语句错误：
+SELECT * FROM users  Where user_id in(15,16) and  user_power=6   order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:127.0.0.1
+时间 :2017-01-26 14:12:32
+
+SQL语句错误：
+SELECT * FROM users  Where user_id in(15,16) and  user_power=6   order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:127.0.0.1
+时间 :2017-01-26 14:12:36
+
+SQL语句错误：
+SELECT * FROM users  Where user_id in(15,16) and  user_power=6   order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:127.0.0.1
+时间 :2017-01-26 14:12:41
+
+SQL语句错误：
+SELECT * FROM users  Where user_id in(15,16) and  user_power=6   order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:127.0.0.1
+时间 :2017-01-26 14:13:13
+
+SQL语句错误：
+SELECT * FROM users 
+客户IP:127.0.0.1
+时间 :2017-01-26 14:13:31
+
+SQL语句错误：
+SELECT * FROM users 
+客户IP:127.0.0.1
+时间 :2017-01-26 14:13:33
+
+SQL语句错误：
+SELECT user_total FROM users  Where user_id=14 limit 0,1
+客户IP:127.0.0.1
+时间 :2017-01-26 14:14:00
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:15:33
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:16:09
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:18:14
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:18:43
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:21:07
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:21:22
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:21:28
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:21:35
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:25:06
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:25:50
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:26:13
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend= limit 0,10
+客户IP:127.0.0.1
+时间 :2017-01-26 22:26:13
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:27:58
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:29:39
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:33:10
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2017-01-26 22:33:11
+

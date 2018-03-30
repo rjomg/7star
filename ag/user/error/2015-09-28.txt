@@ -1,0 +1,108 @@
+错误SQL语句：
+update back_set set 
+        percent_a=1,
+            percent_b=0,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='特码A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正1特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正2特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正3特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正4特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正5特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=12,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正6特A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=1.5,
+            percent_b=1.5,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=386 and set_name='正码A'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+
+错误SQL语句：
+update back_set set 
+        percent_a=1,
+            percent_b=1,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=50000 where user_id=386 and set_name='两面'
+客户IP:116.19.183.210
+时间 :2015-09-28 18:43:26
+

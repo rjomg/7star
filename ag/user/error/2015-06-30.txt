@@ -1,0 +1,85 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.206.37
+时间 :2015-06-30 21:20:54
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=2
+客户IP:180.153.206.37
+时间 :2015-06-30 21:20:54
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(5,) and user_power=5
+客户IP:183.233.186.219
+时间 :2015-06-30 22:56:18
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:183.233.186.219
+时间 :2015-06-30 23:01:31
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.206.16
+时间 :2015-06-30 23:08:49
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.181
+时间 :2015-06-30 23:08:53
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=5
+客户IP:101.226.66.181
+时间 :2015-06-30 23:08:53
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.181
+时间 :2015-06-30 23:09:04
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=5
+客户IP:101.226.66.181
+时间 :2015-06-30 23:09:04
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.89.122
+时间 :2015-06-30 23:13:33
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.33.216
+时间 :2015-06-30 23:13:45
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=4
+客户IP:101.226.33.216
+时间 :2015-06-30 23:13:45
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.246
+时间 :2015-06-30 23:13:55
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.206.31
+时间 :2015-06-30 23:13:55
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.65.104
+时间 :2015-06-30 23:13:59
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.246
+时间 :2015-06-30 23:38:43
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=4
+客户IP:112.64.235.246
+时间 :2015-06-30 23:38:43
+

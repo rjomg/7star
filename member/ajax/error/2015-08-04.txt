@@ -1,0 +1,80 @@
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015090 and o_id= and user_id= order by user_id asc
+客户IP:14.27.88.63
+时间 :2015-08-04 20:20:19
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015090 and o_id= and user_id= order by user_id asc
+客户IP:110.208.53.127
+时间 :2015-08-04 20:33:34
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id=107 and o_id=
+客户IP:183.19.152.30
+时间 :2015-08-04 20:46:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.220
+时间 :2015-08-04 20:53:06
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:220.181.132.220
+时间 :2015-08-04 20:53:06
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id= and o_id=
+客户IP:220.181.132.220
+时间 :2015-08-04 20:53:06
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.56
+时间 :2015-08-04 20:55:02
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.199.108.56
+时间 :2015-08-04 20:55:02
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id= and o_id=
+客户IP:101.199.108.56
+时间 :2015-08-04 20:55:02
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.198
+时间 :2015-08-04 20:55:04
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:220.181.132.198
+时间 :2015-08-04 20:55:04
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id= and o_id=
+客户IP:220.181.132.198
+时间 :2015-08-04 20:55:04
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015090 and o_id= and user_id= order by user_id asc
+客户IP:14.27.88.63
+时间 :2015-08-04 21:10:02
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id=107 and o_id=
+客户IP:183.18.166.79
+时间 :2015-08-04 21:15:33
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015090 and o_id= and user_id= order by user_id asc
+客户IP:14.27.88.63
+时间 :2015-08-04 21:27:29
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015090' and user_id=106 and o_id=
+客户IP:14.27.88.63
+时间 :2015-08-04 21:30:52
+

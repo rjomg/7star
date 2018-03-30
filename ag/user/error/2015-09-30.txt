@@ -1,0 +1,30 @@
+错误SQL语句：
+INSERT INTO update_code (user_id,up_type,or_value,now_value,up_user_name,up_user_ip,up_user_location) VALUES (,'','','','qq1b5','103.51.146.121','')
+客户IP:103.51.146.121
+时间 :2015-09-30 13:25:13
+
+错误SQL语句：
+UPDATE users SET  WHERE user_id=
+客户IP:103.51.146.121
+时间 :2015-09-30 13:25:13
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:103.51.146.121
+时间 :2015-09-30 13:25:46
+
+错误SQL语句：
+insert into backorder_set select 406,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:223.73.76.87
+时间 :2015-09-30 16:19:13
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:183.19.46.190
+时间 :2015-09-30 18:22:13
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:183.19.51.3
+时间 :2015-09-30 19:45:24
+

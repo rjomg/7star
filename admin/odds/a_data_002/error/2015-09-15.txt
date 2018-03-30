@@ -1,0 +1,10 @@
+错误SQL语句：
+UPDATE odds_set SET ab_content=',码:,双面:,波色:,' WHERE o_id= and user_id=0 and plate_num='0'
+客户IP:180.178.46.242
+时间 :2015-09-15 16:21:20
+
+错误SQL语句：
+SELECT * FROM oddsset_type  Where o_id=
+客户IP:180.178.46.242
+时间 :2015-09-15 16:21:20
+

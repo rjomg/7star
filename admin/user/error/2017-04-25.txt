@@ -1,0 +1,300 @@
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:27:35
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:12
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:29
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:28:46
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:03
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口XX' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口XX口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口X口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='XX口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口口口X' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='口X口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='X口口口' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+
+错误SQL语句：
+UPDATE tuishui_set SET oddsset=oddsset-0 WHERE typename='四字定' and user_id in ()
+客户IP:113.109.28.109
+时间 :2017-04-25 14:29:18
+

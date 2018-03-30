@@ -1,0 +1,30 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(357,) and user_power=5
+客户IP:103.51.146.121
+时间 :2015-09-12 17:04:19
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(357,) and user_power=5
+客户IP:103.51.146.121
+时间 :2015-09-12 17:04:59
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(357,) and user_power=5
+客户IP:103.51.146.121
+时间 :2015-09-12 17:07:09
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:103.51.146.121
+时间 :2015-09-12 17:08:58
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(357,) and user_power=5
+客户IP:223.73.76.31
+时间 :2015-09-12 17:16:58
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(357,) and user_power=5
+客户IP:223.73.76.31
+时间 :2015-09-12 17:19:34
+

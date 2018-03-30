@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT user_power,credit_remainder,else_plate,percent_company,percent_branch,percent_partner,percent_all_proxy,else_plate FROM users  Where user_id=
+客户IP:119.131.91.143
+时间 :2017-05-05 02:23:10
+
+错误SQL语句：
+SELECT user_power,credit_remainder,else_plate,percent_company,percent_branch,percent_partner,percent_all_proxy,else_plate FROM users  Where user_id=
+客户IP:116.22.250.204
+时间 :2017-05-05 02:23:25
+

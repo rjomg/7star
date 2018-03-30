@@ -1,0 +1,12 @@
+@charset "utf-8";
+.w-30{width:30px;}
+.w-40{width:40px;}
+.w-50{width:50px;}
+
+.h-20{height:20px;}
+.h-30{height:30px;}
+.h-40{height:40px;}
+.h-50{height:50px;}
+
+.qm_btn{width:100%;}
+.qm_btn input{width:18%;height:30px;margin: 5px 1px 5px;}

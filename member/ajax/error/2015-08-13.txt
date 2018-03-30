@@ -1,0 +1,210 @@
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:183.50.139.221
+时间 :2015-08-13 20:17:18
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.24.169.168
+时间 :2015-08-13 20:20:16
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 20:25:45
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 20:26:19
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:183.50.139.221
+时间 :2015-08-13 20:28:20
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 20:28:26
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 20:31:34
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.24.169.168
+时间 :2015-08-13 20:33:11
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.24.169.168
+时间 :2015-08-13 20:37:48
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:223.73.76.44
+时间 :2015-08-13 20:48:21
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:183.50.139.221
+时间 :2015-08-13 20:52:09
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.44
+时间 :2015-08-13 20:53:57
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.44
+时间 :2015-08-13 20:54:14
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:116.19.183.142
+时间 :2015-08-13 20:56:08
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 21:01:01
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:183.18.164.8
+时间 :2015-08-13 21:01:03
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.44
+时间 :2015-08-13 21:01:43
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.44
+时间 :2015-08-13 21:02:14
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.16.28.56
+时间 :2015-08-13 21:04:24
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:223.73.76.44
+时间 :2015-08-13 21:06:12
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 21:09:24
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:183.18.167.46
+时间 :2015-08-13 21:10:34
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.16.28.56
+时间 :2015-08-13 21:11:20
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:183.50.139.221
+时间 :2015-08-13 21:11:29
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.16.28.56
+时间 :2015-08-13 21:11:50
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.16.28.56
+时间 :2015-08-13 21:12:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:223.73.76.44
+时间 :2015-08-13 21:14:21
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 21:14:21
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 21:15:02
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.16.28.56
+时间 :2015-08-13 21:17:09
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015094 and o_id= and user_id= order by user_id asc
+客户IP:14.27.106.90
+时间 :2015-08-13 21:18:00
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:223.73.76.44
+时间 :2015-08-13 21:22:25
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:183.18.154.200
+时间 :2015-08-13 21:25:09
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.16.28.56
+时间 :2015-08-13 21:29:20
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 21:29:39
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=106 and o_id=
+客户IP:14.24.169.168
+时间 :2015-08-13 21:29:54
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=106 and o_id=
+客户IP:14.24.169.168
+时间 :2015-08-13 21:30:11
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 21:30:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 21:30:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 21:30:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.27.106.90
+时间 :2015-08-13 21:30:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015094' and user_id=107 and o_id=
+客户IP:14.16.28.56
+时间 :2015-08-13 21:30:57
+

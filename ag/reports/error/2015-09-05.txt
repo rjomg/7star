@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id= and user_power=1
+客户IP:117.136.34.65
+时间 :2015-09-05 21:46:15
+

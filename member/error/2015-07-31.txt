@@ -1,0 +1,105 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.220
+时间 :2015-07-31 08:27:57
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:220.181.132.220
+时间 :2015-07-31 08:27:57
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.220
+时间 :2015-07-31 08:27:57
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.58
+时间 :2015-07-31 08:28:21
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.199.108.58
+时间 :2015-07-31 08:28:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.58
+时间 :2015-07-31 08:28:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.53
+时间 :2015-07-31 08:30:00
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.199.108.53
+时间 :2015-07-31 08:30:00
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.53
+时间 :2015-07-31 08:30:00
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:119.188.70.18
+时间 :2015-07-31 08:30:41
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:119.188.70.18
+时间 :2015-07-31 08:30:41
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:119.188.70.18
+时间 :2015-07-31 08:30:41
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:182.140.230.11
+时间 :2015-07-31 08:30:59
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:182.140.230.11
+时间 :2015-07-31 08:30:59
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:182.140.230.11
+时间 :2015-07-31 08:30:59
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.196
+时间 :2015-07-31 08:31:01
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:220.181.132.196
+时间 :2015-07-31 08:31:01
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:220.181.132.196
+时间 :2015-07-31 08:31:01
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.119
+时间 :2015-07-31 08:31:48
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:101.199.108.119
+时间 :2015-07-31 08:31:48
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:101.199.108.119
+时间 :2015-07-31 08:31:48
+

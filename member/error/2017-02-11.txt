@@ -1,0 +1,120 @@
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013' 
+客户IP:101.226.65.105
+时间 :2017-02-11 00:33:44
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%??��??��XX%"
+客户IP:61.151.226.199
+时间 :2017-02-11 00:33:48
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%??��X??��X%"
+客户IP:101.226.33.220
+时间 :2017-02-11 00:33:50
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%X??��??��X%"
+客户IP:101.226.33.237
+时间 :2017-02-11 00:33:56
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%??��??��X??��%"
+客户IP:140.207.185.107
+时间 :2017-02-11 00:34:10
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%??��??��??��X%"
+客户IP:101.226.33.226
+时间 :2017-02-11 00:34:11
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%??��X??��??��%"
+客户IP:101.226.65.102
+时间 :2017-02-11 00:34:13
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%????-????%"
+客户IP:101.226.89.117
+时间 :2017-02-11 00:34:19
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%X??��??��??��%"
+客户IP:101.226.85.67
+时间 :2017-02-11 00:34:21
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%????-????%"
+客户IP:101.226.89.122
+时间 :2017-02-11 00:34:37
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013'  and orders.o_type2 like "%????-????%"
+客户IP:180.153.214.199
+时间 :2017-02-11 00:34:47
+
+错误SQL语句：
+SELECT * FROM orders where user_id= group by plate_num order by plate_num DESC
+客户IP:101.226.33.219
+时间 :2017-02-11 19:15:27
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014' 
+客户IP:112.65.193.15
+时间 :2017-02-11 19:31:17
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014'  and orders.o_type2 like "%?o??-????%"
+客户IP:180.163.2.116
+时间 :2017-02-11 19:31:59
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014' 
+客户IP:180.153.205.254
+时间 :2017-02-11 19:32:09
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014' 
+客户IP:101.226.125.104
+时间 :2017-02-11 19:34:10
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017013' 
+客户IP:180.153.205.252
+时间 :2017-02-11 19:34:37
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.214.152
+时间 :2017-02-11 19:34:49
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:180.153.214.152
+时间 :2017-02-11 19:34:49
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.153.214.152
+时间 :2017-02-11 19:34:49
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017010' 
+客户IP:101.226.66.187
+时间 :2017-02-11 19:45:47
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014' 
+客户IP:101.226.89.120
+时间 :2017-02-11 20:15:40
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014'  and orders.o_type2 like "%?o??-????%"
+客户IP:180.153.205.254
+时间 :2017-02-11 20:25:25
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id =  and plate_num ='2017014'  and orders.o_type2 like "%?o??-????%"
+客户IP:101.226.33.216
+时间 :2017-02-11 20:25:26
+

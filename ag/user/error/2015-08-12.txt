@@ -1,0 +1,12 @@
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=,
+                percent_c=2.5,
+                    percent_d=2.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=299 and set_name='特码A'
+客户IP:223.73.76.68
+时间 :2015-08-12 20:36:29
+

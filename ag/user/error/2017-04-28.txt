@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(50,) and user_power=3
+客户IP:27.46.143.143
+时间 :2017-04-28 10:46:57
+
+错误SQL语句：
+SELECT user_power,credit_remainder,else_plate,percent_company,percent_branch,percent_partner,percent_all_proxy,else_plate FROM users  Where user_id=
+客户IP:27.46.143.143
+时间 :2017-04-28 10:47:20
+

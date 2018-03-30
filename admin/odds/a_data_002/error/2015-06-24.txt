@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT * FROM oddsset_type  Where o_id=
+客户IP:183.233.186.216
+时间 :2015-06-24 18:20:19
+
+错误SQL语句：
+UPDATE odds_set SET o_content='' WHERE o_id= and user_id=0 and plate_num='0'
+客户IP:183.233.186.216
+时间 :2015-06-24 18:20:19
+

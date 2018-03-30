@@ -1,0 +1,40 @@
+错误SQL语句：
+SELECT * FROM plate  Where  id order
+客户IP:127.0.0.1
+时间 :2017-01-13 00:03:02
+
+错误SQL语句：
+SELECT * FROM plate  Where  order by id desc
+客户IP:127.0.0.1
+时间 :2017-01-13 00:03:25
+
+错误SQL语句：
+SELECT * FROM plate  Where  order by id desc
+客户IP:127.0.0.1
+时间 :2017-01-13 00:03:48
+
+错误SQL语句：
+SELECT * FROM plate  Where  order by id desc
+客户IP:127.0.0.1
+时间 :2017-01-13 00:04:11
+
+错误SQL语句：
+SELECT * FROM plate  Where  order by id desc
+客户IP:127.0.0.1
+时间 :2017-01-13 00:04:34
+
+错误SQL语句：
+SELECT * FROM plate  Where  order by id desc
+客户IP:127.0.0.1
+时间 :2017-01-13 00:04:57
+
+错误SQL语句：
+SELECT * order by id desc FROM plate 
+客户IP:127.0.0.1
+时间 :2017-01-13 00:05:20
+
+错误SQL语句：
+SELECT * order by id desc FROM plate 
+客户IP:127.0.0.1
+时间 :2017-01-13 00:05:43
+

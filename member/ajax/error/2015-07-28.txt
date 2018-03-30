@@ -1,0 +1,25 @@
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015087' and user_id=107 and o_id=
+客户IP:119.125.209.160
+时间 :2015-07-28 20:53:30
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015087 and o_id= and user_id= order by user_id asc
+客户IP:222.50.141.215
+时间 :2015-07-28 20:59:08
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015087 and o_id= and user_id= order by user_id asc
+客户IP:119.125.209.160
+时间 :2015-07-28 20:59:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015087' and user_id=107 and o_id=
+客户IP:183.50.137.232
+时间 :2015-07-28 21:11:04
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015087' and user_id=107 and o_id=
+客户IP:113.85.207.184
+时间 :2015-07-28 21:21:49
+

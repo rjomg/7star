@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:61.142.254.118
+时间 :2017-03-26 15:04:05
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:61.142.254.118
+时间 :2017-03-26 18:02:40
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:61.142.254.118
+时间 :2017-03-26 20:06:21
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:58.249.81.119
+时间 :2017-03-26 23:45:44
+

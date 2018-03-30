@@ -1,0 +1,70 @@
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+数据库不可用：
+
+客户IP:127.0.0.1
+时间 :2018-03-30 09:11:28
+
+错误SQL语句：
+INSERT INTO `admin_users_action` SET `phases`= '18034',`title` = '用户登录',`mark` = '1',`ip` = '127.0.0.1',`location` = '������ַ',`uid` = '1',`datetime` = '1522372417'
+客户IP:127.0.0.1
+时间 :2018-03-30 09:13:37
+
+错误SQL语句：
+insert into login_code (user_id,login_ip,login_location) values (1,'127.0.0.1','������ַ')
+客户IP:127.0.0.1
+时间 :2018-03-30 09:13:37
+

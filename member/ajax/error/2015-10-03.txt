@@ -1,0 +1,210 @@
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015114 and o_id= and user_id= order by user_id asc
+客户IP:183.19.9.62
+时间 :2015-10-03 19:06:53
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015114 and o_id= and user_id= order by user_id asc
+客户IP:183.19.9.62
+时间 :2015-10-03 19:11:00
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:211.162.34.83
+时间 :2015-10-03 19:50:45
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:223.73.76.4
+时间 :2015-10-03 19:58:37
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:223.73.76.4
+时间 :2015-10-03 20:01:06
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:223.73.76.4
+时间 :2015-10-03 20:05:16
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:113.85.165.85
+时间 :2015-10-03 20:14:22
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015114 and o_id= and user_id= order by user_id asc
+客户IP:211.162.34.83
+时间 :2015-10-03 20:21:23
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:34:40
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:35:08
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:50:00
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:50:11
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:53:07
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:223.73.76.41
+时间 :2015-10-03 20:56:09
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 20:58:53
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:219.131.109.55
+时间 :2015-10-03 21:00:25
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:113.85.207.247
+时间 :2015-10-03 21:01:57
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:223.73.76.31
+时间 :2015-10-03 21:03:21
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:03:57
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:119.125.160.224
+时间 :2015-10-03 21:05:44
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.50.137.224
+时间 :2015-10-03 21:08:18
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:09:45
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:10:04
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.50.137.224
+时间 :2015-10-03 21:13:46
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:223.73.76.31
+时间 :2015-10-03 21:14:49
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015114 and o_id= and user_id= order by user_id asc
+客户IP:119.125.160.224
+时间 :2015-10-03 21:15:24
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.50.137.224
+时间 :2015-10-03 21:16:00
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:219.131.109.55
+时间 :2015-10-03 21:18:14
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:18:37
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:219.131.109.55
+时间 :2015-10-03 21:19:58
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:219.131.109.55
+时间 :2015-10-03 21:20:24
+
+错误SQL语句：
+SELECT o_content FROM odds_set  Where plate_num=2015114 and o_id= and user_id= order by user_id asc
+客户IP:119.125.160.224
+时间 :2015-10-03 21:21:51
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:28:18
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:28:52
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:211.162.34.83
+时间 :2015-10-03 21:28:52
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:28:55
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:28:56
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:29:07
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:29:17
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:29:32
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=106 and o_id=
+客户IP:14.16.153.168
+时间 :2015-10-03 21:29:56
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015114' and user_id=107 and o_id=
+客户IP:183.19.9.62
+时间 :2015-10-03 21:31:01
+

@@ -1,0 +1,687 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.214.176
+时间 :2015-07-28 01:14:48
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(155,) and user_power=5
+客户IP:183.233.186.219
+时间 :2015-07-28 01:14:53
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.187
+时间 :2015-07-28 01:14:54
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=5
+客户IP:101.226.66.187
+时间 :2015-07-28 01:14:54
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.201.64
+时间 :2015-07-28 01:14:59
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.51.227
+时间 :2015-07-28 01:16:20
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.66.179
+时间 :2015-07-28 01:16:23
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.51.227
+时间 :2015-07-28 01:35:02
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.51.227
+时间 :2015-07-28 01:35:02
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.214.176
+时间 :2015-07-28 01:36:17
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=0
+客户IP:180.153.214.176
+时间 :2015-07-28 01:36:17
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.89.119
+时间 :2015-07-28 01:43:26
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.214.200
+时间 :2015-07-28 01:43:28
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.89.119
+时间 :2015-07-28 01:43:36
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.201.217
+时间 :2015-07-28 01:50:03
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in() and user_power=5
+客户IP:180.153.201.217
+时间 :2015-07-28 01:50:03
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_proxy,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,is_remainder_percent,percent_branch,percent_company,percent_partner,percent_all_proxy,credit_remainder) VALUES ('zx111','9a84ee41aa72de59c63006aad670bcce','1号','70000','0','0','A,B','1.5','6','153','fgd2','5','0','0','10','90','0','70000')
+客户IP:116.19.195.60
+时间 :2015-07-28 01:50:48
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:116.19.195.60
+时间 :2015-07-28 01:50:48
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:116.19.195.60
+时间 :2015-07-28 01:50:48
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(153,) and user_power=5
+客户IP:116.19.195.60
+时间 :2015-07-28 01:52:32
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.91
+时间 :2015-07-28 01:52:33
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=5
+客户IP:112.64.235.91
+时间 :2015-07-28 01:52:33
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(153,) and user_power=5
+客户IP:116.19.195.60
+时间 :2015-07-28 01:52:52
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.163.206
+时间 :2015-07-28 01:55:10
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.163.206
+时间 :2015-07-28 01:55:14
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.254
+时间 :2015-07-28 01:55:14
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.206.33
+时间 :2015-07-28 01:55:19
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.33.204
+时间 :2015-07-28 01:55:22
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.254
+时间 :2015-07-28 01:55:25
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-28 01:55:28
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:112.64.235.254
+时间 :2015-07-28 01:55:30
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.89.119
+时间 :2015-07-28 01:56:27
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(,) and user_power=0
+客户IP:101.226.89.119
+时间 :2015-07-28 01:56:27
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.214.197
+时间 :2015-07-28 01:57:30
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(153,) and user_power=5
+客户IP:180.178.46.242
+时间 :2015-07-28 01:59:39
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.201.216
+时间 :2015-07-28 02:05:19
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=164 and set_name='特码A'
+客户IP:116.19.195.60
+时间 :2015-07-28 02:05:19
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.51.230
+时间 :2015-07-28 02:05:21
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.51.230
+时间 :2015-07-28 02:05:24
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.201.216
+时间 :2015-07-28 02:18:42
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.201.216
+时间 :2015-07-28 02:18:42
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:42
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend= limit 0,10
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:42
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:46
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend= limit 0,10
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:46
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:55
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend= limit 0,10
+客户IP:101.226.69.246
+时间 :2015-07-28 02:20:55
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:101.226.69.246
+时间 :2015-07-28 02:22:35
+
+错误SQL语句：
+SELECT user_power,top_power FROM users  Where user_id=
+客户IP:101.226.69.246
+时间 :2015-07-28 02:22:38
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=1,
+                percent_c=1,
+                    percent_d=1,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=20000 where user_id=174 and set_name='一肖'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:35:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=30000 where user_id=174 and set_name='两面'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=174 and set_name='波色'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=1,
+                percent_c=1,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=20000 where user_id=174 and set_name='一肖'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=20000,
+                                odd_limit=20000 where user_id=174 and set_name='尾数'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=174 and set_name='生肖连'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=2000,
+                                odd_limit=5000 where user_id=174 and set_name='尾数连'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=1000,
+                                odd_limit=10000 where user_id=174 and set_name='过关'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:38:51
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=30000 where user_id=174 and set_name='两面'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=174 and set_name='波色'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=1,
+                percent_c=1,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=10000,
+                                odd_limit=20000 where user_id=174 and set_name='一肖'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=20000,
+                                odd_limit=20000 where user_id=174 and set_name='尾数'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=174 and set_name='生肖连'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=2000,
+                                odd_limit=5000 where user_id=174 and set_name='尾数连'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=0,
+            percent_b=2,
+                percent_c=2,
+                    percent_d=,
+                        bottom_limit=2,
+                            top_limit=1000,
+                                odd_limit=10000 where user_id=174 and set_name='过关'
+客户IP:14.24.123.113
+时间 :2015-07-28 13:39:28
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=,
+                percent_c=,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='特码B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正1特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正2特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正3特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正4特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正5特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正6特B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=13.5,
+                percent_c=13.5,
+                    percent_d=13.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='正码B'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=2.5,
+                percent_c=2.5,
+                    percent_d=2.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=5000 where user_id=157 and set_name='波色'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=5000 where user_id=157 and set_name='二肖'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=5000 where user_id=157 and set_name='四肖'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=157 and set_name='六肖'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=2.5,
+                percent_c=2.5,
+                    percent_d=2.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=157 and set_name='尾数'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=2.5,
+                percent_c=2.5,
+                    percent_d=2.5,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=3000 where user_id=157 and set_name='尾数连'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=157 and set_name='六不中'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=157 and set_name='八不中'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=0.5,
+                percent_c=0.5,
+                    percent_d=0.5,
+                        bottom_limit=2,
+                            top_limit=5000,
+                                odd_limit=10000 where user_id=157 and set_name='十不中'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=2.5,
+                percent_c=2.5,
+                    percent_d=2.5,
+                        bottom_limit=2,
+                            top_limit=1000,
+                                odd_limit=1000 where user_id=157 and set_name='过关'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=15.5,
+                percent_c=15.5,
+                    percent_d=15.5,
+                        bottom_limit=2,
+                            top_limit=500,
+                                odd_limit=500 where user_id=157 and set_name='二中特'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+update back_set set 
+        percent_a=,
+            percent_b=15.5,
+                percent_c=15.5,
+                    percent_d=15.5,
+                        bottom_limit=2,
+                            top_limit=50,
+                                odd_limit=50 where user_id=157 and set_name='三全中'
+客户IP:183.50.139.36
+时间 :2015-07-28 20:01:41
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:14.26.82.132
+时间 :2015-07-28 20:05:49
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(128,) and user_power=5
+客户IP:223.73.76.121
+时间 :2015-07-28 20:09:44
+

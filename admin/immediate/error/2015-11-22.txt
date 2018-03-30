@@ -1,0 +1,5 @@
+错误SQL语句：
+UPDATE orders_totalmoney SET orders_tm=orders_tm-'5' WHERE user_id =16 and plate_num=
+客户IP:127.0.0.1
+时间 :2015-11-22 16:00:18
+

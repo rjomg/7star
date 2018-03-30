@@ -1,0 +1,40 @@
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id=15 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT SUM(orders_y) as order_y FROM orders  Where user_id=15 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id=16 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT SUM(orders_y) as order_y FROM orders  Where user_id=16 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id=21 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT SUM(orders_y) as order_y FROM orders  Where user_id=21 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT count(*) as c FROM orders  Where user_id=17 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+
+错误SQL语句：
+SELECT SUM(orders_y) as order_y FROM orders  Where user_id=17 and time>=2017-01-29 00:00:00 and time<=2017-01-29 00:00:00
+客户IP:127.0.0.1
+时间 :2017-01-29 00:14:54
+

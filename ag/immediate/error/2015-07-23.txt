@@ -1,0 +1,25 @@
+错误SQL语句：
+SELECT * FROM single_set  Where user_id= and `o_id`='16'
+客户IP:180.178.46.242
+时间 :2015-07-23 18:01:43
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-23 18:01:43
+
+错误SQL语句：
+SELECT is_odds FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-23 18:01:43
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-23 18:01:43
+
+错误SQL语句：
+SELECT is_odds FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-07-23 18:01:43
+

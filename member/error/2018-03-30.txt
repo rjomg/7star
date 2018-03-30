@@ -1,0 +1,10 @@
+错误SQL语句：
+INSERT INTO `admin_users_action` SET `phases`= '18034',`title` = '用户登录',`mark` = '1',`ip` = '127.0.0.1',`location` = '������ַ',`uid` = '140',`datetime` = '1522372769'
+客户IP:127.0.0.1
+时间 :2018-03-30 09:19:29
+
+错误SQL语句：
+insert into login_code (user_id,login_ip,login_location) values (140,'127.0.0.1','������ַ')
+客户IP:127.0.0.1
+时间 :2018-03-30 09:19:29
+

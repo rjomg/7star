@@ -1,0 +1,300 @@
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.205
+时间 :2015-08-24 03:35:18
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.205
+时间 :2015-08-24 03:35:18
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.205
+时间 :2015-08-24 03:35:18
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.205
+时间 :2015-08-24 03:35:18
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.205
+时间 :2015-08-24 03:35:18
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 03:37:29
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 03:37:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 03:37:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 03:37:29
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.220
+时间 :2015-08-24 03:37:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.227
+时间 :2015-08-24 08:14:30
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.227
+时间 :2015-08-24 08:14:30
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.227
+时间 :2015-08-24 08:14:30
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.227
+时间 :2015-08-24 08:14:30
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.227
+时间 :2015-08-24 08:14:30
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.254
+时间 :2015-08-24 11:44:57
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.254
+时间 :2015-08-24 11:44:57
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.254
+时间 :2015-08-24 11:44:57
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.254
+时间 :2015-08-24 11:44:57
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.254
+时间 :2015-08-24 11:44:57
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.242
+时间 :2015-08-24 11:53:09
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.19.242
+时间 :2015-08-24 11:53:09
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.242
+时间 :2015-08-24 11:53:09
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.242
+时间 :2015-08-24 11:53:09
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.19.242
+时间 :2015-08-24 11:53:09
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 13:40:16
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 13:40:16
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 13:40:16
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.220
+时间 :2015-08-24 13:40:16
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.220
+时间 :2015-08-24 13:40:16
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.251
+时间 :2015-08-24 14:09:39
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.251
+时间 :2015-08-24 14:09:39
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.251
+时间 :2015-08-24 14:09:39
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.251
+时间 :2015-08-24 14:09:39
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.251
+时间 :2015-08-24 14:09:39
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.254
+时间 :2015-08-24 14:10:11
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.19.254
+时间 :2015-08-24 14:10:11
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.254
+时间 :2015-08-24 14:10:11
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.254
+时间 :2015-08-24 14:10:11
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.19.254
+时间 :2015-08-24 14:10:11
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.206
+时间 :2015-08-24 14:34:31
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.19.206
+时间 :2015-08-24 14:34:31
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.206
+时间 :2015-08-24 14:34:31
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.19.206
+时间 :2015-08-24 14:34:31
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.19.206
+时间 :2015-08-24 14:34:31
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.215
+时间 :2015-08-24 18:05:29
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.215
+时间 :2015-08-24 18:05:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.215
+时间 :2015-08-24 18:05:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.215
+时间 :2015-08-24 18:05:29
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.215
+时间 :2015-08-24 18:05:29
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.250
+时间 :2015-08-24 18:26:38
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.250
+时间 :2015-08-24 18:26:38
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.250
+时间 :2015-08-24 18:26:38
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.250
+时间 :2015-08-24 18:26:38
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.250
+时间 :2015-08-24 18:26:38
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.240
+时间 :2015-08-24 18:31:24
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:123.249.25.240
+时间 :2015-08-24 18:31:24
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.240
+时间 :2015-08-24 18:31:24
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=
+客户IP:123.249.25.240
+时间 :2015-08-24 18:31:24
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id= limit 0,1
+客户IP:123.249.25.240
+时间 :2015-08-24 18:31:24
+

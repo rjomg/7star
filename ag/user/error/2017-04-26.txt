@@ -1,0 +1,20 @@
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_branch,percent_partner,user_total,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,percent_company,is_remainder_percent,credit_remainder) VALUES ('gd001','e10adc3949ba59abbe56e057f20f883e','gd001','99999999900','0','0','800','0','A','0','3','125','fgs001','2','100','0','99999999900')
+客户IP:27.47.232.108
+时间 :2017-04-26 00:16:17
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:27.47.232.108
+时间 :2017-04-26 00:16:17
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:27.47.232.108
+时间 :2017-04-26 00:16:17
+

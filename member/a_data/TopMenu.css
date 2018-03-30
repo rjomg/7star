@@ -1,0 +1,139 @@
+body, div, span, p, b, textarea, input, select, form, table,tr,td{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-size:12px;
+	z-index:auto;
+	font-family:Verdana, "ËÎÌו", Arial,Sans;
+}
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+img, table{border:0px none;border-collapse:collapse}
+td{
+	cursor: default;
+}
+a{
+	text-decoration:none;
+	color:#164175;
+}
+a:hover{
+	text-decoration:none;
+	color:#2473D4;
+	font-weight: bold;
+}
+.backdrop_1 {
+	background-image: url(../images/t_backdrop1.jpg);
+	background-repeat: repeat-x;
+}
+.NewS_Fone {
+	color: #FFFFA2;
+}
+.LeftBackdrop {
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	text-indent: -30px;
+}
+.T2 {
+	background-repeat: no-repeat;
+	background-image: url(../images/T2.jpg);
+}
+.T3 {
+	background-repeat: no-repeat;
+	background-image: url(../images/T3.jpg);
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.top {
+	background-image: url(../images/m_top.jpg);
+	background-repeat: repeat-x;
+}
+
+.Menu_WB{
+	border: 0px solid #FF9224; 
+	background-color: #FFFFFF; 
+	background-image: url('../images/menu_WB.jpg');
+	width: 99px; 
+	height: 25px; 
+	background-position:0 0px
+}
+
+.but_1, .but_1_m, .but_2, .but_2_m, .but_3, .but_3_m, .but_4, .but_4_m, .but_5, .but_5_m, .but_6, .but_6_m, .but_7, .but_7_m{
+	border: 0px solid red; 
+	background-color: #B3C5EF; 
+	background-image: url('memu.jpg');
+	height: 33px;
+	margin:0 0 0 -4px;
+	
+}
+.but_1 {
+	width: 97px; 
+	background-position:0px 0
+}
+.but_1_m {
+	cursor: hand;
+	width: 97px; 
+	background-position:-658px 0
+}
+.but_2 {
+	width: 104px; 
+	background-position:-97px 0
+}
+.but_2_m {
+	cursor: hand;
+	width: 104px; 
+	background-position:-755px 0
+}
+.but_3 {
+	width: 104px; 
+	background-position:-201px 0
+}
+.but_3_m {
+	cursor: hand;
+	width: 104px; 
+	background-position:-859px 0
+}
+.but_4 {
+	width: 103px; 
+	background-position:-305px 0
+}
+.but_4_m {
+	cursor: hand;
+	width: 103px; 
+	background-position:-963px 0
+}
+.but_5 {
+	width: 103px; 
+	background-position:-408px 0
+}
+.but_5_m {
+	cursor: hand;
+	width: 103px; 
+	background-position:-1066px 0
+}
+.but_6 {
+	width: 80px; 
+	background-position:-511px 0
+}
+.but_6_m {
+	cursor: hand;
+	width: 80px; 
+	background-position:-1169px 0
+}
+.but_7 {
+	width: 66px; 
+	background-position:-591px 0 
+}
+.but_7_m {
+	cursor: hand;
+	width: 66px; 
+	background-position:-1249px 0 
+}
+.Font_R {
+	color: #FF0000;
+}

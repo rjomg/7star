@@ -1,0 +1,22 @@
+错误SQL语句：
+update back_set set 
+        percent_a=1,
+            percent_b=,
+                percent_c=13,
+                    percent_d=13,
+                        bottom_limit=2,
+                            top_limit=3000,
+                                odd_limit=5000 where user_id=351 and set_name='正码B'
+客户IP:113.85.165.9
+时间 :2015-09-01 12:21:47
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-09-01 20:22:35
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:180.178.46.242
+时间 :2015-09-01 20:25:59
+

@@ -1,0 +1,3850 @@
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:43
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:44
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:45
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:58:46
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:05
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:06
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 10:59:07
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:02:40
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:11
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc limit 0,1
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+SELECT o_id FROM oddsset_type  Where o_typename='特码A'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+SELECT * FROM single_set  Where user_id=1 and `o_id`=''
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='01'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='02'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='03'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='04'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='05'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='06'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='07'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='08'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='09'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='10'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='11'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='12'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='13'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='14'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='15'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='16'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='17'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='18'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='19'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='20'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='21'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='22'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='23'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='24'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='25'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='26'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='27'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='28'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='29'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='30'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='31'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='32'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='33'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='34'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='35'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='36'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='37'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='38'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='39'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='40'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='41'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='42'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='43'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='44'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='45'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='46'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='47'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='48'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='49'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+SELECT plate_num FROM plate  Where 1 order by plate_num desc
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合单'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='特小'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='合双'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='尾大'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='红波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='绿波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='蓝波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='家禽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type2='特码A' || a.o_type2='特码B') and a.o_type3='野兽'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2013099' and user_id=1 and o_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select set_animal from animal_set
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+SELECT * FROM animal  Where set_id=
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='特码' || a.o_type1='特码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正1特' || a.o_type1='正1特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正2特' || a.o_type1='正2特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正3特' || a.o_type1='正3特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正4特' || a.o_type1='正4特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正5特' || a.o_type1='正5特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正6特' || a.o_type1='正6特双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and (a.o_type1='正码' || a.o_type1='正码双面')
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='一肖'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='尾数'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='半波'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='过关'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二中特'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='特串'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三全中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三中二'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='五不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='六不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='七不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='八不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='九不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='十不中'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四肖连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='二尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='三尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+
+错误SQL语句：
+select a.*,a.is_fly as i_fly,b.is_fly as s_fly from orders a left join users b on a.topf_id=b.user_id where a.plate_num='' and a.o_type2='四尾连[不中]'
+客户IP:127.0.0.1
+时间 :2015-06-16 11:03:22
+

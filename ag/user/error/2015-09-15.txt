@@ -1,0 +1,27 @@
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(382,) and user_power=5
+客户IP:183.18.165.32
+时间 :2015-09-15 13:18:58
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(382,) and user_power=5
+客户IP:183.18.165.32
+时间 :2015-09-15 13:21:16
+
+错误SQL语句：
+SELECT user_id,user_name,user_power,credit_remainder FROM users  Where is_extend=0 and user_id in(382,) and user_power=5
+客户IP:183.18.165.32
+时间 :2015-09-15 13:35:32
+
+错误SQL语句：
+update back_set set 
+        percent_a=12,
+            percent_b=,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=,
+                            top_limit=,
+                                odd_limit= where user_id=384 and set_name='正4特A'
+客户IP:183.18.165.32
+时间 :2015-09-15 13:52:30
+

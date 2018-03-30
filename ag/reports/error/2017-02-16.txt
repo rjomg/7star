@@ -1,0 +1,45 @@
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:180.153.214.192
+时间 :2017-02-16 15:24:13
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.plate_num =2017018
+客户IP:101.226.89.116
+时间 :2017-02-16 15:24:19
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.plate_num =2017018
+客户IP:101.226.66.177
+时间 :2017-02-16 15:24:30
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.user_id=15 and orders.plate_num =2017018
+客户IP:101.226.33.204
+时间 :2017-02-16 21:41:00
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.user_id=34 and orders.plate_num =2017018
+客户IP:101.226.99.195
+时间 :2017-02-16 21:41:05
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.plate_num =2017018
+客户IP:101.226.125.111
+时间 :2017-02-16 21:43:09
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.user_id=17 and orders.plate_num =2017018
+客户IP:101.226.89.119
+时间 :2017-02-16 21:43:41
+
+错误SQL语句：
+SELECT user_id FROM users  Where top_id=
+客户IP:101.226.65.108
+时间 :2017-02-16 21:43:48
+
+错误SQL语句：
+SELECT count(*) as c FROM orders left join users on users.user_id=orders.user_id  Where  users.top_id= and orders.plate_num =2017018
+客户IP:101.226.33.200
+时间 :2017-02-16 21:45:49
+

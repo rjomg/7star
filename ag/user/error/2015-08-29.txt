@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:14.24.233.54
+时间 :2015-08-29 22:08:05
+

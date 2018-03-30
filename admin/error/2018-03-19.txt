@@ -1,0 +1,510 @@
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:25
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:52
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:55
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:09:56
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:21
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:24
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:26
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:27
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:56
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:11:59
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:00
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:16
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:17
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:20
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+
+错误SQL语句：
+SELECT * FROM plate  Where 1 order by plate_num desc 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+
+错误SQL语句：
+SELECT * FROM animal_set 
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+
+数据库不可用：
+
+客户IP:61.146.3.48
+时间 :2018-03-19 23:12:21
+

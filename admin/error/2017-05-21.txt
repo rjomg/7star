@@ -1,0 +1,20 @@
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:113.68.142.20
+时间 :2017-05-21 19:51:14
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:113.68.142.20
+时间 :2017-05-21 19:51:14
+
+错误SQL语句：
+update plate set is_plate_start=1,is_special=0,is_normal=0 where plate_num=
+客户IP:113.68.142.20
+时间 :2017-05-21 19:51:15
+
+错误SQL语句：
+UPDATE plate SET is_special=0,is_normal=0,is_plate_start=1 WHERE plate_num=
+客户IP:113.68.142.20
+时间 :2017-05-21 19:51:15
+

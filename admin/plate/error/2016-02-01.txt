@@ -1,0 +1,5 @@
+错误SQL语句：
+update users SET credit_remainder = credit_remainder+ where user_id =1
+客户IP:127.0.0.1
+时间 :2016-02-01 16:09:41
+

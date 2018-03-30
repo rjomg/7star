@@ -1,0 +1,65 @@
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:116.19.195.137
+时间 :2015-08-08 13:56:17
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_proxy,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,is_remainder_percent,percent_branch,percent_company,percent_partner,percent_all_proxy,credit_remainder) VALUES ('as111','eabd8ce9404507aa8c22714d3f5eada9','111','30000','0','0','A,B','2.5','6','240','gh333','5','0','90','10','0','0','30000')
+客户IP:116.19.195.137
+时间 :2015-08-08 14:19:48
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:116.19.195.137
+时间 :2015-08-08 14:19:48
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:116.19.195.137
+时间 :2015-08-08 14:19:48
+
+错误SQL语句：
+INSERT INTO users (user_name,user_pwd,user_nick,credit_total,percent_proxy,is_add,else_plate,else_back,user_power,top_id,top_name,top_power,is_remainder_percent,percent_branch,percent_company,percent_partner,percent_all_proxy,credit_remainder) VALUES ('as111','eabd8ce9404507aa8c22714d3f5eada9','111','30000','0','0','A,B','2.5','6','240','gh333','5','0','90','10','0','0','30000')
+客户IP:116.19.195.137
+时间 :2015-08-08 14:21:03
+
+错误SQL语句：
+insert ignore into back_set select 0,set_name,
+            (case when percent_a-0 >0 then percent_a-0 else 0 end),
+            (case when percent_b-0 >0 then percent_b-0 else 0 end),
+            (case when percent_c-0 >0 then percent_c-0 else 0 end),
+            (case when percent_d-0 >0 then percent_d-0 else 0 end),
+            bottom_limit,top_limit,odd_limit,view_order from back_set where user_id=
+客户IP:116.19.195.137
+时间 :2015-08-08 14:21:03
+
+错误SQL语句：
+insert into backorder_set select 0,o_typename,amode,control_limit,lowest_limit,begin_limit,is_use,o_ids,view_order from backorder_set where user_id=0
+客户IP:116.19.195.137
+时间 :2015-08-08 14:21:03
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:116.19.195.137
+时间 :2015-08-08 14:42:50
+
+错误SQL语句：
+SELECT credit_remainder,credit_total FROM users  Where user_id=
+客户IP:14.26.60.104
+时间 :2015-08-08 20:10:25
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:14.26.60.104
+时间 :2015-08-08 20:18:34
+
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:59.34.19.121
+时间 :2015-08-08 22:34:47
+

@@ -1,0 +1,24 @@
+错误SQL语句：
+update back_set set 
+        percent_a=14.5,
+            percent_b=14.5,
+                percent_c=,
+                    percent_d=,
+                        bottom_limit=,
+                            top_limit=,
+                                odd_limit= where user_id=349 and set_name='三全中'
+客户IP:59.36.251.164
+时间 :2015-08-31 16:50:10
+
+错误SQL语句：
+update back_set set 
+        percent_a=12.5,
+            percent_b=12.5,
+                percent_c=12.5,
+                    percent_d=,
+                        bottom_limit=,
+                            top_limit=,
+                                odd_limit= where user_id=350 and set_name='正4特A'
+客户IP:59.36.251.164
+时间 :2015-08-31 16:51:54
+

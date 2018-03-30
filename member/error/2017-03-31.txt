@@ -1,0 +1,55 @@
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:116.23.8.172
+时间 :2017-03-31 11:23:49
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:116.23.8.172
+时间 :2017-03-31 11:23:57
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:116.23.8.172
+时间 :2017-03-31 11:24:01
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:116.23.8.172
+时间 :2017-03-31 11:24:09
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:27.47.232.217
+时间 :2017-03-31 20:29:28
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:27.47.232.217
+时间 :2017-03-31 20:30:20
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:27.47.232.217
+时间 :2017-03-31 20:31:35
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:113.65.163.26
+时间 :2017-03-31 20:38:53
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:113.65.163.26
+时间 :2017-03-31 20:39:40
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:113.65.163.26
+时间 :2017-03-31 20:40:55
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:113.65.163.26
+时间 :2017-03-31 20:55:34
+

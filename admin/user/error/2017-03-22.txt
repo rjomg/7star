@@ -1,0 +1,50 @@
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=0 and user_power=($_GET[\'power\'] 1)  
+客户IP:119.131.89.78
+时间 :2017-03-22 22:44:23
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend=0 and user_power=($_GET[\'power\'] 1)   order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:119.131.89.78
+时间 :2017-03-22 22:44:23
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=0 and user_power=2   and top_id = 2power=3
+客户IP:119.131.89.78
+时间 :2017-03-22 22:46:33
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend=0 and user_power=2   and top_id = 2power=3 order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:119.131.89.78
+时间 :2017-03-22 22:46:33
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=0 and user_power=2   and is_lock = 0 or is_lock = 3 and 
+客户IP:119.131.89.78
+时间 :2017-03-22 22:53:31
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend=0 and user_power=2   and is_lock = 0 or is_lock = 3 and  order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:119.131.89.78
+时间 :2017-03-22 22:53:31
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=0 and user_power=3   and top_id =  and is_lock = 2
+客户IP:119.131.89.78
+时间 :2017-03-22 23:04:14
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend=0 and user_power=3   and top_id =  and is_lock = 2 order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:119.131.89.78
+时间 :2017-03-22 23:04:14
+
+错误SQL语句：
+SELECT count(*) as c FROM users  Where is_extend=0 and user_power=4   and top_id =  and is_lock = 2
+客户IP:119.131.89.78
+时间 :2017-03-22 23:04:32
+
+错误SQL语句：
+SELECT * FROM users  Where is_extend=0 and user_power=4   and top_id =  and is_lock = 2 order by else_last_login desc,else_created_at desc limit 0, 30
+客户IP:119.131.89.78
+时间 :2017-03-22 23:04:32
+

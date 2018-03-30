@@ -1,0 +1,5 @@
+错误SQL语句：
+SELECT percent_company,percent_branch,percent_partner,percent_all_proxy,percent_proxy,else_plate FROM users  Where user_id=
+客户IP:183.19.42.87
+时间 :2015-10-19 19:09:02
+

@@ -1,0 +1,25 @@
+错误SQL语句：
+SELECT is_ti FROM users  Where user_id = '28' 
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:16
+
+错误SQL语句：
+SELECT is_extend FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:16
+
+错误SQL语句：
+SELECT * FROM users  Where user_id=28
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:16
+
+错误SQL语句：
+SELECT is_odds,is_fly FROM users  Where user_id=
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:16
+
+错误SQL语句：
+SELECT * FROM odds_set  Where plate_num='2015096' and user_id= and o_id=16
+客户IP:127.0.0.1
+时间 :2015-10-28 20:04:16
+

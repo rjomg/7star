@@ -1,0 +1,20 @@
+错误SQL语句：
+SELECT count(*) as c FROM order  Where user_id=15
+客户IP:127.0.0.1
+时间 :2017-01-24 16:58:02
+
+错误SQL语句：
+SELECT count(*) as c FROM order  Where user_id=15
+客户IP:127.0.0.1
+时间 :2017-01-24 16:58:03
+
+错误SQL语句：
+SELECT SUM(order_y) as order_y FROM orders  Where user_id=15
+客户IP:127.0.0.1
+时间 :2017-01-24 17:06:24
+
+错误SQL语句：
+SELECT SUM(order_y) as order_y FROM orders  Where user_id=15
+客户IP:127.0.0.1
+时间 :2017-01-24 17:06:36
+

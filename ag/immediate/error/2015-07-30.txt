@@ -1,0 +1,10 @@
+错误SQL语句：
+SELECT is_odds FROM users  Where user_id=
+客户IP:183.19.8.142
+时间 :2015-07-30 21:29:37
+
+错误SQL语句：
+SELECT is_odds FROM users  Where user_id=
+客户IP:183.19.8.142
+时间 :2015-07-30 21:29:37
+
