@@ -265,7 +265,7 @@ class action extends mysql {
 						 echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
 					}		
 			$msg = $this->Is_login2("1");
-			if ($msg == false) {
+			if ($msg === false) {
 				return "密码或用户错误！";
 			}
 			$ps = 1;
@@ -299,7 +299,7 @@ class action extends mysql {
                 }
 
 		$msg = $this->Is_login2($row['user_power']);
-		if ($msg == false) {
+		if ($msg === false) {
 			return '密码或用户错误！';
 		}
 		$ps = $us ? md5($password) == $row['user_pwd'] : FALSE;
