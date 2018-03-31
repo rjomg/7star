@@ -244,7 +244,6 @@ a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertica
 			</form>
 		</table>
 		</div>
-	s
 		
 		<?php } else { ?>
 		

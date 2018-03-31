@@ -295,7 +295,7 @@ class action extends mysql {
                 if($row['is_online']==1){
 
                          //echo " <script> alert( '欢迎光临！') ; </script> " ;
-						 return '欢迎光临！';
+						 //return '欢迎光临！';
                 }
 
 		$msg = $this->Is_login2($row['user_power']);
