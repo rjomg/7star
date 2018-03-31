@@ -6,7 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
 	<link rel="shortcut icon" href="http://8a.1380000138.com/admincg/images/favicon.ico" type="image/x-icon"> 
 	<link rel="stylesheet" type="text/css" id="css" href="./css/User_Login.css">
+
 	<style type="text/css">
+	
+	
 #showwapmsg{
 	z-index: 1000;
     position: absolute;
@@ -107,6 +110,29 @@ a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertica
 
 #seccodeverify{-webkit-touch-callout:none;cursor:pointer;}
 	</style>
+	<style type="text/css">
+		#routeList li a {
+			color:blue;
+			font-size:14px;
+			font-weight:0;
+			text-decoration:underline;
+		}
+		#contain{
+			width:400px;
+			margin:0 auto;
+			overflow: hidden;
+		}
+
+		ul,li{
+			padding:0;
+			margin:0;
+		}
+		li span {
+			color:#000;
+			font-size:14px;
+			font-weight:normal !important;
+		}
+	</style>
 	<link rel="stylesheet" type="text/css" id="css" href="./css/logmsg.css">
 	<script language="javascript" src="./js/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -139,75 +165,158 @@ a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertica
 	//-->
 	</script>	</head>
 	<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
-		<div class="bgdivmain" style="display: none;">
-		<div class="bgdiv"></div>
-		<div class="bgdivdx">
-			<div class="bgdivdxtit"><div class="bgdivright" id="loginx">X</div><div class="bgdivleft">请回答</div></div><div class="clear"></div>
-		   <ul>
-		       <li><span id="seccodeimage" title="看不清楚，请点击"><img id="seccode" onclick="updateseccode()" width="90" height="45" src="./seccode.php" align="absmiddle" alt=""></span></li>
-		       <li>= <input type="text" onfocus="this.onfocus = null" id="seccodeverify" name="seccodeverify" maxlength="4" style="width: 90px;height: 40px;line-height: 39px;font-size: 29px;vertical-align:middle;border: solid 1px #a0a0a0;" readonly="readonly"></li>
-		       <li><a href="http://8a.1380000138.com/?bmwid=1####" onclick="JavaScript:updateseccode();return false;">换题</a>
-		       	<script type="text/javascript">var seccodedata = [90, 45, 4];</script>
-		       </li>
-		    </ul>
-		    <ul>
-		        <li class="mainkey">
-			<table id="mainkey" class="mainkey" cellpadding="2" cellspacing="0" align="center" border="2" bordercolor="#FFFFFF">
-			<tbody>
-			<tr>
-				<td>1</td><td>2</td><td>0</td><td>3</td><td>7</td>
-			</tr>
-			<tr> 
-				<td>4</td><td>8</td><td>5</td><td>6</td><td>9</td>
-			</tr>
-			</tbody><tbody>
-			</tbody></table>   
-		        </li>
-		    </ul>
-		    <ul>
-		        <li><input type="button" id="seccodelogin" name="seccodelogin" value=" login"></li>
-		    </ul>
-		</div>
-	</div>
-	
-			<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tbody><tr><td>
 		
-			<form method="post" id="loginfrm" name="loginfrm"><input type="hidden" id="sid" name="sid" value="r0GboE"><input type="hidden" name="loginaction" value="1">
-				<input type="hidden" name="Hrand" value="810386097"><br><table align="center" width="928" border="0" cellpadding="0" cellspacing="0">
-	<tbody><tr>
-		<td colspan="3" height="78" background="./images/1_01.gif">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tbody><tr>
-		<td width="290"></td>
-		<td width="40">AT:&nbsp;&nbsp;</td>
-		<td width="120"><input type="text" id="admin_username810386097" name="admin_username810386097" onkeypress="send(event)" value="" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
-		<td width="40">PW:&nbsp;&nbsp;</td>
-		<td width="120"><input type="password" id="admin_password810386097" onkeypress="send(event)" name="admin_password810386097" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
-        <td height="30" width="*">&nbsp;&nbsp;
-        <input type="button" id="login_admin" name="login_admin" onclick="return finalcheck();" value=" login" class="login_a_input">
-       </td>
-	</tr>
-</tbody></table>
-			</td>
-	</tr>
-	<tr>
-		<td background="./images/1_02.gif" width="309" height="212"></td>
-		<td background="./images/1_03.gif" width="310"></td>
-		<td background="./images/1_04.gif" width="309"></td>
-	</tr>
-	<tr>
-		<td background="./images/1_05.gif" height="145"></td>
-		<td background="./images/1_06.gif"></td>
-		<td background="./images/1_07.gif"></td>
-	</tr>
-	<tr>
-		<td background="./images/1_08.gif" height="145"></td>
-		<td background="./images/1_09.gif"></td>
-		<td background="./images/1_10.gif"></td>
-	</tr>
-</tbody></table>
-</form><script type="text/javascript">setTimeout("document.loginfrm.admin_username810386097.focus();",200);</script>	</td></tr></tbody></table>
+		<?php
+			if (isset($_GET['bmwid']) && $_GET['bmwid']) {
+		?>
+		
+		<div>
+			<div class="bgdivmain" style="display: none;">
+				<div class="bgdiv"></div>
+				<div class="bgdivdx">
+					<div class="bgdivdxtit"><div class="bgdivright" id="loginx">X</div><div class="bgdivleft">请回答</div></div><div class="clear"></div>
+				   <ul>
+					   <li><span id="seccodeimage" title="看不清楚，请点击"><img id="seccode" onclick="updateseccode()" width="90" height="45" src="./seccode.php" align="absmiddle" alt=""></span></li>
+					   <li>= <input type="text" onfocus="this.onfocus = null" id="seccodeverify" name="seccodeverify" maxlength="4" style="width: 90px;height: 40px;line-height: 39px;font-size: 29px;vertical-align:middle;border: solid 1px #a0a0a0;" readonly="readonly"></li>
+					   <li><a href="http://8a.1380000138.com/?bmwid=1####" onclick="JavaScript:updateseccode();return false;">换题</a>
+						<script type="text/javascript">var seccodedata = [90, 45, 4];</script>
+					   </li>
+					</ul>
+					<ul>
+						<li class="mainkey">
+					<table id="mainkey" class="mainkey" cellpadding="2" cellspacing="0" align="center" border="2" bordercolor="#FFFFFF">
+					<tbody>
+					<tr>
+						<td>1</td><td>2</td><td>0</td><td>3</td><td>7</td>
+					</tr>
+					<tr> 
+						<td>4</td><td>8</td><td>5</td><td>6</td><td>9</td>
+					</tr>
+					</tbody><tbody>
+					</tbody></table>   
+						</li>
+					</ul>
+					<ul>
+						<li><input type="button" id="seccodelogin" name="seccodelogin" value=" login"></li>
+					</ul>
+				</div>
+			</div>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr><td>
+			
+				<form method="post" id="loginfrm" name="loginfrm"><input type="hidden" id="sid" name="sid" value="r0GboE"><input type="hidden" name="loginaction" value="1">
+					<input type="hidden" name="Hrand" value="810386097"><br><table align="center" width="928" border="0" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td colspan="3" height="78" background="./images/1_01.gif">
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td width="290"></td>
+									<td width="40">AT:&nbsp;&nbsp;</td>
+									<td width="120"><input type="text" id="admin_username810386097" name="admin_username810386097" onkeypress="send(event)" value="" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
+									<td width="40">PW:&nbsp;&nbsp;</td>
+									<td width="120"><input type="password" id="admin_password810386097" onkeypress="send(event)" name="admin_password810386097" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
+									<td height="30" width="*">&nbsp;&nbsp;
+									<input type="button" id="login_admin" name="login_admin" onclick="return finalcheck();" value=" login" class="login_a_input">
+								   </td>
+							</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td background="./images/1_02.gif" width="309" height="212"></td>
+					<td background="./images/1_03.gif" width="310"></td>
+					<td background="./images/1_04.gif" width="309"></td>
+				</tr>
+				<tr>
+					<td background="./images/1_05.gif" height="145"></td>
+					<td background="./images/1_06.gif"></td>
+					<td background="./images/1_07.gif"></td>
+				</tr>
+				<tr>
+					<td background="./images/1_08.gif" height="145"></td>
+					<td background="./images/1_09.gif"></td>
+					<td background="./images/1_10.gif"></td>
+				</tr>
+			</tbody>
+			</form>
+		</table>
+		</div>
+	s
+		
+		<?php } else { ?>
+		
+		<div id="contain">
+			<table border="1" width="350" style="margin-top:120px;">
+				<tr>
+					<td><span style="color:#000;font-weight:normal;font-size:16px;">Route Choice:</span><span style="color:red;font-weight:normal;font-size:16px;">Minimum Value Speed Best</span></td>
+				</tr>
+				<tr>
+					<td>
+						<ul id="routeList">
+							<li><a href="index.php?bmwid=1">Route1</a></li>
+							<li><a href="index.php?bmwid=1">Route2</a></li>
+							<li><a href="index.php?bmwid=1">Route3</a></li>
+							<li><a href="index.php?bmwid=1">Route4</a></li>
+							<li><a href="index.php?bmwid=1">Route5</a></li>
+							<li><a href="index.php?bmwid=1">Route6</a></li>
+							<li><a href="index.php?bmwid=1">Route7</a></li>
+							<li><a href="index.php?bmwid=1">Route8</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;font-weight:normal;color:#000;font-size:16px;">AccessIP:120.86.130.180</td>
+				</tr>
+			</table>
+		</div>
+		<?php }?>
+
+	<script type="text/javascript">setTimeout("document.loginfrm.admin_username810386097.focus();",200);</script>	</td></tr></tbody></table>
 	
-	
+	<?php
+    
+        if(!isset($_GET['bmwid']) || !$_GET['bmwid']){ ?>
+			<script type="text/javascript">
+
+				window.onload = function(){
+					var routes = new Array();
+					var routeList = document.getElementById("routeList");
+					var speedList = new Array();
+					for (var i=0;i<8;i++) {
+						speed = parseInt(Math.random() * 20)+50;
+						speedList.push(speed);
+					}
+					var small = 200;
+					var smalli = 0;
+					for (var i=0;i<routeList.childNodes.length;i++) {
+						if (routeList.childNodes[i].nodeName == 'LI') {
+							val = speedList.pop();
+							var span = document.createElement("span");
+							var text = document.createTextNode("："+val);
+							if (parseInt(val) < small) {
+								small = parseInt(val);
+								smalli = i;
+							} 
+							span.appendChild(text);
+							routeList.childNodes[i].appendChild(span);
+						}
+					}
+					var span = document.createElement("span");
+					span.style.color = "red";
+					span.style.marginLeft = "20px";
+					span.style.fontWeight = "700 !important";
+					var text = document.createTextNode("Best");
+					span.appendChild(text);
+					routeList.childNodes[smalli].appendChild(span);
+					
+					setTimeout(function(){
+						var href = routeList.childNodes[smalli].firstChild.getAttribute("href");
+						window.location.href = href;
+					},1500);
+				}
+			</script>
+		<?php }?>
 	</body></html>
