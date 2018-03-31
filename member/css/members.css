@@ -1,6 +1,7 @@
 ﻿body, td{
 
 	margin: 0px;
+	padding:0;
 
 	font: 12px Arial, Helvetica, sans-serif;
 
@@ -36,7 +37,9 @@ scrollbar-highlight-color:#ffffff; scrollbar-3dlight-color:#70807d;
 
 scrollbar-shadow-color:#ffffff; scrollbar-darkshadow-color:#70807d; 
 
-scrollbar-track-color:#A9998B;background: #ccccff;  
+scrollbar-track-color:#A9998B;background: #f2f7ee;
+margin:0px;
+padding:0px;  
 
 }
 
@@ -927,13 +930,11 @@ td.soon_hot1,.soon_hot1.td {
 
 .header_left_b td {
 
-	background: url(../images/bg_list_left.gif) repeat-x;
+	background: url(../images/title7.jpg) repeat-x;
 
 	line-height: 16px;
 
 	height: 27px !important;
-
-	> height: 26px !important;
 
 	height: 26px;
 

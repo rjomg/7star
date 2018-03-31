@@ -26,8 +26,8 @@ include_once('../global.php');
 </div>
 <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" style="table-layout: fixed;">
 <tbody><tr><td width="201" height="95"></td><td></td></tr>
-<tr>
-<td><iframe frameborder="0" id="menu" name="menu" scrolling="yes" src="./left.php" style="height: 852px; visibility: inherit; width: 100%; z-index: 2; overflow: auto;" onload="loadIf(this,1);"></iframe></td>
+<tr>	
+<td><iframe frameborder="0" id="menu" name="menu" scrolling="yes" src="./left.php" style="margin-left:3px;margin-right:3px;height: 852px; visibility: inherit; width: 100%; z-index: 2; overflow: auto;" onload="loadIf(this,1);"></iframe></td>
 <td><iframe frameborder="0" id="main" name="main" scrolling="yes" src="./soonhitmain.php" style="height: 852px; visibility: inherit; width: 100%; z-index: 3; overflow: auto;" onload="loadIf(this,1);"></iframe></td>
 <!-- <td><iframe frameborder="0" id="main" name="main" scrolling="yes" src="./odds.php" style="height: 456px; visibility: inherit; width: 100%; z-index: 3; overflow: auto;" onload="loadIf(this,1);"></iframe></td> -->
 </tr></tbody></table>
