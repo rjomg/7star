@@ -1,5 +1,5 @@
 <?php
-session_start( );
+if (!session_id()) session_start();
 include_once( "../../global.php" );
 include_once( "rate.class.php" );
 $db = new rate0( $mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset );

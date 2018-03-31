@@ -1,9 +1,9 @@
 <?php
-
-
-header("Content-Type:text/html;charset=utf8");
 //创建验证码
-session_start();
+if (!session_id()) session_start();
+//phpinfo();
+//$_SESSION['test'] = 'test';
+//echo $_SESSION['test'];exit;
 
 $imgWidth = 90;
 $imgHeight = 40;

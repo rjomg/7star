@@ -1,5 +1,5 @@
 <?php
-session_start();
+if (!session_id()) session_start();
 include_once '../class/myhelp.php';
 $reg_rand=$_POST['num'];
 $c=new myhelp();

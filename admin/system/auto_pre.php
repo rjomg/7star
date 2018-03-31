@@ -1,5 +1,5 @@
 <?php
-session_start( );
+if (!session_id()) session_start();
 error_reporting( 0 );
 $user_name = $_GET['user_name'];
 include_once( "../../global.php" );

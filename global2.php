@@ -1,5 +1,5 @@
 ﻿<?php
-session_start(); 
+if (!session_id()) session_start();
 date_default_timezone_set('PRC');           
 include_once ("common/mysql.class.php"); //mysql类
 include_once ("configs/config.php"); //配置参数

@@ -1,7 +1,7 @@
 <?php 
 
 //做登陆验证
-session_start();
+if (!session_id()) session_start();
 header("Content-Type:text/html;charset=utf-8");
 include_once ('../../global.php');
 

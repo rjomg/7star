@@ -16,7 +16,7 @@
                 if(!in_array($p_p,$arr1)){
                     $url_link='/'.$p_p;
                 }
-                
+
                 if(count($a_c1) > 1 && count($a_c0)<=1 && $zifuchang>4){ 
                     $managerarr = explode(',', '2,3,4,5');
                     if(!in_array($power,$managerarr)){
