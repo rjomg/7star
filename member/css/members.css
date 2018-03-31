@@ -204,17 +204,10 @@ a:hover {
 
 	/*background: url(../images/bg_a.jpg) no-repeat; */
 
-	background: url(../images/bg_1.gif) fixed center center no-repeat; 
-
-	background-size:cover;
-
-
-
+	background: url(../images/7v5.jpg) no-repeat; 
+	background-color:#269d80;
 }
 
-
-
-.topmenu a {color: #e2e1e6;}
 
 .topmenu {
 
@@ -244,13 +237,28 @@ a:hover {
 
 }
 
+.topmenu li a{
+	padding: 5px 10px;
+    line-height: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    border: 1px solid #696969;
+    color: #555555;
+    font-weight: bold;
+    background-image: url(../images/bg_menu2.gif);
+	display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
 
 
 .topmenu li {
 
 	float: left;
-
-	border: solid 1px #445b9e;
 
 	border-bottom: none;
 
@@ -264,31 +272,6 @@ a:hover {
 
 
 
-.topmenu span {
-
-	display: block;
-
-	float: left;
-
-	padding: 0 10px;
-
-	background: url(../images/bg_menu2.gif);
-
-	
-
-	height: 25px;
-
-	line-height: 25px;
-
-	border: solid 1px #b8b7bf;
-
-	border-bottom: none;
-
-	color: #FFFFFF;
-
-}
-
-
 
 /* ===========当前链接标签============== */
 
@@ -296,47 +279,37 @@ a:hover {
 
 #menuon {
 
-	margin-top: 0px;
+    
+}
 
-	height: 30px;
+#cgchat_num{
 
-	line-height: 30px;
-
-	border: solid 1px #525C3D;
-
-	border-bottom: none;
-
-	background: url(../images/bg_menu.gif);
-
+    border: 0px;
+    width: 40px;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
 }
 
 
-
-#menuon span {
-
-	padding-top: 1px;
-
-	background: url(../images/bg_menu.gif);
-
-	border: solid 1px #b8b7bf;
-
-	height: 27px;
-
-	border-bottom: none;
-
+.cgchat_emain_yes{
+	background: url(../images/msg2.gif) no-repeat;
 }
 
-#menuon span a {
-
+#menuon a {
 	color: #003366;
-
+	background-image: url(../images/bg_menu.gif);
 }
 
 .topmenubg .erzi td{
-
-	
-
-	border-top:1px solid #2a2626;border-left:1px solid #2a2626;background-color:#695b4f;padding:2px
+	border-top:1px solid #2a2626;
+	border-left:1px solid #2a2626;
+	background-color:#333333;
+	padding:1px;
+	border-radius:5px 0;
 
 }
 
