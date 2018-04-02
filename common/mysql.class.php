@@ -5722,7 +5722,7 @@ exit;
 			$v = "'" . implode("','", $fields) . "'";
 			
 			$sql = "INSERT INTO `$table` ({$k}) VALUES ({$v})";
-
+//            print_r($sql);
 			mysql_query($sql,$this->conn);
 			return mysql_insert_id($this->conn);
 		}
