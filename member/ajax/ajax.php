@@ -1,5 +1,6 @@
 <?php 
 include_once( "../../global.php" );
+header("Content-type:text/html;charset=utf-8");
 $db = new action( $mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset );
 $odb = new orders( $mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset );
 $query = $db->select( "plate order by id desc", "*", "" );
@@ -12,7 +13,6 @@ $oddsset=$db->get_all('select o_typename,o_dzlimit,o_dxlimit from oddsset_type w
 //获取所有上级信息
 $db->get_tops($_SESSION['uid'.$c_p_seesion]);
 $user_top=$db->tops;
-// var_dump($user_top);exit;
 
 if ($plate['is_plate_start']=='1') {
 	$endtime=time()-1;
@@ -397,66 +397,70 @@ $i=0;
 		$orders['time']=time(); //下注时间
 		$orders['user_id']=$uid; //下注用户
 		$orders['o_type1']='四字定';
-			$orders['o_type2']=''; //类型2如口口XX
-			$number=str_split($post_n_m[0]);
-			foreach ($number as $k => $val) {
-				if ($val!=='X') {
-					$orders['o_type2'].='口';
-				}else{
-					$orders['o_type2'].='X';
-				}
-			}
-			$o_type2=($orders['o_type2']=='口口口口')?'"四字定"':'"'.$orders['o_type2'].'"';
-			if (!empty($top_lh)) {
-				$sum_y=$db->get_all('select SUM(orders_y) as orders_y from orders where user_id='.$uid.' and plate_num='.$plate['plate_num']);
-				foreach ($top_lh as $lk => $lv) {
-					if ($lv['o_typename']==$orders['o_type2']) {
-						if ($sum_y[0]['orders_y']<$lv['o_ccupy_money']) {
-							if (($sum_y[0]['orders_y']+$value['money'])>$lv['o_ccupy_money']) {
-								$add_y=($sum_y[0]['orders_y']+$value['money'])-$lv['o_ccupy_money'];
-								$orders['d_z']=($lv['percent_proxy']/100)*$add_y;
-							}else{
+        $orders['o_type2']=''; //类型2如口口XX
+        $number=str_split($post_n_m[0]);
+        foreach ($number as $k => $val) {
+            if ($val!=='X') {
+                $orders['o_type2'].='口';
+            }else{
+                $orders['o_type2'].='X';
+            }
+        }
+        $o_type2=($orders['o_type2']=='口口口口')?'"四字定"':'"'.$orders['o_type2'].'"';
+        if (!empty($top_lh)) {
+            $sum_y=$db->get_all('select SUM(orders_y) as orders_y from orders where user_id='.$uid.' and plate_num='.$plate['plate_num']);
+            foreach ($top_lh as $lk => $lv) {
+                if ($lv['o_typename']==$orders['o_type2']) {
+                    if ($sum_y[0]['orders_y']<$lv['o_ccupy_money']) {
+                        if (($sum_y[0]['orders_y']+$value['money'])>$lv['o_ccupy_money']) {
+                            $add_y=($sum_y[0]['orders_y']+$value['money'])-$lv['o_ccupy_money'];
+                            $orders['d_z']=($lv['percent_proxy']/100)*$add_y;
+                        }else{
 
-							$orders['d_z']=($lv['percent_proxy']/100)*$value['money'];
-							}
-						}
-					}
-				}
-			}
-			// 各层回水获取
-			$oddsset=$odb->get_odds($uid,$orders['o_type2'],$post_n_m[0],$plate['plate_num'],$value['money']);
-			$orders['h_tui']=$oddsset['tuishui'];
-			$orders['d_tui']=$oddsset['d_tui'];
-			$orders['zd_tui']=$oddsset['zd_tui'];
-			$orders['gd_tui']=$oddsset['gd_tui'];
-			$orders['f_tui']=$oddsset['f_tui'];
-			$orders['orders_p']=$oddsset['oddsset'];
+                        $orders['d_z']=($lv['percent_proxy']/100)*$value['money'];
+                        }
+                    }
+                }
+            }
+        }
+        // 各层回水获取
+        $oddsset=$odb->get_odds($uid,$orders['o_type2'],$post_n_m[0],$plate['plate_num'],$value['money']);
+        $orders['h_tui']=$oddsset['tuishui'];
+        $orders['d_tui']=$oddsset['d_tui'];
+        $orders['zd_tui']=$oddsset['zd_tui'];
+        $orders['gd_tui']=$oddsset['gd_tui'];
+        // 分公司退水back
+//        $orders['f_tui']=$oddsset['f_tui'];
+        $orders['f_tui']=$oddsset['fg_tui'];
+        $orders['orders_p']=$oddsset['oddsset'];
 
 
-			$orders['plate_num']=$plate['plate_num'];  //期数
-			$orders['o_type3']=$post_n_m[0]; //号码
-			if($_POST['post_money']!=='0'){
-				$orders['orders_y']=$post_n_m[1];
-				$new_money=$old_money-$post_n_m[1];
-			}
-			$orders['topf_id']=$user_top['branch']['user_id']; //分公司id
-			$orders['topgd_id']=$user_top['partner']['user_id']; //股东id
-			$orders['topzd_id']=$user_top['proxy_all']['user_id']; //总代理id
-			$orders['topd_id']=$user_top['proxy']['user_id']; //代理id
-			$order_no=$db->get_one('select order_no from orders where user_id='.$uid.' and is_cloce=0');
-			if (!empty($order_no)) {
-				$orders['order_no']=$order_no['order_no'];
-			}else{
-				$orders['order_no']=$plate['plate_num'].$uid.time();
-			}
-			$res=$db->get_insert('orders',$orders);
-			if ($res) {
-				$cg=1;
-				$sb=0;
-			}else{
-				$cg=0;
-				$sb=1;
-			}
+        $orders['plate_num']=$plate['plate_num'];  //期数
+        $orders['o_type3']=$post_n_m[0]; //号码
+        if($_POST['post_money']!=='0'){
+            $orders['orders_y']=$post_n_m[1];
+            $new_money=$old_money-$post_n_m[1];
+        }
+        $orders['topf_id']=$user_top['branch']['user_id']; //分公司id
+        $orders['topgd_id']=$user_top['partner']['user_id']; //股东id
+        $orders['topzd_id']=$user_top['proxy_all']['user_id']; //总代理id
+        $orders['topd_id']=$user_top['proxy']['user_id']; //代理id
+
+        $order_no=$db->get_one('select order_no from orders where user_id='.$uid.' and is_cloce=0');
+        if (!empty($order_no)) {
+            $orders['order_no']=$order_no['order_no'];
+        }else{
+            $orders['order_no']=$plate['plate_num'].$uid.time();
+        }
+//        print_r($orders);
+        $res=$db->get_insert('orders',$orders);
+        if ($res) {
+            $cg=1;
+            $sb=0;
+        }else{
+            $cg=0;
+            $sb=1;
+        }
 		$db->get_update('users',array('credit_remainder'=>$new_money),'user_id='.$uid);
 		$old_bet_times=$db->get_one('select bet_times from users where user_id='.$uid);
 		$bet_times=(int)$old_bet_times['bet_times']+1;
