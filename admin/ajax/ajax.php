@@ -311,7 +311,7 @@ $i=0;
 				}
 			}*/
 
-			if（!empty($top_lh)) {
+			if(!empty($top_lh)) {
 
 
 			}

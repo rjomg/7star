@@ -2,7 +2,6 @@
 include_once('../global.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!-- saved from url=(0024)http://ss3.16700333.com/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>会员</title>
 
@@ -16,21 +15,29 @@ include_once('../global.php');
 <script src="./js/common.js" type="text/javascript"></script>
 </head>
  <body style="margin: 0px" scroll="no">
-<script>
-</script>
+
 <iframe id="logoutifr" name="logoutifr" width="0" height="0" style="display:none"></iframe>
 <iframe id="soonsend_ifr" name="soonsend_ifr" width="0" height="0" style="display:none"></iframe>
 
 <div style="position: absolute;top: 0px;left: 0px; z-index: 2;height: 95px;width: 100%">
-<iframe frameborder="0" id="header" name="header" src="./top.php" scrolling="no" style="height: 95px; visibility: inherit; width: 100%; z-index: 1;"></iframe>
+	<iframe frameborder="0" id="header" name="header" src="./top.php" scrolling="no" style="height: 95px; visibility: inherit; width: 100%; z-index: 1;"></iframe>
 </div>
 <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" style="table-layout: fixed;">
-<tbody><tr><td width="201" height="95"></td><td></td></tr>
-<tr>	
-<td><iframe frameborder="0" id="menu" name="menu" scrolling="yes" src="./left.php" style="margin-left:3px;margin-right:3px;height: 852px; visibility: inherit; width: 100%; z-index: 2; overflow: auto;" onload="loadIf(this,1);"></iframe></td>
-<td><iframe frameborder="0" id="main" name="main" scrolling="yes" src="./soonhitmain.php" style="height: 852px; visibility: inherit; width: 100%; z-index: 3; overflow: auto;" onload="loadIf(this,1);"></iframe></td>
-<!-- <td><iframe frameborder="0" id="main" name="main" scrolling="yes" src="./odds.php" style="height: 456px; visibility: inherit; width: 100%; z-index: 3; overflow: auto;" onload="loadIf(this,1);"></iframe></td> -->
-</tr></tbody></table>
+	<tbody>
+		<tr>
+			<td width="201" height="95"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<iframe frameborder="0" id="menu" name="menu" scrolling="yes" src="./left.php" style="height: 852px; visibility: inherit; width: 100%; z-index: 2; overflow: auto;" onload="loadIf(this,1);"></iframe>
+			</td>
+			<td>
+				<iframe frameborder="0" id="main" name="main" scrolling="yes" src="./soonhitmain.php" style="height: 852px; visibility: inherit; width: 100%; z-index: 3; overflow: auto;" onload="loadIf(this,1);"></iframe>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 <script language="JavaScript">var window_img='./admincg/images/';</script>
 <!-- <script src="./js/show_window.js" type="text/javascript"></script> -->

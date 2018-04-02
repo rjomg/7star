@@ -32,10 +32,4 @@ if (empty($_POST['password'])) {
 
 if(!empty($_POST['username'])&& !empty($_POST['password'])) {
 	$msg = $db->Get_user_login($_POST['username'],$_POST['password'],$client_location['country']);
-	
-	if ($msg == '登陆成功。') {
-		echo json_encode(array('status'=>200,'msg'=>"登陆成功。",'fUrl'=>'/member/info.html'));
-	} else{
-		echo json_encode(array('status'=>8001,'msg'=>$msg));
-	}
 } 

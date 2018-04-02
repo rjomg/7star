@@ -1,7 +1,6 @@
 ﻿body, td{
 
 	margin: 0px;
-	padding:0;
 
 	font: 12px Arial, Helvetica, sans-serif;
 
@@ -37,9 +36,7 @@ scrollbar-highlight-color:#ffffff; scrollbar-3dlight-color:#70807d;
 
 scrollbar-shadow-color:#ffffff; scrollbar-darkshadow-color:#70807d; 
 
-scrollbar-track-color:#A9998B;background: #f2f7ee;
-margin:0px;
-padding:0px;  
+scrollbar-track-color:#A9998B;background: #f2f7ee;  
 
 }
 
@@ -204,12 +201,10 @@ a:hover {
 
 
 .topmenubg {
-
-	/*background: url(../images/bg_a.jpg) no-repeat; */
-
 	background: url(../images/7v5.jpg) no-repeat; 
 	background-color:#269d80;
 }
+
 
 
 .topmenu {
@@ -256,9 +251,6 @@ a:hover {
     font-size: 14px;
 }
 
-
-
-
 .topmenu li {
 
 	float: left;
@@ -272,7 +264,6 @@ a:hover {
 	margin-top: 2px;
 
 }
-
 
 
 
@@ -313,7 +304,10 @@ a:hover {
 	background-color:#333333;
 	padding:1px;
 	border-radius:5px 0;
+}
 
+#news font {
+	font-size: 12px !important;
 }
 
 /* ====================================================== */
@@ -342,7 +336,7 @@ a:hover {
 
 	height: 31px !important;
 
-	> height: 30px !important;
+	height: 30px !important;
 
 	height: 30px;
 
@@ -610,8 +604,9 @@ td.altbg2, .altbg2 td {
 
 td.setprintcon,.setprintcon.td {
 
-	color:#ooooo;font-weight: bold;font-size: 16px;
-
+	color:#000000;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 td.setprinttit,.setprinttit.td {
@@ -660,7 +655,7 @@ td.setprinttit,.setprinttit.td {
 
 	border: 0px !important;
 
-	> border: 2px solid #330000 !important;
+	border: 2px solid #330000 !important;
 
 	border: 2px solid #330000;
 
@@ -668,7 +663,7 @@ td.setprinttit,.setprinttit.td {
 
 	border-collapse: separate !important;
 
-	> border-collapse: collapse !important;
+	border-collapse: collapse !important;
 
 	border-collapse: collapse;margin-top: 2px;
 
@@ -698,7 +693,7 @@ td.setprinttit,.setprinttit.td {
 
 	height: 22px !important;
 
-	> height: 21px !important;
+	height: 21px !important;
 
 	height: 21px;
 
@@ -706,7 +701,7 @@ td.setprinttit,.setprinttit.td {
 
 	font-size: 16px;
 
-	color: #00000;
+	color: #000000;
 
 	border-bottom: 1px solid #2a2626;
 
@@ -731,36 +726,17 @@ td.print_B,.print_B.td {
 
 
 .soon_b,.members_b,.soonselect_b {
-
-
-
-	outline: 1px solid #640000;
-
-	border: 0px !important;
-
-	> border: 1px solid #640000 !important;
-
-	border: 1px solid #640000;
-
-	empty-cells: show;
-
-	border-collapse: separate !important;
-
-	> border-collapse: collapse !important;
-
-	border-collapse: collapse;margin-top: 2px;
-
+	border: 1px solid #090 !important;
+	margin-top: 2px;
 }
 
 .soon_b_no {
-
-
 
 	outline: 0px solid #640000;
 
 	border: 0px !important;
 
-	> border: 1px solid #C0C0C0 !important;
+	border: 1px solid #C0C0C0 !important;
 
 	border: 0px solid #640000;
 
@@ -768,7 +744,7 @@ td.print_B,.print_B.td {
 
 	border-collapse: separate !important;
 
-	> border-collapse: collapse !important;
+	border-collapse: collapse !important;
 
 	border-collapse: collapse;
 
@@ -935,6 +911,8 @@ td.soon_hot1,.soon_hot1.td {
 	line-height: 16px;
 
 	height: 27px !important;
+
+	height: 26px !important;
 
 	height: 26px;
 

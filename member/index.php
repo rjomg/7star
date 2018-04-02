@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<?php
+include_once ('../global.php');
+// $db = new action($mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset); //数据库操作类.
+//  //如果用户名和密码都不为空 即条件为假 执行$db进行判断
+//  if(!empty($_POST[username])&& !empty($_POST[password])) 
+//  $db->Get_user_login($_POST[username],$_POST[password],$client_location['country']);
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0033)http://8a.1380000138.com/?bmwid=1 -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>A-BMW</title>
@@ -9,106 +17,102 @@
 
 	<style type="text/css">
 	
-	
-#showwapmsg{
-	z-index: 1000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;}
-a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertical-align:middle;}
-.bgdivright {float: right; cursor:pointer;vertical-align:middle;}
-.bgdivleft {margin-right:20px;}
-.bgdivmain {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    display:none;
-    color:#555666;
+    #showwapmsg{
+        z-index: 1000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertical-align:middle;}
+    .bgdivright {float: right; cursor:pointer;vertical-align:middle;}
+    .bgdivleft {margin-right:20px;}
+    .bgdivmain {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        display:none;
+        color:#555666;
+    }	
+    .bgdiv{
+        position: absolute;
+        zoom: 1;
+        filter: alpha(opacity=50);
+        zoom: 1;
+        display: inline-block;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: #e0e8e0;
+        opacity: 0.75;
+    }
+    .bgdivdx{
+        background: #fff;
+        z-index: 999;
+        padding: 4px;
+        width: 300px;
+        height: 210px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        left: 50%;
+        top: 50%;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+
+        -webkit-box-shadow: 5px 5px 2px #888888;
+        -moz-box-shadow: 5px 5px 2px #888888; /* 老的 Firefox */    
+        box-shadow: 5px 5px 2px #888888;
+        border: 1px solid #555666;
 
 
-}	
-.bgdiv{
-    position: absolute;
-    zoom: 1;
-    filter: alpha(opacity=50);
-    zoom: 1;
-    display: inline-block;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: #e0e8e0;
-    opacity: 0.75;
+        margin-left: -150px!important;
+        margin-top: -60px!important;
+        margin-top: 0px;
 
+        position: fixed!important;
+        position: absolute;
+        _top: expression(eval(document.compatMode &&
+        document.compatMode=="CSS1Compat") ?
+        documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+        document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+    }
+    .bgdivdx input{font-size: 14px;vertical-align:middle;}
+    .bgdivdx img{vertical-align:middle;}
+    #seccodelogin{padding: 4px 8px;font-size: 18px;}
+    .bgdivdxtit{
+        width: 100%;
+        font-size: 22px;
+        border-bottom: 1px solid #555666;
+        height:25px;
+        margin-bottom:7px;
+        font-weight:bold;
+    }
+    .clear{ clear:both}
+    .bgdivdx ul{    padding: 0;margin: 4px 8px;}
+    .bgdivdx li{display:inline-block;*display:inline;*zoom:1;padding:0;margin-left:4px;list-style:none;white-space:nowrap;}
+    .mainkey{	
+        width:100%;position:relative;
+    }
+    #mainkey td{	
+        background-color:#54206c;
+        color:#d4acf4;
+        text-align:center;
+        width:16.6%; 
+        line-height:35px;height:35px;cursor:pointer; font-size: 18px;font-weight: bold;
+        -webkit-touch-callout:none;
+    }
 
-}
-.bgdivdx{
-    background: #fff;
-    z-index: 999;
-    padding: 4px;
-    width: 300px;
-    height: 210px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    left: 50%;
-    top: 50%;
-
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-
-	-webkit-box-shadow: 5px 5px 2px #888888;
-	-moz-box-shadow: 5px 5px 2px #888888; /* 老的 Firefox */    
-	box-shadow: 5px 5px 2px #888888;
-	border: 1px solid #555666;
-
-
-    margin-left: -150px!important;
-    margin-top: -60px!important;
-    margin-top: 0px;
-
-	position: fixed!important;
-	position: absolute;
-	_top: expression(eval(document.compatMode &&
-	 document.compatMode=="CSS1Compat") ?
-	 documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
-	 document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
-}
-.bgdivdx input{font-size: 14px;vertical-align:middle;}
-.bgdivdx img{vertical-align:middle;}
-#seccodelogin{padding: 4px 8px;font-size: 18px;}
-.bgdivdxtit{
-	width: 100%;
-	font-size: 22px;
-	border-bottom: 1px solid #555666;
-	height:25px;
-	margin-bottom:7px;
-	font-weight:bold;
-}
-.clear{ clear:both}
-.bgdivdx ul{    padding: 0;margin: 4px 8px;}
-.bgdivdx li{display:inline-block;*display:inline;*zoom:1;padding:0;margin-left:4px;list-style:none;white-space:nowrap;}
-.mainkey{	
-	width:100%;position:relative;
-}
-#mainkey td{	
-	background-color:#54206c;
-	color:#d4acf4;
-	text-align:center;
-	width:16.6%; 
-	line-height:35px;height:35px;cursor:pointer; font-size: 18px;font-weight: bold;
-	-webkit-touch-callout:none;
-}
-
-#seccodeverify{-webkit-touch-callout:none;cursor:pointer;}
+    #seccodeverify{-webkit-touch-callout:none;cursor:pointer;}
 	</style>
 	<style type="text/css">
 		#routeList li a {
@@ -213,9 +217,9 @@ a{color:#0088cc;text-decoration:none;font-weight: normal;font-size: 20px;vertica
 							<tbody>
 								<tr>
 									<td width="290"></td>
-									<td width="40">AT:&nbsp;&nbsp;</td>
+									<td width="40" style="font-weight:bold;">AT:&nbsp;&nbsp;</td>
 									<td width="120"><input type="text" id="admin_username810386097" name="admin_username810386097" onkeypress="send(event)" value="" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
-									<td width="40">PW:&nbsp;&nbsp;</td>
+									<td width="40" style="font-weight:bold;">PW:&nbsp;&nbsp;</td>
 									<td width="120"><input type="password" id="admin_password810386097" onkeypress="send(event)" name="admin_password810386097" style="width:100px; height:20px; background:#e9e6e6; font-size:12px; border:solid 1px #a0a0a0; color:#3b1b1b;"></td>
 									<td height="30" width="*">&nbsp;&nbsp;
 									<input type="button" id="login_admin" name="login_admin" onclick="return finalcheck();" value=" login" class="login_a_input">

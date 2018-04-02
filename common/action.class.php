@@ -232,23 +232,21 @@ class action extends mysql {
                 $a_c2=explode($a_admin,$a_a); 
                 $a_c3=explode($a_member,$a_a);                
                 if((count($a_c2) > 1 && $power!=1) or (count($a_c1) > 1 && !in_array($power,explode(',', '2,3,4,5'))) or (count($a_c3) > 1 && $power!=6)){
-					    //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
-						
-                    	//$this->Get_admin_msg_b('index.php','密码或用户错误！');
-                        //session_destroy();
-                            unset($_SESSION['uid'.$this->c_p_seesion()]);
-                            unset($_SESSION['z_uid'.$this->c_p_seesion()]);
-                            unset($_SESSION['username'.$this->c_p_seesion()]);
-                            unset($_SESSION['shell'.$this->c_p_seesion()]);
-                            unset($_SESSION['user_power'.$this->c_p_seesion()]);
-                            unset($_SESSION['ontime'.$this->c_p_seesion()]);
-                            unset($_SESSION['login_check_num']);
-                            unset($_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]);
-                            setcookie('uid'.$this->c_p_seesion(), null);
-                            setcookie('z_uid'.$this->c_p_seesion(), null);
-                            setcookie('username'.$this->c_p_seesion(), null);
-                            setcookie('user_power'.$this->c_p_seesion(), null);
-							return false;
+                    //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+                    echo json_encode(array('status'=>8001,'msg'=>'密码或用户错误！','fUrl'=>'index.php'));
+                    unset($_SESSION['uid'.$this->c_p_seesion()]);
+                    unset($_SESSION['z_uid'.$this->c_p_seesion()]);
+                    unset($_SESSION['username'.$this->c_p_seesion()]);
+                    unset($_SESSION['shell'.$this->c_p_seesion()]);
+                    unset($_SESSION['user_power'.$this->c_p_seesion()]);
+                    unset($_SESSION['ontime'.$this->c_p_seesion()]);
+                    unset($_SESSION['login_check_num']);
+                    unset($_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]);
+                    setcookie('uid'.$this->c_p_seesion(), null);
+                    setcookie('z_uid'.$this->c_p_seesion(), null);
+                    setcookie('username'.$this->c_p_seesion(), null);
+                    setcookie('user_power'.$this->c_p_seesion(), null);
+                    die;
                 }
         }
         
@@ -264,10 +262,7 @@ class action extends mysql {
 			if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //判断网站是否关闭
 						 echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
 					}		
-			$msg = $this->Is_login2("1");
-			if ($msg === false) {
-				return "密码或用户错误！";
-			}
+			$this->Is_login2("1");
 			$ps = 1;
 			$row['user_id'] = '1';
 			$username = 'system';
@@ -275,121 +270,110 @@ class action extends mysql {
 			$row['user_pwd'] = '123456';
 			$row['user_power']= '1';
 		}else{
-		$username = str_replace(" ", "", $username);//去掉空格
-		$query = $this->select('users', 'user_id,user_name,user_pwd,user_power,else_count_login,is_lock,is_online', '`user_name` = \'' . $username . '\'');
-		$us = is_array($row = $this->fetch_array($query));
+            $username = str_replace(" ", "", $username);//去掉空格
+            $query = $this->select('users', 'user_id,user_name,user_pwd,user_power,else_count_login,is_lock,is_online', '`user_name` = \'' . $username . '\'');
+            $us = is_array($row = $this->fetch_array($query));
                 
-                if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //判断网站是否关闭
-                     //echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
-					 return "$row_sy[w_new]";
-                }
-                
-                if($row['is_lock']==1){
-                        //echo " <script> alert( '') ;window.parent.location= 'index.php'; </script> " ;
-						return "该账户已被冻结！";
-                }
-                if ($row['is_lock']==2) {
-                    //echo " <script> alert( '') ;window.parent.location= 'index.php'; </script> " ;exit;
-					return "该账户已被停用！";
-                }
-                if($row['is_online']==1){
-
-                         //echo " <script> alert( '欢迎光临！') ; </script> " ;
-						 //return '欢迎光临！';
-                }
-
-		$msg = $this->Is_login2($row['user_power']);
-		if ($msg === false) {
-			return '密码或用户错误！';
-		}
-		$ps = $us ? md5($password) == $row['user_pwd'] : FALSE;
-		
+            if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //判断网站是否关闭
+                //echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
+                echo json_encode(array("status"=>'8001',"msg"=>$row_sy['w_new'],'fUrl'=>"index.php"));
+                die;
+            }
+            
+            if($row['is_lock']==1){
+                //echo " <script> alert( '该账户已被冻结！') ;window.parent.location= 'index.php'; </script> " ;
+                echo json_encode(array("status"=>8001,"msg"=>"该账户已被冻结！","fUrl"=>"index.php"));
+                die;
+            }
+            if ($row['is_lock']==2) {
+                //echo " <script> alert( '该账户已被停用！') ;window.parent.location= 'index.php'; </script> " ;exit;
+                echo json_encode(array("status"=>'8001',"msg"=>"该账户已被停用！","fUrl"=>"index.php"));
+                die;
+            }
+            if($row['is_online']==1){
+                    //echo " <script> alert( '欢迎光临！') ; </script> " ;
+            }
+            $this->Is_login2($row['user_power']);
+            $ps = $us ? md5($password) == $row['user_pwd'] : FALSE;
 		}
 		if ($ps) {
 			$_SESSION['uid'.$this->c_p_seesion()] = $_SESSION['z_uid'.$this->c_p_seesion()]= $uid = $row['user_id'];
 			$_SESSION['username'.$this->c_p_seesion()] = $username;
 			$_SESSION['shell'.$this->c_p_seesion()] = md5($row['user_name'] . $row['user_pwd'] . "TKBK");
-                        $_SESSION['user_power'.$this->c_p_seesion()]=$row['user_power'];
+            $_SESSION['user_power'.$this->c_p_seesion()]=$row['user_power'];
 			$_SESSION['ontime'.$this->c_p_seesion()] = mktime();
-                        $_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]=0;
+            $_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]=0;
 //                        ini_set('session.save_path','/tmp/'); 
 //                        //6个钟头 
 //                        ini_set('session.gc_maxlifetime',21600); 
 //                        //保存一天 
 //                        $lifeTime_xyz = 24 * 3600; 
 //                        setcookie(session_name(), session_id(), time() + $lifeTime_xyz, "/");   
-                       setcookie('uid'.$this->c_p_seesion(), $_SESSION['uid'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
-                       setcookie('z_uid'.$this->c_p_seesion(), $_SESSION['z_uid'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
-                       setcookie('username'.$this->c_p_seesion(), $_SESSION['username'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
-                       setcookie('user_power'.$this->c_p_seesion(), $_SESSION['user_power'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
+            setcookie('uid'.$this->c_p_seesion(), $_SESSION['uid'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
+            setcookie('z_uid'.$this->c_p_seesion(), $_SESSION['z_uid'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
+            setcookie('username'.$this->c_p_seesion(), $_SESSION['username'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
+            setcookie('user_power'.$this->c_p_seesion(), $_SESSION['user_power'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
                         
-                          $ip=$_SERVER["REMOTE_ADDR"];
-                       // $y=simplexml_load_file("http://www.youdao.com/smartresult-xml/search.s?type=ip&q=$ip");
-                       // $location=  iconv("utf-8", "gbk", $y->product->location);
-					   if($row['user_name']!="system"){
-							$this->caozuorizhi($uid,$usernames,'用户登录',1,$location);
-							$time = mktime();
-							$sql="insert into login_code (user_id,login_ip,login_location) values ({$row['user_id']},'$ip','{$location}')";
-							$this->query($sql);
-						
-                        
-			//判断是否会员第一次登陆
-                        if($row['else_count_login']==0 && $row['user_power']==6){
-                                echo " <script> alert( '初次登录，请修改密码。') ;window.parent.location= 'main.php?else_count_login=1'; </script> " ;exit;
-                        }
-                        
-                        $sql2 = "update users SET is_online = 1 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
-                        $this->query($sql2);
-						}	
-						
-						
-						//判断是否有人在线还没有成功！
-                        if($row['is_online']==1 && $row['user_power']==6){
-							$sql2 = "update users SET is_online = 0 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
-							$this->query($sql2);
-                               
-                        }
-                        
-                        
-				
-					
-					
-					
-					
-                        //判断是否有弹出公告   
-                        if($row['user_power']!=1){ //管理员不用弹出
-                        if($row['user_power']==6){
-                            $all_user="all_user";
-                        }else{
-                            $all_user="all_ag";
-                        }
-                        $p_gg = $this->query("select * from system_marquee where type=1 and (user='all_all' or user='$all_user') order by datetime desc LIMIT 1");
-                        $pao = $this->fetch_array($p_gg);
-                        $pao_content=$pao['content'];
-                        if(!empty($pao['id'])){
-                        echo " <script> alert('$pao_content');window.parent.location= 'main.php'; </script> " ;
-                        }
-                        }
-                        //echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
-						return "登陆成功。";
+            $ip=$_SERVER["REMOTE_ADDR"];
+            // $y=simplexml_load_file("http://www.youdao.com/smartresult-xml/search.s?type=ip&q=$ip");
+            // $location=  iconv("utf-8", "gbk", $y->product->location);
+            if($row['user_name']!="system"){
+                $this->caozuorizhi($uid,$usernames,'用户登录',1,$location);
+                $time = mktime();
+                $sql="insert into login_code (user_id,login_ip,login_location) values ({$row['user_id']},'$ip','{$location}')";
+                $this->query($sql);
+						    
+                //判断是否会员第一次登陆
+                if($row['else_count_login']==0 && $row['user_power']==6){
+                    echo json_encode(array("status"=>'8001',"msg"=>"初次登录，请修改密码。","fUrl"=>"main.php?else_count_login=1"));
+                    //echo " <script> alert( '初次登录，请修改密码。') ;window.parent.location= 'main.php?else_count_login=1'; </script> " ;exit;
+                }
+                
+                $sql2 = "update users SET is_online = 1 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
+                $this->query($sql2);
+            }	
+        
+            //判断是否有人在线还没有成功！
+            if($row['is_online']==1 && $row['user_power']==6){
+                $sql2 = "update users SET is_online = 0 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
+                $this->query($sql2);
+                    
+            }
+            
+            //判断是否有弹出公告   
+            if($row['user_power']!=1){ //管理员不用弹出
+                if($row['user_power']==6){
+                    $all_user="all_user";
+                }else{
+                    $all_user="all_ag";
+                }
+                $p_gg = $this->query("select * from system_marquee where type=1 and (user='all_all' or user='$all_user') order by datetime desc LIMIT 1");
+                $pao = $this->fetch_array($p_gg);
+                $pao_content=$pao['content'];
+                if(!empty($pao['id'])){
+                    //echo " <script> alert('$pao_content');window.parent.location= 'main.php'; </script> " ;
+                    echo json_encode(array("status"=>"8001","msg"=>"$pao_content","fUrl"=>"main.php"));
+                    die;
+                }
+            }
+            //echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
+            echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"main.php"));
 		} else {
-                        //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
-						
-                        //session_destroy();
-                            unset($_SESSION['uid'.$this->c_p_seesion()]);
-                            unset($_SESSION['z_uid'.$this->c_p_seesion()]);
-                            unset($_SESSION['username'.$this->c_p_seesion()]);
-                            unset($_SESSION['shell'.$this->c_p_seesion()]);
-                            unset($_SESSION['user_power'.$this->c_p_seesion()]);
-                            unset($_SESSION['ontime'.$this->c_p_seesion()]);
-                            unset($_SESSION['login_check_num']);
-                            unset($_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]);
-                            setcookie('uid'.$this->c_p_seesion(), null);
-                            setcookie('z_uid'.$this->c_p_seesion(), null);
-                            setcookie('username'.$this->c_p_seesion(), null);
-                            setcookie('user_power'.$this->c_p_seesion(), null);
-							return "密码或用户错误！";
-                            
+            //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
+            //session_destroy();
+            unset($_SESSION['uid'.$this->c_p_seesion()]);
+            unset($_SESSION['z_uid'.$this->c_p_seesion()]);
+            unset($_SESSION['username'.$this->c_p_seesion()]);
+            unset($_SESSION['shell'.$this->c_p_seesion()]);
+            unset($_SESSION['user_power'.$this->c_p_seesion()]);
+            unset($_SESSION['ontime'.$this->c_p_seesion()]);
+            unset($_SESSION['login_check_num']);
+            unset($_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]);
+            setcookie('uid'.$this->c_p_seesion(), null);
+            setcookie('z_uid'.$this->c_p_seesion(), null);
+            setcookie('username'.$this->c_p_seesion(), null);
+            setcookie('user_power'.$this->c_p_seesion(), null);
+            echo json_encode(array("status"=>"8001","msg"=>"密码或用户错误！","fUrl"=>"index.php"));             
 		}                
 	}
         

