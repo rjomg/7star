@@ -86,7 +86,7 @@
       </div>
     </marquee> -->
   </div>
-  <!-- <div id="timeTag" style="width:20%;z-index:1;position:absolute;bottom:0%;right:0%;height:40%;font-size:16px;font-family:Microsoft JhengHei;color:white;">离停盘时间：2分10秒</div> -->
+<!--   <div id="timeTag" style="width:20%;z-index:1;position:absolute;bottom:0%;right:0%;height:40%;font-size:16px;font-family:Microsoft JhengHei;color:white;">离停盘时间：2分10秒</div>-->
     </td>
   </tr>
   <tr>
@@ -176,7 +176,7 @@
   function donews(str){
     if (str != null && str != ""){
       str = JSON.parse(str);      
-      // str = {"systime":1483109777,"starttime":1483109400,"endtime":1483109670,"openmode":1,"issueno":"161230108","hash":"cddf1befb3e14856911e51a38349662a"};     
+//       str = {"systime":1483109777,"starttime":1483109400,"endtime":1483109670,"openmode":1,"issueno":"161230108","hash":"cddf1befb3e14856911e51a38349662a"};
       _sellBegTime = str['starttime'];
       _sellEndTime  = str['endtime'];
       _systemTime = str['systime'];
