@@ -21,6 +21,7 @@ function pageft($totle,$displaypg=20,$url=''){
 //$firstcount：（数据库）查询的起始项；
 //$pagenav：页面导航条代码，函数内部并没有将它输出；
 //$_SERVER：读取本页URL“$_SERVER["REQUEST_URI"]”所必须。
+
 global $page,$firstcount,$pagenav,$_SERVER,$chaxunjieguo;
 
 //为使函数外部可以访问这里的“$displaypg”，将它也设为全局变量。注意一个变量重新定义为全局变量后，原值被覆盖，所以这里给它重新赋值。
@@ -60,6 +61,8 @@ $chaxunjieguo="<td  colspan='20'><span style=margin-left:-520px;>本次查询有
 
 //开始分页导航条代码：
 $pagenav="<div style='float:left;padding:10px;'>显示第 <B>".($totle?($firstcount+1):0)."</B>-<B>".min($firstcount+$displaypg,$totle)."</B> 条记录，共 $totle 条记录</div>";
+    $GLOBALS['page_totle'] = $totle;
+
 
 //如果只有一页则跳出函数：
 if($lastpg<=1) return false;
