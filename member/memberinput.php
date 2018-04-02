@@ -2,7 +2,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>memberinput</title>
+
 <link rel="stylesheet" type="text/css" id="css" href="./css/members.css">
+<link rel="stylesheet" href="./css/jquery.alerts.css" />
+<script src="./js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="./js/appcg.js" type="text/javascript"></script>
 <style>html{overflow-y:scroll;}</style>
 
 </head>
@@ -30,8 +34,11 @@
 		<tr>
 		<td width=10%>文件路径 </td>
 		<td width=30%><INPUT TYPE="file" NAME="fileinput" id="fileinput"  style="width:98%" ></td>
-		<td width=60% style="text-align:left;"><input class="button" type="submit" name="fileinputsubmit" value="提交" ></td>
-
+		<td width=60% style="text-align:left;">
+			<!-- <input class="button" type="submit" name="fileinputsubmit" value="提交" > -->
+			<button id="fileinput_but" class="btn" type="button" onClick="cgImport.updataFile()">提交</button>
+		</td>
+		
 		</tr>
 		<tr>
 		<td  colspan="3" style="text-align:left;"><b>格式A：</b>号码，号码，号码　　<b>格式B：</b>号码=金额，号码=金额，号码=金额 <font color="Red">(逗号也可以用空格代表)</font>　　<b>四字现格式：</b>例如1234现=a1234</td>

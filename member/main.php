@@ -13,6 +13,8 @@ include_once('../global.php');
 	
 </script>
 <script src="./js/common.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="./css/jquery.alerts.css" />
 </head>
  <body style="margin: 0px" scroll="no">
 
@@ -194,7 +196,7 @@ window.onload = function(){
 
 </script>
 
-
+<script src="./js/appcg.js" type="text/javascript"></script>
 <!-- <script src="./js/show_window.js" type="text/javascript"></script> -->
 <noscript>&lt;iframe src=*.html&gt;&lt;/iframe&gt;</noscript>
 </body></html>
