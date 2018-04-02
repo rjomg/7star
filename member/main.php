@@ -39,7 +39,162 @@ include_once('../global.php');
 	</tbody>
 </table>
 
+<style type="text/css">
+	#popup_container {
+		position: fixed;
+		z-index: 99999;
+		padding: 0px;
+		margin: 0px;
+		min-width: 660px;
+		max-width: 660px;
+		top: 117px;
+		left: 594px;
+		background:#FFF;
+		border:5px solid #8e779b;
+		border-radius:5px;
+		display:none;
+	}
+
+	#popup_container img {
+		width:100%;
+	}
+	#popup_close {
+		float: right;
+		padding: 10px;
+		vertical-align: middle;
+		text-align: center;
+		cursor: pointer;
+		clear: both;
+		font-size:1.3em;
+		margin:0;
+	}
+	#popup_title {
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 2.75em;
+		color: #666;
+		background: #ac99b6;
+		border: solid 1px #FFF;
+		border-bottom: solid 1px #8e779b;
+		cursor: default;
+		padding: 0em;
+		margin: 0em;
+	}
+	#popup_content {
+		background: 16px 16px no-repeat url(./images/showinfo.gif);
+		padding: 2em 1.75em;
+		margin: 0em;
+	}
+	.alertsPrint1 {
+		outline: 1px solid #660000;
+		border: 0px !important;
+		border: 1px solid #660000;
+		empty-cells: show;
+		border-collapse: separate !important;
+		border-collapse: collapse;
+	}
+	#popup_container_print {
+		display: block;
+		overflow: auto;
+		overflow: scroll;
+		overflow-x: auto;
+		_overflow-y: auto;
+		_height: 100%;
+		height: 500px;
+	}
+	#popup_panel {
+		text-align: center;
+		margin: 1em 0em 0em 1em;
+		padding: 4px 0px 8px 0px;
+		height: 50px;
+	}
+	#popup_content.ProgressBar, #popup_container.alertPrint #popup_content{
+		background-image:none!important;
+	}
+</style>
+
+<div id="popup_container">
+	<div id="popup_container_print">
+		<h1 id="popup_close">X</h1>
+		<h1 id="popup_title">设置图示</h1>
+		<div id="popup_content">
+		<div id="popup_message">
+		<table class="alertsPrint1 appnews" width="100%" align="center">
+			<tbody>
+				<tr>
+					<td>
+						<br>IE7 打印设置图示说明
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>步骤1、（如果您的浏览器已经设置菜单栏，直接从步骤2开始设置
+						<br><br><img src="./images/ie7_1.gif">
+						<br><br>步骤2、<br><br><img src="./images/ie7_2.gif">
+						<br><br>步骤3、<br><br><img src="./images/ie7_3.gif">
+						<br><br>步骤4、<br><br><img src="./images/ie7_4.gif">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br><br>IE11 打印设置图示说明
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>步骤1、<br><br><img src="./images/ie11_1.gif">
+						<br><br>步骤2、<br><br><img src="./images/ie11_2.gif">
+						<br><br>步骤3、<br><br><img src="./images/ie11_3.gif">
+						<br><br>步骤5、<br><br><img src="./images/ie11_5.gif">
+						<br><br>步骤4、<br><br><img src="./images/ie11_4.gif">
+						<br><br>步骤6、<br><br><img src="./images/ie11_6.gif">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>360下切换兼容模式
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br>步骤、打开360浏览器，点击切换模式按钮，选中兼容模式，如图。<br><br><img src="./images/360moshi.jpg"><br>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="popup_panel">
+		<input class="btn" style="*width:80px" type="button" value="&nbsp;&nbsp;打印&nbsp;&nbsp;" id="popup_ok">
+		<input class="btn" type="button" value="&nbsp;&nbsp;取消&nbsp;&nbsp;" id="popup_cancel">
+	</div>
+	</div>
+	</div>
+	
+</div>
+
+
 <script language="JavaScript">var window_img='./admincg/images/';</script>
+<script type="text/javascript">
+function pDirection(){
+	var isShow = document.getElementById("popup_container").style.display;
+	if (isShow == 'block') {
+		document.getElementById("popup_container").style.display = "none";
+	} else {
+		document.getElementById("popup_container").style.display = "block";
+	}
+}
+
+window.onload = function(){
+	document.getElementById("popup_close").onclick = function(){
+		document.getElementById("popup_container").style.display = "none";
+	}
+}
+
+
+</script>
+
+
 <!-- <script src="./js/show_window.js" type="text/javascript"></script> -->
 <noscript>&lt;iframe src=*.html&gt;&lt;/iframe&gt;</noscript>
 </body></html>
