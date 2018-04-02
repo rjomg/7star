@@ -75,28 +75,29 @@ function showhtml(json){
 		
 		if (i==0){
 			h+= '<tr class="soon_head" style="height:100%;line-height:23px;" >';
-			if(IN_WAPCG!=1){h+= '<td width="'+w1+'">彩种</td><td width="'+w2+'">注单编号</td><td width="'+w8+'">期号</td>';}
-			h+= '<td width="'+w3+'">号码</td><td width="'+w4+'">赔率</td><td width="'+w5+'">金额</td>';
+			if(IN_WAPCG!=1){h+= '<td width="'+w1+'">彩种</td><td width="'+w2+'">注单编号</td>';}
+			h+= '<td width="'+w3+'" >号码</td><td width="'+w4+'">赔率</td><td width="'+w5+'">金额</td>';
 			if(IN_WAPCG!=1){h+= '<td width="'+w6+'">状态</td>';
 			h+= '<td width="'+w7+'" >';
 			if(_tuimamode==1){
 				h+= '全选<input type="checkbox" name="chkall" onclick="checkall(this.form, \'idarray\')" class="checkbox">';
-				h+= '<input class="button" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="if(checkempty(this.form, \'idarray\')){window.parent.parent._OldOrderPrint=[];this.disabled=true;datamembers.ordertuima_del.value=\'ordertuima_del\';datamembers.submit();}" value="退码">';
+				h+= '<input class="btn_tuima" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="if(checkempty(this.form, \'idarray\')){window.parent.parent._OldOrderPrint=[];this.disabled=true;datamembers.ordertuima_del.value=\'ordertuima_del\';datamembers.submit();}" value="退码">';
 			}else{ h+='操作';}}
 			h+= '</td><tr>';	
 		}
-		h+= '<tr '+class1+' style="height:28px;line-height:19px;">';
-			if(IN_WAPCG!=1){h+= '<td >七星彩</td><td >'+val['orderid']+'</td><td>' + val['issueno'] + '</td>';}
-			h+= '<td class="soon_b_B soon_b_f2">'+val['number']+' '+statsizi+'</td><td  class="soon_b_B">'+Math.round(val['frank']*100)/100+'</td><td  class="soon_b_B soon_b_f1">'+Math.round(val['money']*100)/100+'</td>';
+		h+= '<tr '+class1+' style="height:28px;line-height:19px;" class="soon_success">';
+			if(IN_WAPCG!=1){h+= '<td >七星彩</td><td >'+val['orderid']+'</td>';}
+			h+= '<td class="soon_b_B soon_b_f2">'+val['number']+' '+statsizi+'</td><td  class="soon_b_B odds_black">'+Math.round(val['frank']*100)/100+'</td><td  class="soon_b_B soon_b_f1">'+Math.round(val['money']*100)/100+'</td>';
 			if(IN_WAPCG!=1){h+= '<td >'+msg+'</td><td >'+tuima+'</td>';}
 		h+= '</tr>';
 		i++;
 	}
+	// 空
 	if (i < _ordernum){
 		for (i;i< _ordernum;i++){
 			h+='<tr  style="height:28px;line-height:19px;">';
-			if(IN_WAPCG!=1){h+='<td></td><td >--</td><td >--</td>';}
-			h+='<td class="soon_b_B soon_b_f2">--</td><td class="soon_b_B">--</td><td class="soon_b_B soon_b_f1">--</td>';
+			if(IN_WAPCG!=1){h+='<td></td><td >--</td>';}
+			h+='<td class="soon_b_B soon_b_f2">--</td><td class="soon_b_B odds_black">--</td><td class="soon_b_B soon_b_f1">--</td>';
 			if(IN_WAPCG!=1){h+='<td>--</td><td>--</td>';}
 			h+='</tr>';
 		}

@@ -175,24 +175,24 @@ switch ($power['user_power']) {
 			<td width="7%" >状态</td>
 			 
 			<td width="7%" >全选<input type="checkbox" name="chkall" onclick="checkall(this.form, 'idarray')" class="checkbox">
-			<input class="button" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="javascript:tuimaexec(); " value="退码">
+			<input class="btn_tuima" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="javascript:tuimaexec(); " value="退码">
 			</td> 
 						</tr>
 			<?php if (!empty($user_one) || isset($user_one)){?>
 			<?php $sum_mn='';$sum_ts=''; foreach ($user_one as $key => $value){?>
 			<?php /*$sum_yk=($value['h_tui']-$value['orders_y'])+$sum_yk;*/?>
 			<tr class="hover" onmouseover="hover1(this);" onmouseout="hover2(this);" style="height:28px;line-height:29px;">
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="7%" >七星彩</td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="11%"  ><?php echo $value['order_no'];?></td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="18%"  ><?php echo date('Y-m-d H:i:s',$value['time']);?><?php if($value['stattuima']==1){echo '<br/>退'.date('Y-m-d H:i:s',$value['tuima_time']);}?></td>
-				<td class="soon_b_B soon_b_f2 <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="8%" ><b><?php echo $value['o_type3'];?></b></td>
-				<td class="soon_b_B soon_b_f1 <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="8%" ><b><?php echo $value['orders_y'];?></b></td>
-				<td class="soon_b_B <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="6%" ><?php echo $value['orders_p'];?></td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="11%" ><?php if($value['history_is_account']==1){if($value['is_win']==1){echo $z=$value['orders_y']*$value['orders_p'];}else{echo '--';$z=0;}}else{echo '--';}?></td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="8%" ><?php echo $hs=$value['h_tui']*$value['orders_y'];?></td>  <!-- 回水 -->
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="*" ><?php echo $yk=($z+$value['h_tui']*$value['orders_y'])-$value['orders_y'];?></td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="7%" ><?php if($value['stattuima']==1){echo '已退码';}else{echo '成功';}?></td>
-				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo '';}?>" width="7%" >
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="7%" >七星彩</td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="11%"  ><?php echo $value['order_no'];?></td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="18%"  ><?php echo date('Y-m-d H:i:s',$value['time']);?><?php if($value['stattuima']==1){echo '<br/>退'.date('Y-m-d H:i:s',$value['tuima_time']);}?></td>
+				<td class="soon_b_B soon_b_f2 <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="8%" ><b><?php echo $value['o_type3'];?></b></td>
+				<td class="soon_b_B soon_b_f1 <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="8%" ><b><?php echo $value['orders_y'];?></b></td>
+				<td class="soon_b_B <?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="6%" ><?php echo $value['orders_p'];?></td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="11%" ><?php if($value['history_is_account']==1){if($value['is_win']==1){echo $z=$value['orders_y']*$value['orders_p'];}else{echo '--';$z=0;}}else{echo '--';}?></td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="8%" ><?php echo $hs=$value['h_tui']*$value['orders_y'];?></td>  <!-- 回水 -->
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="*" ><?php echo $yk=($z+$value['h_tui']*$value['orders_y'])-$value['orders_y'];?></td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="7%" ><?php if($value['stattuima']==1){echo '已退码';}else{echo '成功';}?></td>
+				<td class="<?php if($value['stattuima']==1){echo 'soon_tuima';}else{echo 'soon_success';}?>" width="7%" >
 					<?php if (time()<($value['time']+600) && $value['stattuima']==0){?>
 					<input type="checkbox" name="idarray[]" class="checkbox" value="<?php echo $value['id'];?>">
 					<?php }else {?>
@@ -224,8 +224,11 @@ while ($zhuss = mysql_fetch_array($danss)) {
 		<td ><?php echo $sum_yk;?></td><td></td><td></td></tr>
 		<tr class="td_caption_1"><td align=center colspan="11"><?php echo $pagenav;?></td></tr>
 			</table>
+<!--分页-->
+        <div id="DetailListPager" class="pagination"><li class="allnumpage active" jp-role="allnumpage" jp-data="1">总 <?php echo $GLOBALS['page_totle'];?> 条</li><li class="page active" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><input class="pageinput" type="text" name="pageinput" value=" " jp-role="pageinput" jp-data="1"></div>
+
 						<br><center><input type="hidden" name="ordertuima_del" >
-<input class="button" type="button" name="ordertuima_del_button" onclick="javascript:tuimaexec(); " value="退码">
+<!--<input class="button" type="button" name="ordertuima_del_button" onclick="javascript:tuimaexec(); " value="退码">-->
 </center>
            			
 			<BR>
