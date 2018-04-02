@@ -58,20 +58,10 @@ $down_order=json_encode($desc_order);
 
 <body style="margin: 0px;"  >
 
-
-
-
-
-
-
 <table width="99%" border="0" cellpadding="0" cellspacing="0" align=center>
-
 <tr>
-
 <td style="padding:0px">
-
 		<SCRIPT LANGUAGE="JavaScript">
-
 	  <!--
 
 		function checkempty(form, prefix, checkall) {
@@ -109,12 +99,9 @@ $down_order=json_encode($desc_order);
 	<tr>
 
 	<td colspan="7" style="height:280px">
-
-	<div id="showorderhtml"><div>
-
-	
-
-	</td></tr>
+		<div id="showorderhtml"><div>
+	</td>
+	</tr>
 
 	</table>
 
@@ -905,23 +892,8 @@ $down_order=json_encode($desc_order);
 	//-->
 
 	</SCRIPT>
-
-	
-
-
-
 </td>
-
 <tr>
-
 </table>
-
-
-
-
-
 </body>
-
-
-
 </html>
