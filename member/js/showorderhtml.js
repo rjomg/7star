@@ -124,6 +124,10 @@ function setOut(){
 	setTimeout("location_href();",600);
 }
 
+function setDirection() {
+	window.parent.pDirection();
+}
+
 function set_order_print(joinstr,sTemp2,obj){
    //var joinstr = eval('('+arr+')');
 	str=joinstr['p'];
@@ -152,7 +156,7 @@ function set_order_print(joinstr,sTemp2,obj){
 	//html += '<OBJECT id="WebBrowser" classid=CLSID:8856F961-340A-11D0-A96B-00C04FD705A2 height=0 width=0 class="Noprint"></OBJECT>';
 	//html += '<input type=button value="页面设置" name="printset" id="printset" class="Noprint" onclick="WebBrowser.ExecWB(8,1);">';
 	//html += '<input type=button value="打印预览" name="printpre" id="printpre" class="Noprint" onClick="WebBrowser.ExecWB(7,1);">';
-	html += '<input type=button value="设置图示" name="printprex" id="printpre" class="Noprint"';
+	html += '<input type=button value="设置图示" name="printprex" id="printpre" class="Noprint" onClick="setDirection()" />';
 	html += '';
 	html += '<table width="100%" border="0" cellspacing="0" cellpadding="0">'; 
 	html += '<tr><td style="text-align:right;font-size:15px;">单位：元</td></tr>';
