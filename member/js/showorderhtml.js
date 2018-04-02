@@ -13,6 +13,7 @@ function writeObj(obj){
     }   
     alert(description); 
 }
+
 function showhtml(json){
 	_timestamp = json['d'];
 	_tuimatime = json['t'];
@@ -28,7 +29,6 @@ function showhtml(json){
 	+'<input type="hidden" name="formhash" value="'+_FORMHASH+'">'
 	+'<input type="hidden" name="ordertuima_del" >';
 	h+= '<table width="100%" style="border:none" border="0" cellpadding="0" cellspacing="0" class="soon_b_no" style="table-layout: fixed">';
-
 	var i=0;
 	var getgj=json['j'];
 	var gj='';
@@ -48,7 +48,6 @@ function showhtml(json){
 			}
 			gj = OldOrder ;
 		}
-		
 	}
 	if(gj==null||gj==''){
 		
@@ -264,9 +263,6 @@ function IssuenoLogPage(p){
 	PrintPageAjax("./wap_ajax.php?action=issuenologpage&page1="+p,"inajax=1",p,IssuenoLogIniPage);
 }
 function IssuenoLogIniPage(iCurrPage,joinstr,obj){
-	//alert(joinstr)
-	//var join = eval('('+joinstr+')');
-	
 	var html = IssuenoLoghtml(joinstr);
 	if(obj=='')$("showissuenohtml").innerHTML=html;
 }
@@ -390,7 +386,7 @@ function IssuenoLoghtml(json){
 			//tatolmoney +=val['money'];
 			i++; 
 		}
-	
+
 		html +='<tr style="height:28px;line-height:19px;"><td class="soon_b_B " colspan=3 style="text-align:left;height:28px;line-height:19px;">&nbsp;&nbsp;笔数:'+(i-1)+'&nbsp;&nbsp;总金额:'+tatolmoney+'</td></tr>';
 		if(pageurl!=''&&pageurl!=null){
 		html +='<tr style="height:28px;line-height:19px;"><td class="soon_b_B " colspan=3 style="text-align:left;height:28px;line-height:19px;">&nbsp;&nbsp;总笔数:'+nummoney[0]+'&nbsp;&nbsp;总金额:'+nummoney[1]+'</td></tr>';
