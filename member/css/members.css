@@ -277,7 +277,6 @@ a:hover {
 }
 
 #cgchat_num{
-
     border: 0px;
     width: 40px;
     height: 28px;
@@ -291,6 +290,8 @@ a:hover {
 
 .cgchat_emain_yes{
 	background: url(../images/msg2.gif) no-repeat;
+	height: 25px;
+	line-height: 25px;
 }
 
 #menuon a {
@@ -970,7 +971,7 @@ td.soon_hot,.soon_hot.td {
 
 	height: 31px !important;
 
-	> height: 30px !important;
+	height: 30px !important;
 
 	height: 30px;
 
@@ -1048,11 +1049,11 @@ td.soon_hot,.soon_hot.td {
 
 	/*for IE7*/
 
-	> border: 1px solid #1590BE !important;
+	border: 1px solid #1590BE !important;
 
-	> height: 26px !important;
+	height: 26px !important;
 
-	> line-height: 20px !important;
+	line-height: 20px !important;
 
 
 
@@ -1198,9 +1199,9 @@ td.soon_hot,.soon_hot.td {
 
 	/*for IE7*/
 
-	> height: 38px !important;
+	height: 38px !important;
 
-	> line-height: 38px !important;
+	line-height: 38px !important;
 
 
 
@@ -1230,9 +1231,9 @@ td.soon_hot,.soon_hot.td {
 
 	/*for IE7*/
 
-	> height: 32px !important;
+	height: 32px !important;
 
-	> line-height: 30px !important;
+	line-height: 30px !important;
 
 
 
@@ -1502,7 +1503,7 @@ td.top_2,.top_2.td {background: #ff9900;}
 
 	height: 20px !important;
 
-	> height: 19px !important;
+	height: 19px !important;
 
 	height: 19px;
 
@@ -1780,7 +1781,7 @@ SPAN.calendar_checked {
 
 	border: 0px !important;
 
-	> border: 1px solid #43809C !important;
+	border: 1px solid #43809C !important;
 
 	border: 1px solid #43809C;
 
@@ -1788,7 +1789,7 @@ SPAN.calendar_checked {
 
 	border-collapse: separate !important;
 
-	> border-collapse: collapse !important;
+	border-collapse: collapse !important;
 
 	border-collapse: collapse;margin-top: 2px;
 
@@ -1850,7 +1851,7 @@ td.print3, .print3 td {
 
 	border: 0px !important;
 
-	> border: 1px solid #660000 !important;
+	border: 1px solid #660000 !important;
 
 	border: 1px solid #660000;
 
@@ -1858,7 +1859,7 @@ td.print3, .print3 td {
 
 	border-collapse: separate !important;
 
-	> border-collapse: collapse !important;
+	border-collapse: collapse !important;
 
 	border-collapse: collapse;margin-top: 2px;
 
