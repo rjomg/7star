@@ -389,13 +389,15 @@ $i=0;
 		$db->get_update('users',array('bet_times'=>$bet_times),'user_id='.$uid);
 		echo '<script>javascript:history.go(-1);window.parent.parent.frames["menu"].location.reload();window.parent.parent.location.reload();</script>';
 	}
-// 快打下注
+
+    // 快打下注
 	if ($_GET['action']=='soonsend') {
 		$post_n_m=explode(',',$_POST['post_number']);
 		$totalmoney=$db->get_one('select * from users where user_id='.$uid);
 		$old_money=$totalmoney['credit_remainder'];
 		$orders['time']=time(); //下注时间
 		$orders['user_id']=$uid; //下注用户
+
 		$orders['o_type1']='四字定';
         $orders['o_type2']=''; //类型2如口口XX
         $number=str_split($post_n_m[0]);
@@ -405,6 +407,21 @@ $i=0;
             }else{
                 $orders['o_type2'].='X';
             }
+        }
+        if ($orders['o_type2']=='口口') {
+            $orders['o_type2']='二字现';
+            $o_type2='"二字现"';
+            $show = "1";
+        }
+        if ($orders['o_type2']=='口口口') {
+            $orders['o_type2']='三字现';
+            $o_type2='"三字现"';
+            $show = "1";
+        }
+        if ($orders['o_type2']=='口口口口' && $get_string[0]=='classid=6') {
+            $orders['o_type2']='四字现';
+            $o_type2='"四字现"';
+            $show = "1";
         }
         $o_type2=($orders['o_type2']=='口口口口')?'"四字定"':'"'.$orders['o_type2'].'"';
         if (!empty($top_lh)) {
@@ -425,14 +442,22 @@ $i=0;
         }
         // 各层回水获取
         $oddsset=$odb->get_odds($uid,$orders['o_type2'],$post_n_m[0],$plate['plate_num'],$value['money']);
-        $orders['h_tui']=$oddsset['tuishui'];
-        $orders['d_tui']=$oddsset['d_tui'];
-        $orders['zd_tui']=$oddsset['zd_tui'];
-        $orders['gd_tui']=$oddsset['gd_tui'];
-        // 分公司退水back
-//        $orders['f_tui']=$oddsset['f_tui'];
-        $orders['f_tui']=$oddsset['fg_tui'];
-        $orders['orders_p']=$oddsset['oddsset'];
+        $orders['h_tui'] = $oddsset['tuishui']? $oddsset['tuishui']:'0';
+        $orders['d_tui'] = $oddsset['d_tui']? $oddsset['d_tui']:'0';
+        $orders['zd_tui'] = $oddsset['zd_tui']? $oddsset['zd_tui']:'0';
+        $orders['gd_tui'] = $oddsset['gd_tui']? $oddsset['gd_tui']:'0';
+        $orders['f_tui'] = $oddsset['fg_tui']? $oddsset['fg_tui']:'0';
+        $orders['orders_p'] = $oddsset['oddsset']? $oddsset['oddsset']:'0'; // 赔率
+        $orders['show'] = $show? $show:'0'; // 现
+
+//        $orders['h_tui']=$oddsset['tuishui'];
+//        $orders['d_tui']=$oddsset['d_tui'];
+//        $orders['zd_tui']=$oddsset['zd_tui'];
+//        $orders['gd_tui']=$oddsset['gd_tui'];
+//        // 分公司退水back
+////        $orders['f_tui']=$oddsset['f_tui'];
+//        $orders['f_tui']=$oddsset['fg_tui'];
+//        $orders['orders_p']=$oddsset['oddsset'];
 
 
         $orders['plate_num']=$plate['plate_num'];  //期数
@@ -452,7 +477,7 @@ $i=0;
         }else{
             $orders['order_no']=$plate['plate_num'].$uid.time();
         }
-//        print_r($orders);
+        print_r($orders);
         $res=$db->get_insert('orders',$orders);
         if ($res) {
             $cg=1;

@@ -56,6 +56,16 @@ function showhtml(json){
 		gj=newArray;
 		OldOrder=newArray;
 	}
+    h+= '<tr class="soon_head" style="height:100%;line-height:23px;" >';
+    if(IN_WAPCG!=1){h+= '<td width="'+w1+'">彩种</td><td width="'+w2+'">注单编号</td>';}
+    h+= '<td width="'+w3+'" >号码</td><td width="'+w4+'">赔率</td><td width="'+w5+'">金额</td>';
+    if(IN_WAPCG!=1){h+= '<td width="'+w6+'">状态</td>';
+        h+= '<td width="'+w7+'" >';
+        if(_tuimamode==1){
+            h+= '全选<input type="checkbox" name="chkall" onclick="checkall(this.form, \'idarray\')" class="checkbox">';
+            h+= '<input class="btn_tuima" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="if(checkempty(this.form, \'idarray\')){window.parent.parent._OldOrderPrint=[];this.disabled=true;datamembers.ordertuima_del.value=\'ordertuima_del\';datamembers.submit();}" value="退码">';
+        }else{ h+='操作';}}
+    h+= '</td><tr>';
 	for ( var j in gj) {
 		val=gj[j];
 		if(val['stattuima']==1){
@@ -71,20 +81,20 @@ function showhtml(json){
 			tuima =((( _timestamp - _tuimatime) >= val['datetime'] || val['yicangprint']==1||val['yicangread']==1)   ? '--':"<a href=\"javascript:void(0)\"  onclick=\"javascript:if(window.confirm('确定退掉该号码吗?')){ window.parent.parent._OldOrderPrint=[];location.href='tuima.php?doactionfrom=main_ifr1&idarray[]="+val['id']+"';}else{ return;} return false;\"><font style='color:#009900'>退码</font></a>"); 
 			}
 		}
-		statsizi = val['statsizi']==1 || val['classid'].substr(0,1)==6 || val['classid'].substr(0,1)==7 ? "<span class=\"soon_b_f3\">现</span>":"";
-		
-		if (i==0){
-			h+= '<tr class="soon_head" style="height:100%;line-height:23px;" >';
-			if(IN_WAPCG!=1){h+= '<td width="'+w1+'">彩种</td><td width="'+w2+'">注单编号</td>';}
-			h+= '<td width="'+w3+'" >号码</td><td width="'+w4+'">赔率</td><td width="'+w5+'">金额</td>';
-			if(IN_WAPCG!=1){h+= '<td width="'+w6+'">状态</td>';
-			h+= '<td width="'+w7+'" >';
-			if(_tuimamode==1){
-				h+= '全选<input type="checkbox" name="chkall" onclick="checkall(this.form, \'idarray\')" class="checkbox">';
-				h+= '<input class="btn_tuima" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="if(checkempty(this.form, \'idarray\')){window.parent.parent._OldOrderPrint=[];this.disabled=true;datamembers.ordertuima_del.value=\'ordertuima_del\';datamembers.submit();}" value="退码">';
-			}else{ h+='操作';}}
-			h+= '</td><tr>';	
-		}
+		statsizi = val['statsizi']==1 || val['classid'].substr(0,1)==6 || val['classid'].substr(0,1)==7 || val['show'] == 1? "<span class=\"soon_b_f3\">现</span>":"";
+		console.log(val);
+		// if (i==0){
+		// 	h+= '<tr class="soon_head" style="height:100%;line-height:23px;" >';
+		// 	if(IN_WAPCG!=1){h+= '<td width="'+w1+'">彩种</td><td width="'+w2+'">注单编号</td>';}
+		// 	h+= '<td width="'+w3+'" >号码</td><td width="'+w4+'">赔率</td><td width="'+w5+'">金额</td>';
+		// 	if(IN_WAPCG!=1){h+= '<td width="'+w6+'">状态</td>';
+		// 	h+= '<td width="'+w7+'" >';
+		// 	if(_tuimamode==1){
+		// 		h+= '全选<input type="checkbox" name="chkall" onclick="checkall(this.form, \'idarray\')" class="checkbox">';
+		// 		h+= '<input class="btn_tuima" style="padding: 0 1px;line-height: 22px;;height: 22px;height: 22px !important;" type="button" name="ordertuima_del_button" onclick="if(checkempty(this.form, \'idarray\')){window.parent.parent._OldOrderPrint=[];this.disabled=true;datamembers.ordertuima_del.value=\'ordertuima_del\';datamembers.submit();}" value="退码">';
+		// 	}else{ h+='操作';}}
+		// 	h+= '</td><tr>';
+		// }
 		h+= '<tr '+class1+' style="height:28px;line-height:19px;" class="soon_success">';
 			if(IN_WAPCG!=1){h+= '<td >七星彩</td><td >'+val['orderid']+'</td>';}
 			h+= '<td class="soon_b_B soon_b_f2">'+val['number']+' '+statsizi+'</td><td  class="soon_b_B odds_black">'+Math.round(val['frank']*100)/100+'</td><td  class="soon_b_B soon_b_f1">'+Math.round(val['money']*100)/100+'</td>';
