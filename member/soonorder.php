@@ -726,7 +726,6 @@ $down_order=json_encode($desc_order);
 		function soundplay(ids)
 
 		{
-
 			var obj = eval(ids);
 
 			if(obj.settings != undefined)obj.settings.invokeURLs = false;

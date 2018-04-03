@@ -1,0 +1,107 @@
+
+<HTML>
+<HEAD>
+<TITLE>选择版本</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<STYLE type=text/css>
+<!--
+.style6 {font-size: 18px;
+	font-weight: bold;}
+td{font-size:15px;line-height:30px;}
+.button{
+	padding: 0px;
+	color: #000;
+	/*for Mozilla*/
+	height: 42px !important;
+	line-height: 43px !important;
+
+	/*for IE7*/
+	> height: 42px !important;
+	> line-height: 40px !important;
+
+	/*for IE*/
+	height: 41px;
+	line-height: 42px;
+	width:120px;font: 18px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.rule_button1{
+	color: red;
+}
+.rule_button2{
+	color: #00CC00;
+}
+-->
+</STYLE>
+<META content="MSHTML 6.00.2900.2722" name=GENERATOR>
+</HEAD>
+<BODY bgcolor="#ffffff">
+
+<TABLE cellSpacing=1 cellPadding=0 width="400" align=center bgColor=#666666 border=0 id="ruletable">
+<FORM METHOD=GET ACTION="/">
+  <TR> 
+    <TD vAlign=center bgColor=#ccccd4 height=18> 
+      <P align=center class=style6>选择版本 </P>
+    </TD>
+  </TR>
+  <TR> 
+    <TD vAlign=top bgColor=#ffffff> 
+      <TABLE cellSpacing=0 cellPadding=5 width="98%" align=center border=0>
+        <TR> 
+          <TD height="100" valign="top" align=center>请选择对您电脑环境正常的版本（包括界面和功能）</TD>
+        </TR>
+
+        <TR> 
+          <TD vAlign=top bgColor=#ffffff height=81> 
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+              <TBODY> 
+              <TR> 
+                <TD width="100%" align=center> 
+                  <input onClick="referURL('main.php',1);" class="button rule_button1" type=button value='进入新版本' id=Submit name=Submit>
+                  &nbsp;&nbsp; 
+                  <input onClick="referURL('main.php',2);" type=button value='进入老版本' id=Submit2 name=Submit2 class="button rule_button2"  >
+                 
+                </TD>
+              </TR>
+              </TBODY> 
+            </TABLE>
+          </TD>
+        </TR>
+</FORM>
+      </TABLE>
+</table>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function ajax(url, vars, callbackFunction){
+	  var request = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("MSXML2.XMLHTTP.3.0");
+	  request.open("GET", url, true); 
+	  request.onreadystatechange = function(){
+	    if (request.readyState == 4 && request.status == 200){
+	      if (request.responseText){         
+	          callbackFunction(request.responseText);
+	      }
+	    }
+	  };
+	  request.send(vars);
+	}
+
+
+	setTimeout("document.getElementById('Submit').focus();",200);
+	var geturl='';
+	function referURL(url,s){ 
+		//geturl=url;
+		//ajax("./appindex.php?"+"&inajax=1&action=logsuserlogin&newold="+s+"&time="+(new Date().getTime()),"",setURL);
+		//setURL(url)
+		window.location = url;
+	} 
+	function setURL(){ 
+		url=geturl;
+		var isIe=(document.all)?true:false; if(isIe) { var linka = document.createElement('a'); linka.href=url; document.body.appendChild(linka); linka.click(); } else window.location = url; 
+	} 
+//-->
+</SCRIPT>
+
+
+
+</BODY>
+</HTML>

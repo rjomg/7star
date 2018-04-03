@@ -357,7 +357,7 @@ class action extends mysql {
                 }
             }
             //echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
-            echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"main.php"));
+            echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"info.html"));
 		} else {
             //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
             //session_destroy();
