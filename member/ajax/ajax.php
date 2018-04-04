@@ -501,4 +501,35 @@ $i=0;
 		// echo json_encode($data);
 	}
 
+	if($_GET['action'] == 'memberinput') {
+		$data = array();
+		$type = 0;
+		$fp = fopen($_FILES['fileinput']['tmp_name'],"r");
+		if ($fp){
+			while(($line = fgets($fp)) !== false){
+				$line = iconv("GBK","UTF-8//IGNORE",$line);
+				$line = preg_replace("/[\s，]+/i",",",$line);
+				$temp = explode(",",$line);
+				foreach ($temp as &$item) {
+					if ($item){
+						if (!$type) {
+							$type = strpos($item,"=")!==false ? 2 : 1; 
+						}
+						if ($type == 1) {
+							if (strpos($item,"=")===false) {
+								$data['data'][] = $item;
+							}
+						} else {
+							if (strpos($item,"=") !== false) {
+								$_t = array();
+								list($_t['number'],$_t['money']) = explode("=",trim($item));
+								$data['data'][] = $_t;
+							}
+						}
+					}
+				}
+			}
+			print_r($data);
+		}
+	}
 ?>

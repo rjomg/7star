@@ -5,8 +5,7 @@
 
 <link rel="stylesheet" type="text/css" id="css" href="./css/members.css">
 <link rel="stylesheet" href="./css/jquery.alerts.css" />
-<script src="./js/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script src="./js/appcg.js" type="text/javascript"></script>
+
 <style type='text/css'>
 	html{overflow-y:scroll;}
 	.soon_b td {
@@ -85,7 +84,7 @@
 		<td colspan="3" style="text-align:left;">
 			<span style="float:left;">文件路径</span>
 			<span style="float:left;"> <INPUT TYPE="file" NAME="fileinput" id="fileinput"  style="width:98%" ></span>
-			<span style="float:left;"><button id="fileinput_but" class="btn" type="button" onClick="cgImport.updataFile()">提交</button></span>
+			<span style="float:left;"><button id="fileinput_but" class="btn" type="button" onClick="uploadFile()">提交</button></span>
 		</td>
 		
 		</tr>
@@ -97,7 +96,7 @@
 		</tr>
 		</form> 
 		</table><BR>
-		<SCRIPT LANGUAGE="JavaScript">
+		<script type="text/javascript">
 		<!--
 			var checkSoonSendFlg = false;    
 			function checkSoonSendSubmit() {      
@@ -172,7 +171,7 @@
 				self.location.href='./index.php?action=memberinput';
 			}
 			-->
-		</SCRIPT>	
+		</script>	
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" >
 		<tbody><tr class="header_left_b">
 		<td colspan="12">文件明细</td>
@@ -211,5 +210,8 @@ mysqlquery:2
 </td>
 <tr>
 </table> -->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/ajaxfileupload.js" type="text/javascript"></script>
+<script src="./js/appcg2.js" type="text/javascript"></script>
 </body>
 </html>
