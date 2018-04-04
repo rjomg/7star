@@ -1,4 +1,3 @@
-var jQuery = $;
 function jsonAjax(url, types, param, datat, callback) {
 	$.ajax({
 		type: types,
@@ -171,12 +170,12 @@ function $dele(o, fn, rv) {
 		args = [], i = 0; i < s.length; i++) args[i] = s[i];
 		var argStr = args.join(",");
 		argStr.length > 0 && (argStr = "," + argStr);
-		var callStr = "s.thiz[s](" + argStr + ")",
+		var callStr = "s.thiz[s.fn](" + argStr + ")",
 		v = eval(callStr);
 		return null != s.rv ? s.rv: v
 	};
 	return r.thiz = o,
-	r = fn,
+	r.fn = fn,
 	r.rv = rv,
 	r
 }
@@ -496,8 +495,9 @@ function($, window) {
 	jPrompt = function(message, value, title, callback) {
 		$.alerts.prompt(message, value, title, callback)
 	}
-} ($, window);
-var 
+} (jQuery, window);
+var isIE6 = !$.support.opacity && !$.support.style && void 0 == window.XMLHttpRequest,
+isIE7 = !$.support.opacity && !$.support.style && void 0 != window.window.XMLHttpRequest,
 _openstart = 0,
 _sellBegTime = 0,
 _sellEndTime = 0,
@@ -545,7 +545,7 @@ function($) {
 		}),
 		jQuery.ajax(options)
 	},
-	$.checkBox = function(state) {
+	$.fn.checkBox = function(state) {
 		this.each(function() {
 			switch (state) {
 			case "all":
@@ -559,7 +559,7 @@ function($) {
 			}
 		})
 	},
-	$.checkedValue = function() {
+	$.fn.checkedValue = function() {
 		var str = [],
 		comm = "";
 		return this.each(function() {
@@ -567,7 +567,7 @@ function($) {
 		}),
 		str
 	},
-	$.limitMoneyPoint = function() {
+	$.fn.limitMoneyPoint = function() {
 		$(this).keyup(function(event) {
 			if (13 != (event.keyCode ? event.keyCode: event.which)) {
 				var v = $(this).val();
@@ -580,7 +580,7 @@ function($) {
 			$(this).val($(this).val().replace(/[^0-9.]/g, ""))
 		})
 	},
-	$.limitMoneyX = function() {
+	$.fn.limitMoneyX = function() {
 		$(this).keyup(function() {
 			var v = $(this).val();
 			vv = v.replace("*", "X"),
@@ -595,7 +595,7 @@ function($) {
 			!1
 		}).css("ime-mode", "disabled")
 	},
-	$.KdlimitMoneyX = function() {
+	$.fn.KdlimitMoneyX = function() {
 		$(this).keyup(function() {
 			var v = $(this).val();
 			vv = v.replace("*", "X"),
@@ -606,7 +606,7 @@ function($) {
 			$(this).focus()
 		})
 	},
-	$.checkedDetailTuima = function() {
+	$.fn.checkedDetailTuima = function() {
 		var num = 0,
 		allmoney = 0,
 		allhuishui = 0,
@@ -644,7 +644,7 @@ function($) {
 		$("#detailheji").find("td:eq(7)").text(getyingkui),
 		LeftPintIframe.refresh()
 	},
-	$.checkedEditCss = function() {
+	$.fn.checkedEditCss = function() {
 		var op = LeftPintIframe.orderprint();
 		this.each(function() {
 			if ($(this).prop("checked")) {
@@ -750,7 +750,7 @@ function($) {
 			if (opts.totalPages < 1) throw new Error("[jqPaginator] totalPages cannot be less currentPage")
 		},
 		self.extendJquery = function() {
-			$.jqPaginatorHTML = function(s) {
+			$.fn.jqPaginatorHTML = function(s) {
 				return s ? this.before(s).remove() : $("<p>").append(this.eq(0).clone()).html()
 			}
 		},
@@ -875,7 +875,7 @@ function($) {
 		displayClass: "displaynone",
 		onPageChange: null
 	},
-	$.jqPaginator = function() {
+	$.fn.jqPaginator = function() {
 		var self = this,
 		args = Array.prototype.slice.call(arguments);
 		if ("string" == typeof args[0]) {
@@ -1588,10 +1588,10 @@ function(window, $) {
 			!1
 		}
 	};
-	$.cgStopNumberFn = function(option) {
+	$.fn.cgStopNumberFn = function(option) {
 		return cgStopNumber.init($(this), option)
 	},
-	$.cgStopNumberDelFn = function(option) {
+	$.fn.cgStopNumberDelFn = function(option) {
 		this.each(function() {})
 	}
 } (window, jQuery),
@@ -1683,7 +1683,7 @@ function(window, $) {
 			}
 		}
 	};
-	$.cgStopNumberDelFn = function(option) {
+	$.fn.cgStopNumberDelFn = function(option) {
 		return cgStopNumberDel.init($(this), option)
 	}
 } (window, jQuery);
@@ -2412,7 +2412,7 @@ _systemTime = 0,
 _openstart = 0,
 _sellBegTime = 0,
 _sellEndTime = 0;
-swfobject.embedSWF("./admincg/images/chatimg/sound.swf", "sound", "1", "1", "6.0.0", "./admincg/images/chatimg/expressInstall.swf", {
+isIE6 || swfobject.embedSWF("./admincg/images/chatimg/sound.swf", "sound", "1", "1", "6.0.0", "./admincg/images/chatimg/expressInstall.swf", {
 	name1: "hello",
 	name2: "world",
 	name3: "foobar"
@@ -2431,9 +2431,9 @@ cracktime = _systemTime - Math.floor(loadnow.getTime() / 1e3),
 upSec = 0; !
 function($) {
 	var opt;
-	$.jqprint = function(options) {
+	$.fn.jqprint = function(options) {
 		opt = $.extend({},
-		$.jqprint.defaults, options);
+		$.fn.jqprint.defaults, options);
 		var $element = this instanceof jQuery ? this: $(this);
 		if (opt.operaSupport && $.support.opera) {
 			var tab = window.open("", "jqPrint-preview");
@@ -2471,13 +2471,13 @@ function($) {
 		},
 		1e3)
 	},
-	$.jqprint.defaults = {
+	$.fn.jqprint.defaults = {
 		debug: !1,
 		importCSS: !0,
 		printContainer: !0,
 		operaSupport: !0
 	},
-	jQuery.outer = function() {
+	jQuery.fn.outer = function() {
 		return $($("<div></div>").html(this.clone())).html()
 	}
 } (jQuery);
@@ -5070,11 +5070,11 @@ cgImport = {
 		}), send = !1) : send && (cgSelect.lujingstat = 4, cgSelect.mNumber = mNumber, cgSelect.xian = cgImport.sizixian, $("#selectlogsclassid").val(0), $("#selectnumbertotal_hidden").val(allcount), $("#selectlogs").val(""), cgSelect.strarray = "", mNumber = "", cgImport.getNumber = "", $("#importmoney").val(""), cgSelect.SendSoonSelectInit())
 	},
 	updataFile: function() {
-		return "" == document.getElementById("fileinput").value ? jAlert("请选择文件！", "提示框",
+		return "" == $("#fileinput").val() ? jAlert("请选择文件！", "提示框",
 		function() {
 			return ! 1
 		}) : ($("#fileinput_but").text("正在解析.."), $("#fileinput_but").attr("disabled", !0), $.ajaxFileUpload({
-			url: "appindexajax.php?action=import",
+			url: "index.php?action=memberinput",
 			secureuri: !1,
 			fileElementId: "fileinput",
 			dataType: "json",
@@ -5369,4 +5369,3 @@ var __o = {
 	}
 };
 $cpAttr(PopUp.prototype, __o);
-
