@@ -62,7 +62,7 @@ if($_POST['editsubmit']){
 </td></tr>
 	</table>
 	<BR>
-	<CENTER><button type="submit" class="button" name="editsubmit" id="editsubmit" value="true">提交</button>
+	<CENTER><button type="submit" class="btn_tuima" name="editsubmit" id="editsubmit" value="true">提交</button>
 	</CENTER>		
 	</form>
 	<script>

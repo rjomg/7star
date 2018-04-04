@@ -253,7 +253,7 @@ if (empty($tuishui_list)) {
 					&nbsp;1、小票打印请使用系统自带浏览器&nbsp;&nbsp;<img src="picture/ie7.png" width="35">
 				</td>
 				<td width="53%" rowspan="2">
-					&nbsp;<input class="button" type="submit" name="editsubmit" value="提交">
+					&nbsp;<input class="btn_tuima" type="submit" name="editsubmit" value="提交">
 				</td>
 			</tr>
 			<tr>
@@ -280,13 +280,13 @@ if (empty($tuishui_list)) {
 
 		<br />
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableborder">
-		<tr align="center" class="header_left_b">
-		<td width="10"></td>
+        <tr align="center" class="header_left_b"><td colspan="8">会员资料</td></tr>
+		<tr align="center" class="altbg1">
 		<td width="*">类别</td>
 		<td width="12%">最小下注</td>
 		<td width="20%">赔率上限(多个用/分开)</td>
 		<td width="12%">单注上限</td>
-		<td width="12%">单项上限</td> 
+		<td width="12%">单项上限</td>
 		<td width="14%">交易回水</td>
 		<td width="14%"> 赔率</td>
 		</tr>
@@ -300,15 +300,15 @@ if (empty($tuishui_list)) {
 
 			?>
 		<?php }?>
-		 <tr onMouseOver="this.className='hover1'" onMouseOut="this.className='hover2'">
-			<td class="altbg2"><div style=" margin-right:4px; padding-bottom:9px"><img id="menuimg_showfix_<?php echo $value['o_id'];?>" src="picture/menu_add.gif" border="0"/></td>
-			<td class="altbg1" ><a href="javascript:collapse_change('showfix_<?php echo $value['o_id'];?>');"><?php echo $value['o_typename'];?></a></td>
-			<td class="altbg2"><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' >1</td>
-			<td class="altbg2"><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_odd_limit'];?></td>
-			<td class="altbg1"><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_dzlimit'];?></td>
-			<td class="altbg2"><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_dxlimit'];?></td>
-			<td class="altbg1"><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' >
-			<select id="fixstrhuishui_<?php echo $value['o_id'];?>" name="fixstrhuishui[<?php echo $value['o_id'];?>]" onchange="showfrank('<?php echo $value['o_id'];?>',this.value,0,0)" >  
+		 <tr >
+<!--			<td class="altbg2"><div style=" margin-right:4px; padding-bottom:9px"><img id="menuimg_showfix_--><?php //echo $value['o_id'];?><!--" src="picture/menu_add.gif" border="0"/></td>-->
+			<td  <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>  ><a style="color: red !important; " href="javascript:collapse_change('showfix_<?php echo $value['o_id'];?>');"><?php echo $value['o_typename'];?></a></td>
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' >1</td>
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_odd_limit'];?></td>
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_dzlimit'];?></td>
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' ><?php echo $value['o_dxlimit'];?></td>
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>><span  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>' >
+			<select class="select_data" id="fixstrhuishui_<?php echo $value['o_id'];?>" name="fixstrhuishui[<?php echo $value['o_id'];?>]" onchange="showfrank('<?php echo $value['o_id'];?>',this.value,0,0)" >
 			<?php if($value['o_typename']=='四字定'){?>
 			<?php $y=0; for ($i = $value['o_odd_limit']/10; $i >=680; $i--) {?>
 				<option <?php if($sizi_tuishui['tuishui']==$y){echo 'selected="selected"';}?> value="<?php echo $y;?>" ><?php echo $y;?></option>
@@ -331,8 +331,8 @@ if (empty($tuishui_list)) {
 			<?php }?>
 			</select></td>
 
-			<td class="altbg2">
-			<select  style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>'  id="fixstrfrank_<?php echo $value['o_id'];?>" name="fixstrfrank[<?php echo $value['o_id'];?>]" onchange="showfrank('<?php echo $value['o_id'];?>',this.value,0,0)" >
+			<td <?php if($value['o_typename'] == "二字定" || $value['o_typename'] == "三字定"){ echo 'class="altbg1"';}else{echo 'class="altbg2"';} ;?>>
+			<select class="select_data" style='<?php if($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){echo 'display:none';}?>'  id="fixstrfrank_<?php echo $value['o_id'];?>" name="fixstrfrank[<?php echo $value['o_id'];?>]" onchange="showfrank('<?php echo $value['o_id'];?>',this.value,0,0)" >
 			<?php if($value['o_typename']=='四字定'){?>
 			<?php $y=0; for ($i = $value['o_odd_limit']/10; $i >=680; $i--) {?>
 				<option <?php if($sizi_tuishui['tuishui']==$y){echo 'selected="selected"';}?> value="<?php echo $y;?>" ><?php echo $i*10;?></option>
@@ -360,7 +360,9 @@ if (empty($tuishui_list)) {
 			</td>
 			</tr>
 			<?php if ($value['o_typename']=='二字定' || $value['o_typename']=='三字定'){?>
-			<tr id="menu_showfix_<?php echo $value['o_id'];?>" ><td class="altbg2" colspan=8><table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableborder">
+			<tr id="menu_showfix_<?php echo $value['o_id'];?>" >
+<!--                    <td class="altbg2" colspan=8>-->
+<!--                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableborder">-->
 		<?php foreach ($top_oddsset as $k => $v){?>
 		<?php if($v['o_topid']==$value['o_typename']){?>
 			<?php 
@@ -378,13 +380,13 @@ if (empty($tuishui_list)) {
 			?>
 			<?php //if($y_tuishui['o_odds_limit']){$v['o_odd_limit']=$y_tuishui['o_odds_limit'];}?>
 			<tr  onMouseOver="this.className='hover1'" onMouseOut="this.className='hover2'">
-			<td class="altbg2" width="13"></td>
-			<td class="altbg1" width="*"><?php echo $v['o_typename'];?></td>
+<!--			<td class="altbg2" width="13"></td>-->
+			<td class="altbg2"  width="*"><?php echo $v['o_typename'];?></td>
 			<td class="altbg2" width="12%">1</td>
 			<td class="altbg2" width="20%"><?php echo $v['o_odd_limit'];?></td>
-			<td class="altbg1" width="12%"><?php echo $v['o_dzlimit'];?></td>
+			<td class="altbg2" width="12%"><?php echo $v['o_dzlimit'];?></td>
 			<td class="altbg2" width="12%"><?php echo $v['o_dxlimit'];?></td>
-			<td class="altbg1" width="14%"><select id="fixstrhuishui_<?php echo $v['o_id'];?>" name="fixstrhuishui[<?php echo $v['o_id'];?>]" onchange="showfrank('<?php echo $v['o_id'];?>',this.value,'<?php echo $value['o_id'];?>',0)">
+			<td class="altbg2" width="14%"><select class="select_data" id="fixstrhuishui_<?php echo $v['o_id'];?>" name="fixstrhuishui[<?php echo $v['o_id'];?>]" onchange="showfrank('<?php echo $v['o_id'];?>',this.value,'<?php echo $value['o_id'];?>',0)">
 
 
 			<?php if($v['o_topid']=='二字定'){?>
@@ -400,7 +402,7 @@ if (empty($tuishui_list)) {
 			</td>	
 
 			<td class="altbg2" width="14%">
-			<select id="fixstrfrank_<?php echo $v['o_id'];?>" name="fixstrfrank[<?php echo $v['o_id'];?>]" onchange="showfrank('<?php echo $v['o_id'];?>',this.value,'<?php echo $value['o_id'];?>',1)" >
+			<select class="select_data" id="fixstrfrank_<?php echo $v['o_id'];?>" name="fixstrfrank[<?php echo $v['o_id'];?>]" onchange="showfrank('<?php echo $v['o_id'];?>',this.value,'<?php echo $value['o_id'];?>',1)" >
 			<?php if($v['o_topid']=='二字定'){?>
 			<?php $y=0; for ($i = $v['o_odd_limit']*10; $i >=680; $i--) {?>
 				<option <?php if($y_tuishui['tuishui']==$y){echo 'selected="selected"';}?> value="<?php echo $y;?>" ><?php echo $i/10;?></option>
@@ -419,9 +421,10 @@ if (empty($tuishui_list)) {
 			</tr>
 			<?php }?>
 			<?php }?>
-			</td></tr>
+<!--			</td>-->
+                    </tr>
 
-			</table>
+<!--			</table>-->
 
 				</td></tr>
 				<?php }?>
