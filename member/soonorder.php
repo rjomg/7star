@@ -167,13 +167,13 @@ $down_order=json_encode($desc_order);
 
 		<tr >
 
-			<td width="45" class="number_web">号码</td>
+			<td width="45" class="number_web" style="font-weight: bold;">号码</td>
 
 			<td width="90" ><INPUT TYPE="text" onpaste="return false" NAME="number" ID="number" class="number" onkeyup="setnumberonkeyup(this.value);"  onkeydown="KeyDownNumber(this.value,event);" onkeypress="return KeyPressNumber(e);"  maxlength=4></td>
 
 			<td width="15" class="number_web" ><span id="showsizixian" style="display:none;color: red;"><B>现</B></span></td>
 
-			<td width="45" class="number_web">金额</td>
+			<td width="45" class="number_web"style="font-weight: bold;">金额</td>
 
 			<td width="90" ><INPUT TYPE="text" NAME="money" ID="money" class="number"  onkeydown="DigitInput(this,event);"  maxlength=8  ></td>
 

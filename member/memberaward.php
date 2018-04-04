@@ -45,7 +45,7 @@ if ( $_GET['plate_num'] )
 		<td width="10%" >佰</td>
 		<td width="10%" >拾</td>
 		<td width="10%" >个</td>
-		<td width="10%" >特别号(45位用)</td>
+		<td width="10%" >球5</td>
 		
 		<td width="10%" >球6</td>
 		<td width="10%" >球7</td>
@@ -57,13 +57,13 @@ if ( $_GET['plate_num'] )
 	<tr onMouseOver="hover1(this);" onMouseOut="hover2(this);"  align="center" class="smalltxt">
 	<td class="altbg2"><?php if($row['true_time_lottery']==''){echo '---';}else{ echo $row['true_time_lottery'];}?></td>
 	<td class="altbg2"><?php echo $row['plate_num'];?></td>
-	<td class="altbg2"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_a'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_b'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_c'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_d'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_0' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_e'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_0' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_f'];}?></div></td>
-	<td class="altbg1"><div class='periodImg periodImg_0' ><?php if($row['true_time_lottery']==''){echo '--';}else{ echo $row['num_g'];}?></div></td>
+	<td class="altbg2"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_a'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_b'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_c'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_d'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_e'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_f'];}?></div></td>
+	<td class="altbg1"><div class='periodImg periodImg_<?php if($row['true_time_lottery']==''){echo '5';}else{ echo '1';}?>' ><?php if($row['true_time_lottery']==''){echo '';}else{ echo $row['num_g'];}?></div></td>
 	</tr>
 <?php }?>
 

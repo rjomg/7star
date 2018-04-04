@@ -98,8 +98,9 @@ switch ($power['user_power']) {
 			<input type="hidden" name="s_datetime" value="">	
 			<input type="hidden" name="plate_num" value="<?php echo $plate_num;?>">	
 		  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="left_b">
-			<tr class="header_left_b"><td colspan="16">搜索</td></tr>
-			<tr>
+			<tr class="header_left_b"><td colspan="17">搜索</td></tr>
+            <tr class="select_number">
+            <td><div style="display: block;"><img src="images/search2.png" alt=""></div></td>
 			<td width=40>查号码 </td>
 			<td width=60><INPUT TYPE="text" NAME="o_type3" id="s_number" onblur="sNumber(this.value);" onkeydown="sNumber13(this.value);" onkeypress="return KeyPressNumber(e);"  maxlength=4 value="<?php if($_GET['o_type3']){echo $_GET['o_type3'];}?>" style="width:60px"></td>
 			<td width=10>现</td>
@@ -137,19 +138,20 @@ switch ($power['user_power']) {
 				<option value="快选" >快选</option>
 				<option value="导入" >导入</option>	 -->
 				</select></td> 
-			<td width=50><input class="button" type="submit" name="addsubmit" value="提交"></td>
-			<td width=50><input class="button" type="button" name="printsubmit" onclick="orderprint();return false;" value="打印"></td>
+			<td width=50><input class="btn_tuima" type="submit" name="addsubmit" value="搜索"></td>
+			<td width=50><input class="btn_tuima" type="button" name="printsubmit" onclick="orderprint();return false;" value="打印"></td>
 			<td width=*>
 			<?php if ($_GET['is_win']){?>
-				<input class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>';return false;" value="下注明细">
+				<input class="btn_tuima" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>';return false;" value="下注明细">
 			<?php }else{?>
-				<input class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>&is_win=1';return false;" value="中奖明细">
+				<input class="btn_tuima" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>&is_win=1';return false;" value="中奖明细">
 			<?php }?>
-				<?php if ($_GET['stattuima']){?>
-				<input style="float:right;" class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>';return false;" value="返回列表">
-				<?php }else{?>
-					<input style="float:right;" class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=<?php echo $plate_num;?>&stattuima=1';return false;" value="退码明细">
-				<?php }?>
+
+                <?php if ($_GET['stattuima']){?>
+<!--                				<input style="float:right;" class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=--><?php //echo $plate_num;?> <!--';return false;" value="返回列表">-->
+               				<?php }else{?>
+<!--                					<input style="float:right;" class="button" type="button" name="awardsubmit" onclick="location.href='orderadmin.php?plate_num=--><?php //echo $plate_num;?><!--&stattuima=1';return false;" value="退码明细">-->
+               			<?php }?>
 			</td>
 			</tr>
 			</table><BR>
@@ -161,7 +163,7 @@ switch ($power['user_power']) {
 
 			
 			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" >
-			<tr class="header_left_b"><td colspan="14">第<?php echo $plate_num;?>期 <?php if ($_GET['is_win']){echo '中奖明细';}else{echo '下注明细';}?></td></tr>
+			<tr class="header_left_b"><td colspan="14"><?php if ($_GET['is_win']){echo '本期中奖明细';}else{echo '本期下注明细';}?></td></tr>
 			<tr class="soon_head" > 
 			<td width="7%" >彩种</td>
 			<td width="11%"  >注单编号</td>
@@ -222,7 +224,7 @@ while ($zhuss = mysql_fetch_array($danss)) {
 		<td colspan="2" style="text-align:center">合计</td><td><?php echo $key+1?></td><td></td><td><?php echo $sum_mn;?></td><td></td><td><?php echo $zj;?></td>
 		<td><?php echo $z_hs;?></td>
 		<td ><?php echo $sum_yk;?></td><td></td><td></td></tr>
-		<tr class="td_caption_1"><td align=center colspan="11"><?php echo $pagenav;?></td></tr>
+<!--		<tr class="td_caption_1"><td align=center colspan="11">--><?php //echo $pagenav;?><!--</td></tr>-->
 			</table>
 <!--分页-->
         <div id="DetailListPager" class="pagination"><li class="allnumpage active" jp-role="allnumpage" jp-data="1">总 <?php echo $GLOBALS['page_totle'];?> 条</li><li class="page active" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><input class="pageinput" type="text" name="pageinput" value=" " jp-role="pageinput" jp-data="1"></div>

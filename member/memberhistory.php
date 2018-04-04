@@ -41,8 +41,12 @@ $query = $db->findall( "orders where user_id={$user_id} and stattuima=0 group by
 	<script src="./js/common.js" type="text/javascript"></script>
 
 	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" >
-
-	<tr class="header_left_b"><td colspan="14">历史账单</td></tr>
+    <?php
+    $new_plate=$db->get_one('select plate_num, plate_time_end from plate order by id DESC');
+    $plate_num=$new_plate['plate_num'];
+    $now_date = date('m-d',strtotime($new_plate['plate_time_end']));
+    ?>
+	<tr class="header_left_b"><td colspan="14">历史账单<span id="bill_issueno_start"><select name="s_issueno_start" id="s_issueno_start" onchange="cgBill.Search();"><option value="18038" selected=""><?php echo $now_date;?>(<?php echo $plate_num;?>)</option></select></span> >> <span id="bill_issueno_end"><select name="s_issueno_end" id="s_issueno_end" onchange="cgBill.Search();"><option value="18038" selected=""><?php echo $now_date;?>(<?php echo $plate_num;?>)</option></select></span> </td></tr>
 
 	<tr class="soon_head" > 
 
