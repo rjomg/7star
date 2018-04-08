@@ -18,7 +18,7 @@ $new_plate=$db->get_one('select plate_num from plate order by id desc');
 
 $where.=' and plate_num='.$new_plate['plate_num'];
 
-$down_order=$db->get_all('select id,o_type3 as number,orders_y as money,order_no as orderid,orders_p as frank,time as datetime,stattuima,plate_num as issueno from orders as o where is_water=0 and user_id='.$uid.$where.' order by time DESC limit 0,10');
+$down_order=$db->get_all('select is_show, id,o_type3 as number,orders_y as money,order_no as orderid,orders_p as frank,time as datetime,stattuima,plate_num as issueno from orders as o where is_water=0 and user_id='.$uid.$where.' order by time DESC limit 0,10');
 
 foreach ($down_order as $key => $value) {
 
@@ -157,9 +157,9 @@ $down_order=json_encode($desc_order);
 
 		<tr class="header_left_b">
 
-		<td colspan="7" >四字现<INPUT TYPE="checkbox" " ID="sizixian" NAME="sizixian" onclick="$('zhuan24').checked=false;if($('sizixian').checked){$('showsizixian').style.display='';}else{$('showsizixian').style.display='none';}$('number').select();">
+		<td colspan="7" >四字现<INPUT TYPE="checkbox"  ID="sizixian" NAME="sizixian" onclick="$('zhuan24').checked=false;if($('sizixian').checked){$('showsizixian').style.display='';}else{$('showsizixian').style.display='none';}$('number').select();">
 
-		全转<INPUT TYPE="checkbox" " ID="zhuan24" NAME="zhuan24" onclick="$('sizixian').checked=false;$('showsizixian').style.display='none';$('number').select();">
+		全转<INPUT TYPE="checkbox"  ID="zhuan24" NAME="zhuan24" onclick="$('sizixian').checked=false;$('showsizixian').style.display='none';$('number').select();">
 
 		</td>
 
