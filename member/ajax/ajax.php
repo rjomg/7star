@@ -529,7 +529,8 @@ $i=0;
 					}
 				}
 			}
-			print_r($data);
+			$data['type'] = $type;
+			echo json_encode($data);
 		}
 	}
 ?>

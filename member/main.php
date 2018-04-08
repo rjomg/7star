@@ -114,6 +114,28 @@ include_once('../global.php');
 	#popup_content.ProgressBar, #popup_container.alertPrint #popup_content{
 		background-image:none!important;
 	}
+	#leftBottomBox{
+		width:260px;
+		height:190px;
+		background: url(/images/wx.png);
+		position: fixed;
+		z-index: 9999;
+		right: 20px;
+		bottom:-190px;
+	}
+	#boxContent{
+		width:230px;
+		margin:10px auto;
+		font-size:14px;
+	}
+	#boxHead{
+		margin-top:6px;
+	}
+
+	#boxHead a {
+		float:right;
+		margin-right:6px;
+	}
 </style>
 
 <div id="popup_container">
@@ -175,6 +197,22 @@ include_once('../global.php');
 	
 </div>
 
+<div id="leftBottomBox">
+	<div id="boxHead">
+		<a href="javascript:void(0)" id="closeBtn">
+			<img src="/images/close.gif" alt="" />
+		</a>
+		<a href="javascript:void(0)" id="maxormin">
+			<img src="/images/min.gif" alt="" />
+		</a>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="boxContent">好消息，奖虫APP有（打字聊天）功能了。安卓手机--下载奖虫
+		（网址：jiangcho.com）--设置（会员或管理）网址，账号和密码--
+		可以和上下级打字聊天。
+	</div>
+</div>
+
 
 <script language="JavaScript">var window_img='./admincg/images/';</script>
 <script type="text/javascript">
@@ -191,6 +229,45 @@ window.onload = function(){
 	document.getElementById("popup_close").onclick = function(){
 		document.getElementById("popup_container").style.display = "none";
 	}
+
+	var positionY = window.getComputedStyle(document.getElementById("leftBottomBox")).bottom;
+	positionY = positionY.substr(0,positionY.length-2);
+	var time = setInterval(function(){
+		positionY ++;
+		document.getElementById("leftBottomBox").style.bottom = positionY +"px";
+		if (positionY == 0) {
+			clearInterval(time);
+		}
+	},10);
+
+	document.getElementById("maxormin").onclick = function(){
+		var imgsrc = document.getElementById("maxormin").childNodes[1].getAttribute("src");
+		if (imgsrc == '/images/min.gif') {
+			document.getElementById("maxormin").childNodes[1].setAttribute("src",'/images/max.gif')
+			if (positionY != -165) {
+				var time = setInterval(function(){
+					positionY --;
+					document.getElementById("leftBottomBox").style.bottom = positionY +"px";
+					if (positionY == -165) {
+						clearInterval(time);
+					}
+				},10);
+			}
+		} else {
+			document.getElementById("maxormin").childNodes[1].setAttribute("src",'/images/min.gif')
+			var time = setInterval(function(){
+				positionY ++;
+				document.getElementById("leftBottomBox").style.bottom = positionY +"px";
+				if (positionY == 0) {
+					clearInterval(time);
+				}
+			},10);
+		}
+	};
+	document.getElementById("closeBtn").onclick = function(){
+		document.getElementById("leftBottomBox").remove();
+	}
+		
 }
 
 

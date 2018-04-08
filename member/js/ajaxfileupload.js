@@ -1,4 +1,15 @@
 jQuery.extend({
+    handleError: function (s, xhr, status, e) {
+        // If a local callback was specified, fire it
+        if (s.error) {
+            s.error.call(s.context || s, xhr, status, e);
+        }
+
+        // Fire the global callback
+        if (s.global) {
+            (s.context ? jQuery(s.context) : jQuery.event).trigger("ajaxError", [xhr, s, e]);
+        }
+    },
     createUploadIframe: function (id, uri) {//id为当前系统时间字符串，uri是外部传入的json对象的一个参数
         //create frame
         var frameId = 'jUploadFrame' + id; //给iframe添加一个独一无二的id
