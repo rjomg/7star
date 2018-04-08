@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" id="css" href="./css/members.css">
 <link rel="stylesheet" href="./css/jquery.alerts.css" />
 
+
 <style type='text/css'>
 	html{overflow-y:scroll;}
 	.soon_b td {
@@ -74,7 +75,7 @@
 		<script src="js/common.js" type="text/javascript"></script>
 		<script src="js/frank.js" type="text/javascript"></script>
 		<script src="js/ajax.js" type="text/javascript"></script>
-		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" >
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" class="table">
 		<form enctype="multipart/form-data" method="post" action="index.php?action=memberinput">
 		<input type="hidden" name="formhash" value="8a52b21d">	
 		<input type="hidden" name="s_datetime" value="">	
@@ -172,34 +173,24 @@
 			}
 			-->
 		</script>	
-		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" >
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="soon_b" id="fileDetail">
+
 		<tbody><tr class="header_left_b">
 		<td colspan="12">文件明细</td>
 		</tr>
 		<form method="post" name="datamembers" id="datamembers" target="main" action="index.php?action=memberinput&amp;sid=1KlgS0" style="padding:0;margin:0"></form>
 		<input type="hidden" name="formhash" value="bcb95636">	
 		<input type="hidden" name="s_datetime" value="">	
-		<input type="hidden" name="s_issueno" value="17015">	
-		<tr class="soon_head"><td width="8%">号码</td><td width="8%">金额</td><td class="soon_hot1" width="8%">号码</td><td class="soon_hot1" width="8%">金额</td><td width="8%">号码</td><td width="8%">金额</td><td class="soon_hot1" width="8%">号码</td><td class="soon_hot1" width="8%">金额</td><td width="8%">号码</td><td width="8%">金额</td><td class="soon_hot1" width="8%">号码</td><td class="soon_hot1" width="8%">金额</td></tr>
-		<tr onmouseover="this.className='hover1'" onmouseout="this.className='hover2'" class="hover2">
-		<td>1XX2<span class="soon_b_f3"></span></td><td>10</td>
-		<td class="soon_hot1">--</td><td class="soon_hot1">--</td>
-		<td>--</td><td>--</td>
-		<td class="soon_hot1">--</td><td class="soon_hot1">--</td>
-		<td>--</td><td>--</td>
-		<td class="soon_hot1">--</td><td class="soon_hot1">--</td>
-		</tr>
-		<tr class="soon_head"><td><b>合计笔数</b></td><td colspan="2"><b>1</b></td><td><b>合计金额</b></td><td colspan="2"><b>10</b></td><td colspan="6"></td></tr>				<tr>
-		<td colspan="12"></td>
-		</tr>
+		<input type="hidden" name="s_issueno" value="17015">
+		
 		</tbody>
 		</table>
-
-		<BR>
-			
-	</td>
-<tr>
+	</td></tr>
 </table>
+
+<div class="bottomForm">
+	<input type="button" value="下注" onclick="sendNumber" />
+</div>
 
 <!-- 
 	<table width="98%" align="center" border="0" cellpadding="0" cellspacing="0" >
@@ -211,7 +202,10 @@ mysqlquery:2
 <tr>
 </table> -->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/jquery-migrate-1.2.1.min.js"></script>
 <script src="./js/ajaxfileupload.js" type="text/javascript"></script>
+<script src="./js/jquery.alerts.js"></script>
+<link rel="stylesheet" href="./css/jquery.alerts.css" />
 <script src="./js/appcg2.js" type="text/javascript"></script>
 </body>
 </html>
