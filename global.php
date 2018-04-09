@@ -1,4 +1,5 @@
 <?php
+
 if (!session_id()) session_start();
 date_default_timezone_set('PRC');           
 include_once ("common/mysql.class.php"); //mysql类
@@ -13,7 +14,8 @@ include_once ("common/back.class.php"); //数据库操作类
 include_once ("common/phpzip.class.php"); //zip
 include_once ("common/iplocaion.class.php"); 
 include_once ("common/orders.class.php"); //下注专用类 
-error_reporting(0);
+//ini_set("display_errors",1);
+//error_reporting(E_ALL | E_STRICT);
 $db_action = new action($mydbhost, $mydbuser, $mydbpw, $mydbname, ALL_PS, $mydbcharset); //数据库操作类.
 $c_p_seesion=$db_action->c_p_seesion();
 

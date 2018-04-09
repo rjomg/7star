@@ -81,7 +81,7 @@ function showhtml(json){
 			tuima =((( _timestamp - _tuimatime) >= val['datetime'] || val['yicangprint']==1||val['yicangread']==1)   ? '--':"<a href=\"javascript:void(0)\"  onclick=\"javascript:if(window.confirm('确定退掉该号码吗?')){ window.parent.parent._OldOrderPrint=[];location.href='tuima.php?doactionfrom=main_ifr1&idarray[]="+val['id']+"';}else{ return;} return false;\"><font style='color:#009900'>退码</font></a>"); 
 			}
 		}
-		statsizi = val['statsizi']==1 || val['classid'].substr(0,1)==6 || val['classid'].substr(0,1)==7 || val['show'] == 1? "<span class=\"soon_b_f3\">现</span>":"";
+		statsizi = val['statsizi']==1 || val['classid'].substr(0,1)==6 || val['classid'].substr(0,1)==7 || val['is_show'] == 1? "<span class=\"soon_b_f3\">现</span>":"";
 		console.log(val);
 		// if (i==0){
 		// 	h+= '<tr class="soon_head" style="height:100%;line-height:23px;" >';

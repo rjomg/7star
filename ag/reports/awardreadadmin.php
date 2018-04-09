@@ -172,13 +172,13 @@ $new_plate_num=$db->get_all('select plate_num from plate order by plate_num DESC
 	<div id="append_parent"></div>
 	<table width="99%" align=center border="0" cellpadding="0" cellspacing="0">
 		<tr>
-			<td>
+			<td >
 				<table class="Noprint" width="100%"  border="0" cellpadding="0" cellspacing="0" >
 	<tr>
-		<td>
+		<td style="    border: 1px solid #036564;">
 			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="guide">
 				<tr  style="border:none;">
-					<td style="border:none;font-size:16px;font-family:Microsoft JhengHei;" width=15%>
+					<td style="border:none; 12px Arial, Helvetica, sans-serif" width=15%>
 						<a href="#" onClick="window.location.href='report.php?bet=1'">位置</a>&nbsp;&raquo;&nbsp;总货明细					</td>
 					<td width='39%' style='border:none;font-size:16px;font-family:Microsoft JhengHei;'>
 						<marquee scrolldelay=400 style='height:18px;font-weight: bold;'>您好，最近明细列表在调整中，如有问题请反映或是耐心等候，谢谢。</marquee>
@@ -385,7 +385,10 @@ $new_plate_num=$db->get_all('select plate_num from plate order by plate_num DESC
 						</tr>
 						<?php }?>
 						<?php }?>
-						<?php }?>
+						<?php }else{?>
+                            <td colspan="14">还没有内容</td>
+
+                            <?php }?>
 						<?php 
 							$zj=$user_js=$db->get_one('select SUM(shuying_y) as shuying_y from orders where stattuima=0 and '.$where_user);
 							if ($_GET['is_win']==1) {
@@ -411,12 +414,19 @@ $new_plate_num=$db->get_all('select plate_num from plate order by plate_num DESC
 							<td><?php echo $sum_ts;?></td>
 							<td></td>
 								</tr>
-							<tr class="td_caption_1"><td align=center colspan="14"><?php echo $pagenav;?></td></tr>
+<!--							<tr class="td_caption_1"><td align=center colspan="14">--><?php //echo $pagenav;?><!--</td></tr>-->
 						</tbody></table>
 				</div>
 			</td>
 		</tr>
 	</table>
+
+    <br /><br /><div class="footer Noprint"><hr size="0" noshade color="BORDERCOLOR" width="80%">
+        <b></b> V2.0 &nbsp;&copy;  <b>
+        </b><span class="smalltxt"></span>
+        usetime:0.331237,
+        mysqlquery:5
+    </div>
 </body>
 <script type="text/javascript">
 	TotalBetSearch(1,true);

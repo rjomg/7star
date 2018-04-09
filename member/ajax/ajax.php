@@ -392,6 +392,7 @@ $i=0;
 
     // 快打下注
 	if ($_GET['action']=='soonsend') {
+	    print_r($_GET);
 		$post_n_m=explode(',',$_POST['post_number']);
 		$totalmoney=$db->get_one('select * from users where user_id='.$uid);
 		$old_money=$totalmoney['credit_remainder'];
@@ -409,16 +410,19 @@ $i=0;
             }
         }
         if ($orders['o_type2']=='口口') {
+            $orders['o_type1']='二字现';
             $orders['o_type2']='二字现';
             $o_type2='"二字现"';
             $show = "1";
         }
         if ($orders['o_type2']=='口口口') {
+            $orders['o_type1']='三字现';
             $orders['o_type2']='三字现';
             $o_type2='"三字现"';
             $show = "1";
         }
         if ($orders['o_type2']=='口口口口' && $get_string[0]=='classid=6') {
+            $orders['o_type1']='四字现';
             $orders['o_type2']='四字现';
             $o_type2='"四字现"';
             $show = "1";
@@ -448,7 +452,7 @@ $i=0;
         $orders['gd_tui'] = $oddsset['gd_tui']? $oddsset['gd_tui']:'0';
         $orders['f_tui'] = $oddsset['fg_tui']? $oddsset['fg_tui']:'0';
         $orders['orders_p'] = $oddsset['oddsset']? $oddsset['oddsset']:'0'; // 赔率
-        $orders['show'] = $show? $show:'0'; // 现
+        $orders['is_show'] = $show? $show:'0'; // 现
 
 //        $orders['h_tui']=$oddsset['tuishui'];
 //        $orders['d_tui']=$oddsset['d_tui'];

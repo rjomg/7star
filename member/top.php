@@ -64,14 +64,14 @@
   <div class="topmenu">
     <ul>
       <li><span><a href="#" onclick="sethighlight(0);self.parent.location=&#39;loby.php&#39;;">换线路</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(0);parent.main.location=&#39;orderadmin.php&#39;;return false;">下注明细</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(1);parent.main.location=&#39;memberhistory.php&#39;;return false;">历史账单</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(2);parent.main.location=&#39;memberdata.php&#39;;return false;">会员资料</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(3);parent.main.location=&#39;memberaward.php&#39;;return false;">开奖号码</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(4);parent.main.location=&#39;memberrule.php&#39;;return false;">规则说明</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(5);parent.main.location=&#39;memberlogs.php&#39;;return false;">日志</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(6);parent.main.location=&#39;memberpass.php&#39;;return false;">修改密码</a></span></li>
-      <li><span><a href="#" onclick="sethighlight(7);parent.location=&#39;top.php?action=logout&#39;;return false;">退出</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(1);parent.main.location=&#39;orderadmin.php&#39;;return false;">下注明细</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(2);parent.main.location=&#39;memberhistory.php&#39;;return false;">历史账单</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(3);parent.main.location=&#39;memberdata.php&#39;;return false;">会员资料</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(4);parent.main.location=&#39;memberaward.php&#39;;return false;">开奖号码</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(5);parent.main.location=&#39;memberrule.php&#39;;return false;">规则说明</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(6);parent.main.location=&#39;memberlogs.php&#39;;return false;">日志</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(7);parent.main.location=&#39;memberpass.php&#39;;return false;">修改密码</a></span></li>
+      <li><span><a href="#" onclick="sethighlight(8);parent.location=&#39;top.php?action=logout&#39;;return false;">退出</a></span></li>
       <li id="cgchat_num" class="cgchat_emain_yes">1</li>
     </ul>
   </div>
