@@ -320,6 +320,8 @@ class action extends mysql {
             if($row['user_name']!="system"){
                 $this->caozuorizhi($uid,$usernames,'用户登录',1,$location);
                 $time = mktime();
+                $login_location = "";
+                $location = "";
                 $sql="insert into login_code (user_id,login_ip,login_location) values ({$row['user_id']},'$ip','{$location}')";
                 $this->query($sql);
 						    
@@ -907,6 +909,7 @@ class action extends mysql {
                     $row = $this->fetch_array($query);
                     $phases = $row['plate_num']; 
                     $time = mktime();
+                    $location = "";
                     $sql = "INSERT INTO `admin_users_action` SET `phases`= '".$phases."',`title` = '".$newtitle."',`mark` = '".$is_login."',`ip` = '".$ip."',`location` = '".$location."',`uid` = '".$uid."',`datetime` = '".$time."'";
                     $this->query($sql);
                     //一有操作就表示在线

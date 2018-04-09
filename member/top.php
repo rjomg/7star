@@ -49,6 +49,11 @@
     background-image:url("./images/bg_1.gif") repeat fixed!important;
     background-size:cover;
   }
+
+  .meuntop:hover{
+      text-decoration:none;
+      color:red !important;
+  }
 </style>
 </head>
 <body>
@@ -139,7 +144,7 @@
     for(var i=1; i<=item.length; i++){
       document.getElementById('setsoon' + i).style.color = 'white';
     }
-    t.style.color = 'yellow';
+    t.style.color = 'red';
     //top.main.document.getElementById('main').setAttribute('class','flipx');
   }
   
