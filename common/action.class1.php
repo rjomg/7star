@@ -875,6 +875,7 @@ class action extends mysql {
                     $row = $this->fetch_array($query);
                     $phases = $row['plate_num']; 
                     $time = mktime();
+                    $location = "";
                     $sql = "INSERT INTO `admin_users_action` SET `phases`= '".$phases."',`title` = '".$newtitle."',`mark` = '".$is_login."',`ip` = '".$ip."',`location` = '".$location."',`uid` = '".$uid."',`datetime` = '".$time."'";
                     $this->query($sql);
                     //一有操作就表示在线
