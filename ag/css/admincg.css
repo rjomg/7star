@@ -23,7 +23,7 @@ html, body {
 	scrollbar-shadow-color: #555555;
 	scrollbar-arrow-color: #FFFFFF;
 	scrollbar-track-color: #8ee28c;
-	background: #d3efd3;
+	background: #faf9f1;
 }
 .number {
 	text-align:center;
@@ -258,8 +258,8 @@ a:hover {
 /* ===========主内容显示表格============== */
 
 .guide td {
-	border: 1px solid #58c654;
-	background-color: #FBFFE1;
+	border: 1px solid #036564;
+	background-color: #c1d9d9;
 	line-height: 1.2em;
 	height: 28px;
 	text-indent: 20px;
@@ -288,8 +288,8 @@ a:hover {
 	background: #FFFFFF;
 }
 .tableborder td {
-	border-bottom: 1px solid #bdf0bc;
-	border-right: 1px solid #bdf0bc;
+	border-bottom: 1px solid #c1d9d9;
+	border-right: 1px solid #c1d9d9;
 	line-height: 1.5em;
 	height: 2em;
 	padding: 4px;
@@ -883,3 +883,16 @@ td.print_B,.print_B.td {
 td.soon_b_f2,.soon_b_f2.td {
 	color:#009900
 }
+
+.topmenudd {
+	text-decoration: none;
+	font-size: 16px;
+	float: left;
+	padding-left: 20px;
+	height: 25px;
+	line-height: 25px;
+	color: red;
+
+}
+
+

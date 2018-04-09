@@ -218,13 +218,13 @@ class action extends mysql {
                
                 }else{                   
                         if(count($a_c0)<=1){
-                        echo " <script>window.parent.location= 'index.php'; </script> " ;
+//                        echo " <script>window.parent.location= 'index.php'; </script> " ;
                         }
                 }
         } 
         
         public function Is_login2($power) {
-                $a_a= $_SERVER['REQUEST_URI']; 
+                $a_a= $_SERVER['REQUEST_URI'];
                 $a_ag= '/ag/'; 
                 $a_admin= '/admin/'; 
                 $a_member='/member/';
@@ -253,8 +253,8 @@ class action extends mysql {
 	/**
 	 * 用户登陆
 	 */
-	public function Get_user_login($username, $password,$location="") { 
-                //先判断网站是否关闭
+	public function Get_user_login($username, $password,$location="") {
+        //先判断网站是否关闭
         $query_sy=$this->select("animal_set");
         $row_sy=$this->fetch_array($query_sy);
 			
@@ -357,7 +357,20 @@ class action extends mysql {
                 }
             }
             //echo " <script> alert( '登陆成功。 ') ;window.parent.location= 'main.php'; </script> " ;
-            echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"info.html"));
+            $a_a= $_SERVER['REQUEST_URI'];
+            $a_ag= '/ag/';
+            $a_admin= '/admin/';
+            $a_member='/member/';
+            $a_c1=explode($a_ag,$a_a);
+            $a_c2=explode($a_admin,$a_a);
+            $a_c3=explode($a_member,$a_a);
+            if(!empty($a_c1[1]) || !empty($a_c2[1])){
+                echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"main.php"));
+            }
+            if(!empty($a_c3[1])){
+                echo json_encode(array("status"=>"200","msg"=>"登陆成功。","fUrl"=>"info.html"));
+            }
+
 		} else {
             //echo " <script> alert( '密码或用户错误！') ;window.parent.location= 'index.php'; </script> " ;
             //session_destroy();
@@ -373,7 +386,7 @@ class action extends mysql {
             setcookie('z_uid'.$this->c_p_seesion(), null);
             setcookie('username'.$this->c_p_seesion(), null);
             setcookie('user_power'.$this->c_p_seesion(), null);
-            echo json_encode(array("status"=>"8001","msg"=>"密码或用户错误！","fUrl"=>"index.php"));             
+            echo json_encode(array("status"=>"8001","msg"=>"密码或用户错误！","fUrl"=>"index.php"));
 		}                
 	}
         

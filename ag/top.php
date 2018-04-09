@@ -102,11 +102,11 @@ $power=$db->get_one('select user_power from users where user_id='.$uid);
 
     <tr> 
 
-     <td style="text-align:center;" rowspan="2" width="10%"> <span class="editiontext">&nbsp;&nbsp; 代理：<?php echo $username?> </span> <input name="bb" id="bb" value="4" type="hidden" /> <input name="cc" id="cc" value="0" type="hidden" /> </td> 
-
-     <td height="21" class="marquees" width="75%"> 
-
-      <marquee scrolldelay="400" style="height:18px;width:50%;"> 
+     <td rowspan="2" width="6%" style=""> <span class="editiontext">代理：<?php echo $username?> </span> <input name="bb" id="bb" value="4" type="hidden" /> <input name="cc" id="cc" value="0" type="hidden" /> </td>
+     <td height="21" class="marquees" width="75%"  style="color: #FF0000;font-size: 18px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;">
+         七星彩
+      <marquee scrolldelay="400" style="height:18px;width:37%;">
 
        <div id="news">
 
@@ -140,35 +140,41 @@ $power=$db->get_one('select user_power from users where user_id='.$uid);
 
        <ul> 
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(0); parent.main.location='main.php';return false;">首页</a></span></li> 
+<!--        <li id=""><span><a href="javascript:;" onclick="sethighlight(0); parent.main.location='main.php';return false;">首页</a></span></li> -->
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(1); Limit_URL('reports/awardreadadmin.php')">总货明细</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(0); Limit_URL('reports/awardreadadmin.php')">总货明细</a></span></li>
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(2);Limit_URL('reportclass/reportclass.php');">分类帐</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(1);Limit_URL('reportclass/reportclass.php');">分类帐</a></span></li>
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(3);Limit_URL('reports/report.php?spul=55&bet=1');">报表</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(2);Limit_URL('reports/report.php?spul=55&bet=1');">报表</a></span></li>
 
-        <li id="menuon"><span><a href="javascript:;" onclick="sethighlight(4);Limit_URL('plate/his.php?spul=61');">开奖号码</a></span></li> 
+        <li id="menuon"><span><a href="javascript:;" onclick="sethighlight(3);Limit_URL('plate/his.php?spul=61');">开奖号码</a></span></li>
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(5);Loading_But1(1);Loading_But(1,2);SelectType1(1,1);Limit_URL('user/branch.php?power=<?php echo $power['user_power']+1;?>&spul=59','main','AT0!888','XedUgVHvUvVSzg+8','分公司');">下级管理</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(4);Loading_But1(1);Loading_But(1,2);SelectType1(1,1);Limit_URL('user/branch.php?power=<?php echo $power['user_power']+1;?>&spul=59','main','AT0!888','XedUgVHvUvVSzg+8','分公司');">下级管理</a></span></li>
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(6); parent.main.location='logsuser.php?action=logsuser2';return false;">日志</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(5); parent.main.location='logsuser.php?action=logsuser2';return false;">日志</a></span></li>
 
-        <li id=""><span><a href="javascript:;" onclick="sethighlight(7);Loading_But1(1);Loading_But(1,1);SelectType1(1,1);Limit_URL('immediate/tm.php?spul=60&x1=WZgA21TnUTw!888&x2=Xp9WjVDjBGlVQw!888!888','tm','XJ0G3VHiUD1eSA!888!888','特码A');">设置</a></span></li> 
+           <li id=""><span><a href="javascript:;" onclick="sethighlight(6); Limit_URL('reports/awardreadadmin.php')">规则说明</a></span></li>
 
-        <li id=""><span><a href="javascript:if(confirm('确定退出？')){ go_web('top.php?action=logout')}; " target="_top">退出</a></span></li> 
+        <li id=""><span><a href="javascript:;" onclick="sethighlight(7);Loading_But1(1);Loading_But(1,1);SelectType1(1,1);Limit_URL('immediate/tm.php?spul=60&x1=WZgA21TnUTw!888&x2=Xp9WjVDjBGlVQw!888!888','tm','XJ0G3VHiUD1eSA!888!888','特码A');">设置</a></span></li>
+
+           <li id=""><span><a href="javascript:;" onclick="sethighlight(8); Limit_URL('reports/awardreadadmin.php')">拦货盘</a></span></li>
+
+        <li id=""><span><a href="javascript:if(confirm('确定退出？')){ go_web('top.php?action=logout')}; " target="_top">退出</a></span></li>
+
+           <li style="border: none"><a href="#"><img src="./images/msg1.gif"></a></li>
 
         <!-- <li style="border:0px;">
 
         </li> -->
 
-       </ul> 
-
+       </ul>
+          <a class="topmenudd" href="http://www.jiangcho.com/">APP</a>
       </div> 
 
       <div><div style="text-align:center" id="issuenoTag"></div><div style="text-align:center;vertical-align:middle;font-size:14px;font-family:Microsoft JhengHei;margin-top:3px;" id="timeTag"></div></div>
 
-      </td> 
+      </td>
 
     </tr> 
 
