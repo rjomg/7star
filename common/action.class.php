@@ -320,6 +320,7 @@ class action extends mysql {
             if($row['user_name']!="system"){
                 $this->caozuorizhi($uid,$usernames,'用户登录',1,$location);
                 $time = mktime();
+                $login_location = "";
                 $sql="insert into login_code (user_id,login_ip,login_location) values ({$row['user_id']},'$ip','{$location}')";
                 $this->query($sql);
 						    

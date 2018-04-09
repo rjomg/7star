@@ -267,7 +267,6 @@ window.onload = function(){
 	document.getElementById("closeBtn").onclick = function(){
 		document.getElementById("leftBottomBox").remove();
 	}
-		
 }
 
 
