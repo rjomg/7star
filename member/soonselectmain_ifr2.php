@@ -512,12 +512,12 @@
                                     <table border="0" width="100%" cellpadding="0" cellspacing="0">
                                         <tbody>
                                             <tr style="border:0px">
-                                                <td width="16%" id="top_1" class="top_2"><button onclick="getclassid(1);__ss.__showmeun(1);return false;" type="button" id="soonclass1" name="soonclass1" class="select_button2 number_count number_w3" disabled="">二字定</button></td>
-                                                <td width="16%" id="top_2" class="top_1"><button onclick="getclassid(2);__ss.__showmeun(2);return false;" type="button" id="soonclass2" name="soonclass1" class="select_button2 number_count number_w3">三字定</button></td>
-                                                <td width="16%" id="top_3" class="top_1"><button onclick="getclassid(3);__ss.__showmeun(3);return false;" type="button" id="soonclass3" name="soonclass1" class="select_button1 number_count number_w3" >四字定</button></td>
-                                                <td width="16%" id="top_4" class="top_1"><button onclick="getclassid(4);__ss.__showmeun(4);return false;" type="button" id="soonclass4" name="soonclass1" class="select_button2 number_count number_w3">二字现</button></td>
-                                                <td width="16%" id="top_5" class="top_1"><button onclick="getclassid(5);__ss.__showmeun(5);return false;" type="button" id="soonclass5" name="soonclass1" class="select_button2 number_count number_w3">三字现</button></td>
-                                                <td width="16%" id="top_6" class="top_1"><button onclick="getclassid(6);__ss.__showmeun(6);return false;" type="button" id="soonclass6" name="soonclass1" class="select_button2 number_count number_w3">四字现</button></td>
+                                                <td width="16%" id="top_1" class="top_1" style="border:0px"><button onclick="getclassid(1);__ss.__showmeun(1);return false;" type="button" id="soonclass3" name="soonclass1" class="select_button1 number_count number_w3">二字定</button></td>
+                                                <td width="16%" id="top_2" class="top_1" style="border:0px"><button onclick="getclassid(2);__ss.__showmeun(2);return false;" type="button" id="soonclass2" name="soonclass1" class="select_button2 number_count number_w3">三字定</button></td>
+                                                <td width="16%" id="top_3" class="top_1" style="border:0px"><button onclick="getclassid(3);__ss.__showmeun(3);return false;" type="button" id="soonclass1" name="soonclass1" class="select_button2 number_count number_w3" >四字定</button></td>
+                                                <td width="16%" id="top_4" class="top_1" style="border:0px"><button onclick="getclassid(4);__ss.__showmeun(4);return false;" type="button" id="soonclass4" name="soonclass1" class="select_button2 number_count number_w3">二字现</button></td>
+                                                <td width="16%" id="top_5" class="top_1" style="border:0px"><button onclick="getclassid(5);__ss.__showmeun(5);return false;" type="button" id="soonclass5" name="soonclass1" class="select_button2 number_count number_w3">三字现</button></td>
+                                                <td width="16%" id="top_6" class="top_1" style="border:0px"><button onclick="getclassid(6);__ss.__showmeun(6);return false;" type="button" id="soonclass6" name="soonclass1" class="select_button2 number_count number_w3">四字现</button></td>
                                             </tr>
                                             <tr>
                                             </tr>

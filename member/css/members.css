@@ -1308,9 +1308,7 @@ td.soon_hot,.soon_hot.td {
 }
 
 .number_w2{
-
-width:150px;font: 28px Arial, Helvetica, sans-serif;font-weight: bold;
-
+	width:150px;font: 28px Arial, Helvetica, sans-serif;font-weight: bold;
 }
 
 .number_w3{
@@ -1379,22 +1377,24 @@ font: 14px Arial, Helvetica, sans-serif;
 
 td.top_1,.top_1.td {background: #ffffff;}
 
-td.top_2,.top_2.td {background: #ff9900;}
+td.top_2,.top_2.td {}
 
 
 
 .select_button1{
-
-	
-
+	background: #00CC00;
+	border:none;
+	height:30px;
+	width:147px;
+	color: yellow;
 }
 
 
 
 .select_button2{
-
-	
-
+	border:none;
+	height:30px;
+	width:147px;
 }
 
 .number_web {
